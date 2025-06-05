@@ -1,0 +1,4 @@
+/Users/youyue/Study/C++/lang/STL/CMakeFiles/semaphore.dir
+/Users/youyue/Study/C++/lang/STL/CMakeFiles/union.dir
+/Users/youyue/Study/C++/lang/STL/CMakeFiles/edit_cache.dir
+/Users/youyue/Study/C++/lang/STL/CMakeFiles/rebuild_cache.dir

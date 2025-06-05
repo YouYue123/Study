@@ -1,0 +1,3 @@
+/Users/youyue/Study/C++/algo/projects/CMakeFiles/trading.dir
+/Users/youyue/Study/C++/algo/projects/CMakeFiles/edit_cache.dir
+/Users/youyue/Study/C++/algo/projects/CMakeFiles/rebuild_cache.dir

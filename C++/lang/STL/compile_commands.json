@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/youyue/Study/C++/lang/STL",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DUSE_MUTEX_FOR_OUTPUT  -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/semaphore.dir/semaphore.cpp.o -c /Users/youyue/Study/C++/lang/STL/semaphore.cpp",
+  "file": "/Users/youyue/Study/C++/lang/STL/semaphore.cpp",
+  "output": "CMakeFiles/semaphore.dir/semaphore.cpp.o"
+},
+{
+  "directory": "/Users/youyue/Study/C++/lang/STL",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DUSE_MUTEX_FOR_OUTPUT  -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/union.dir/union.cpp.o -c /Users/youyue/Study/C++/lang/STL/union.cpp",
+  "file": "/Users/youyue/Study/C++/lang/STL/union.cpp",
+  "output": "CMakeFiles/union.dir/union.cpp.o"
+}
+]

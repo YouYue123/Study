@@ -1,0 +1,6 @@
+/Users/youyue/Study/C++/lang/memory_pool/CMakeFiles/unit_test.dir
+/Users/youyue/Study/C++/lang/memory_pool/CMakeFiles/perf_test.dir
+/Users/youyue/Study/C++/lang/memory_pool/CMakeFiles/test.dir
+/Users/youyue/Study/C++/lang/memory_pool/CMakeFiles/perf.dir
+/Users/youyue/Study/C++/lang/memory_pool/CMakeFiles/edit_cache.dir
+/Users/youyue/Study/C++/lang/memory_pool/CMakeFiles/rebuild_cache.dir

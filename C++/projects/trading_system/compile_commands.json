@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/youyue/Study/C++/algo/projects",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/trading.dir/trading.cpp.o -c /Users/youyue/Study/C++/algo/projects/trading.cpp",
+  "file": "/Users/youyue/Study/C++/algo/projects/trading.cpp",
+  "output": "CMakeFiles/trading.dir/trading.cpp.o"
+}
+]

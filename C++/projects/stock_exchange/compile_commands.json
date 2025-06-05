@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/youyue/Study/C++/projects/stock_exchange",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/stock_exchange.dir/stock_exchange.cpp.o -c /Users/youyue/Study/C++/projects/stock_exchange/stock_exchange.cpp",
+  "file": "/Users/youyue/Study/C++/projects/stock_exchange/stock_exchange.cpp",
+  "output": "CMakeFiles/stock_exchange.dir/stock_exchange.cpp.o"
+}
+]
