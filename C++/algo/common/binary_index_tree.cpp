@@ -26,7 +26,7 @@ struct BIT
     void add(int index, int val)
     {
         // 从index开始，向上更新所有相关节点
-        while (index < tree.size())
+        while (index < (int)tree.size())
         {
             tree[index] += val;     // 当前节点增加val
             index += lowbit(index); // 移动到父节点

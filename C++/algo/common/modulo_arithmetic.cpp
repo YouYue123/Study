@@ -24,10 +24,10 @@ int modPow(int base, int exp, int mod = MOD)
     {
         if (exp % 2 == 1)
         {
-            result = modMult(result, base);
+            result = (result * base) % mod;
         }
         exp /= 2;
-        base = modMult(base, base);
+        base = ((long long)base * base) % mod;
     }
 
     return result;
