@@ -30,6 +30,8 @@ test-modulo: build
 
 test-union: build
 	cd $(BUILD_DIR) && ./common_test --gtest_filter=UnionFind*
+test-kmp: build
+	cd $(BUILD_DIR) && ./common_test --gtest_filter=KMP*
 
 # Rebuild from scratch
 rebuild: clean build
@@ -44,6 +46,7 @@ help:
 	@echo "  test-lca   - Run LCA tests only"
 	@echo "  test-modulo - Run modulo arithmetic tests only"
 	@echo "  test-union - Run union-find tests only"
+	@echo "  test-kmp   - Run KMP tests only"
 	@echo "  rebuild    - Clean and rebuild the project"
 	@echo "  help       - Show this help message"
 

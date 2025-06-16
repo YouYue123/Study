@@ -42,6 +42,7 @@ add_executable(common_test
     test/test_lca.cpp
     test/test_modulo_arthmetic.cpp
     test/test_union_find.cpp
+    test/test_kmp.cpp
 )
 
 # Link test executable with library and GTest
