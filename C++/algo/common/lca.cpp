@@ -1,6 +1,5 @@
-#include <vector>
-#include <stack>
-#include <unordered_map>
+#include <bits/stdc++.h>
+
 using namespace std;
 
 /**

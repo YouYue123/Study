@@ -1,4 +1,4 @@
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
 struct TrieNode {
     TrieNode* ch[26];

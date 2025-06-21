@@ -1,4 +1,4 @@
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 // 树状数组（Binary Indexed Tree，又称Fenwick Tree）数据结构

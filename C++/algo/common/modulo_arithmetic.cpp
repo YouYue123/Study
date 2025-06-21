@@ -4,7 +4,8 @@
  * under modulo arithmetic, commonly used in competitive programming and cryptography.
  */
 
-#include <vector>
+#include <bits/stdc++.h>
+
 using namespace std;
 constexpr int MOD = 1e9 + 7;  // Default modulo value (10^9 + 7)
 
