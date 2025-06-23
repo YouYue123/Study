@@ -9,11 +9,9 @@ int main()
         int n;
         cin >> n; 
         vector<int> a(n);
-        unordered_map<int, int> dict;
         for (int i = 0; i < n; i++)
         {
             cin >> a[i];
-            dict[a[i]] += 1;
         }
         int ans = 1;
         unordered_set<int> prev;
