@@ -1,24 +1,28 @@
 #include <bits/stdc++.h>
+
 using namespace std;
+const long long INVALID_A_VALUE = -1e18;
+
 void solve()
 {
-    std::ios_base::sync_with_stdio(false);
-    std::cin.tie(NULL);
-    int n, k;
+    int n;
+    long long k;
     string s;
     cin >> n >> k >> s;
-    vector<long long> a(n, 0);
-    vector<long long> pre(n, 0);
-    int maxF = 0;
-    int f = 0;
+
+    vector<long long> a(n);
+    vector<long long> pre(n);
+    long long maxF = 0;
+    long long f = 0;
     bool has0 = false;
-    for (int i = 0; i < n; i++)
+
+    for (int i = 0; i < n; ++i)
     {
-        cin >> a[i];
+        std::cin >> a[i];
         pre[i] = f;
         if (s[i] == '0')
         {
-            a[i] = -1e18;
+            a[i] = INVALID_A_VALUE;
             f = 0;
             has0 = true;
         }
@@ -28,37 +32,46 @@ void solve()
             maxF = max(maxF, f);
         }
     }
+
     if (maxF > k || (maxF < k && !has0))
     {
-        cout << "NO" << endl;
+        std::cout << "No" << endl;
         return;
     }
-    int suf = 0;
-    for (int i = n - 1; i >= 0; i--)
+
+    long long suf = 0;
+    for (int i = n - 1; i >= 0; --i)
     {
         if (s[i] == '0')
         {
             a[i] = k - pre[i] - suf;
-            break;
+            break; 
         }
-        suf = max(suf + a[i], 0LL);
+        else
+        {
+            suf = max(suf + a[i], 0LL);
+        }
     }
-    cout << "YES" << endl;
-    for (int i = 0; i < n; i++)
+
+    std::cout << "Yes" << endl;
+    for (int i = 0; i < n; ++i)
     {
-        int ans = a[i];
-        if(a[i] == -1e18) ans = 0;
-        cout << ans << (i == n - 1 ? "" : " ");
+        long long ans_val = a[i];
+        std::cout << ans_val << (i == n - 1 ? "" : " ");
     }
-    cout << endl;
+    std::cout << endl;
 }
 
 int main()
 {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int t;
-    cin >> t;
+    std::cin >> t;
     while (t--)
     {
         solve();
     }
+    return 0;
 }
