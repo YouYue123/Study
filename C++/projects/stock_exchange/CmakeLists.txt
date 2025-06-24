@@ -1,10 +1,10 @@
-cmake_minimum_required(VERSION 3.20)
-project(trading VERSION 0.1.0 LANGUAGES CXX)
+cmake_minimum_required(VERSION 4.0.2)
 
 set(CMAKE_CXX_STANDARD 23)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_CXX_MODULES ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+project(stock_exchange VERSION 0.1.0 LANGUAGES CXX)
 
 add_executable(
     stock_exchange stock_exchange.cpp
