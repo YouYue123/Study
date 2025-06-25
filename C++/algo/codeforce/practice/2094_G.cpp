@@ -50,12 +50,12 @@ void solve() {
                 s += v_val;
                 revS += s;
             }
-            cout << ss << endl; // Print ss to output
+            cout << ss << endl;
         }
     }
 }
 
 int main() {
-    solve(); // Call the main logic function
+    solve();
     return 0;
 }
