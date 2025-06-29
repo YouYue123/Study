@@ -17,7 +17,7 @@ struct UF
             return x;
         return parent[x] = findRoot(parent[x]);
     }
-    void unionSet(int x, int y)
+    void unite(int x, int y)
     {
         int rootX = findRoot(x);
         int rootY = findRoot(y);

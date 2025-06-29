@@ -9,12 +9,12 @@ protected:
         // |   |  |
         // 5   6  7
         uf = UF(8);
-        uf.unionSet(0, 1);
-        uf.unionSet(1, 2);
-        uf.unionSet(0, 5);
-        uf.unionSet(2, 6);
-        uf.unionSet(3, 4);
-        uf.unionSet(4, 7);
+        uf.unite(0, 1);
+        uf.unite(1, 2);
+        uf.unite(0, 5);
+        uf.unite(2, 6);
+        uf.unite(3, 4);
+        uf.unite(4, 7);
     }
 
     UF uf{0};  // Will be initialized in SetUp
@@ -41,14 +41,14 @@ TEST_F(UnionFindTest, FindRoot) {
 TEST_F(UnionFindTest, Union) {
     // Test union operation
     UF testUf(4);
-    testUf.unionSet(0, 1);
+    testUf.unite(0, 1);
     EXPECT_TRUE(testUf.connected(0, 1));
-    testUf.unionSet(2, 3);
+    testUf.unite(2, 3);
     EXPECT_TRUE(testUf.connected(2, 3));
     EXPECT_FALSE(testUf.connected(0, 2));
     
     // Test union of already connected components
-    testUf.unionSet(0, 1);  // Should not change anything
+    testUf.unite(0, 1);  // Should not change anything
     EXPECT_TRUE(testUf.connected(0, 1));
 }
 
@@ -78,7 +78,7 @@ TEST_F(UnionFindTest, PathCompression) {
     // Create a long chain: 0->1->2->3->4
     UF chainUf(5);
     for (int i = 0; i < 4; ++i) {
-        chainUf.unionSet(i, i + 1);
+        chainUf.unite(i, i + 1);
     }
     
     // After finding root of 4, the path should be compressed
