@@ -10,12 +10,6 @@ def get_current_time() -> str:
     formatted_time = current_datetime.strftime("%Y-%m-%d %H:%M:%S")
     return formatted_time
 
-def add(a: float, b: float) -> float:
-    """
-    Add two numbers.
-    """
-    return a + b
-
 def search_wikipedia(query: str) -> str:
     """
     Search Wikipedia for information.

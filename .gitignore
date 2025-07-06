@@ -7,6 +7,7 @@ build/
 *.exe
 .DS_Store
 **/.cph/**
+__pycache__
 
 # CMake
 CMakeFiles/

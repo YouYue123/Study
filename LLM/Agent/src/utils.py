@@ -3,7 +3,6 @@ from typing import Callable
 
 from openai.types.chat import ChatCompletionToolParam
 from openai.types.shared_params.function_definition import FunctionDefinition
-from openai.types.shared_params.function_parameters import FunctionParameters
 
 
 def function_to_json(func: Callable) -> ChatCompletionToolParam:
