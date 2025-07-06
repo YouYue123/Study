@@ -1,0 +1,12 @@
+name: LLM_Agent
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - openai
+  - wikipedia
+  - requests
+  - pprintpp
+  - pytz
+  - referencing
