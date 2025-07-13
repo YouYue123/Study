@@ -17,5 +17,6 @@ cmake_install.cmake
 !CMakeLists.txt
 .cmake/
 input.txt
-
 .env
+data/*
+**/docs/*
