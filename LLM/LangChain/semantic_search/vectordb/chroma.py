@@ -20,7 +20,7 @@ class ChromaVectorStore:
 
         self.embeddings = OpenAIEmbeddings(
             api_key=SecretStr(os.getenv("OPENAI_API_KEY") or ""),
-            model="text-embedding-3-small",
+            model="text-embedding-3-large",
         )
         self.vector_store = Chroma(
             collection_name=self.collection_name,
@@ -64,5 +64,10 @@ class ChromaVectorStore:
             raise
         return ids
 
-    def query(self, queryStr: str):
+    def query(self, queryStr: str, k: int = 5):
+        """Query documents with similarity scores"""
+        return self.vector_store.similarity_search_with_score(queryStr, k=k)
+    
+    def query_simple(self, queryStr: str):
+        """Simple query without scores (for backward compatibility)"""
         return self.vector_store.similarity_search(queryStr)
