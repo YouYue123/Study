@@ -1,7 +1,7 @@
 from langchain_core.documents import Document
 from langchain_core.runnables import chain
 import logging
-from typing import List, Dict, Any
+from typing import Dict
 
 try:
     from vectordb.chroma import ChromaVectorStore
@@ -13,13 +13,13 @@ logger = logging.getLogger(__name__)
 
 
 @chain
-def retriever(query: str):
+def retriever(query: str) -> list[Document]:
     if vector_store is None:
         raise ImportError("Could not import 'vector_store' from 'vectordb.chroma'")
     # Get documents with similarity scores
     docs_with_scores = vector_store.query(query)
     logger.info(f"Retrieved {len(docs_with_scores)} documents for query: {query}")
-    return docs_with_scores
+    return [doc for doc, _ in docs_with_scores]
 
 # Create the RAG chain with enhanced context
 @chain
@@ -81,11 +81,3 @@ def format_context_for_rag(retrieval_result: Dict[str, Any]) -> str:
         context_parts.append(f"{header}\n{content}\n")
 
     return "\n".join(context_parts)
-
-
-# Convenience function for backward compatibility
-@chain
-def simple_retriever(query: str) -> List[Document]:
-    """Simple retriever that returns just the documents (for backward compatibility)"""
-    result = retriever.invoke(query)
-    return result["documents"]
