@@ -20,3 +20,5 @@ input.txt
 .env
 data/*
 **/docs/*
+.terraform/
+node_modules/

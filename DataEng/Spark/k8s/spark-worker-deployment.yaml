@@ -1,0 +1,62 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spark-worker
+  namespace: spark
+  labels:
+    app: spark-worker
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: spark-worker
+  template:
+    metadata:
+      labels:
+        app: spark-worker
+    spec:
+      serviceAccountName: spark-service-account
+      containers:
+      - name: spark-worker
+        image: spark-image:latest
+        imagePullPolicy: Never
+        env:
+        - name: SPARK_MASTER_PORT
+          value: "7077"
+        - name: SPARK_MASTER_HOST
+          value: "spark-master"
+        - name: SPARK_MASTER
+          value: "spark://spark-master:7077"
+        volumeMounts:
+        - name: spark-config
+          mountPath: /opt/spark/conf
+        - name: spark-logs
+          mountPath: /opt/spark/spark-events
+        - name: scripts
+          mountPath: /opt/spark/scripts
+        - name: data
+          mountPath: /opt/spark/data
+        command: ["./entrypoint.sh"]
+        args: ["worker"]
+        resources:
+          requests:
+            memory: "1Gi"
+            cpu: "500m"
+          limits:
+            memory: "4Gi"
+            cpu: "2"
+      volumes:
+      - name: spark-config
+        configMap:
+          name: spark-config
+      - name: spark-logs
+        persistentVolumeClaim:
+          claimName: spark-logs-pvc
+      - name: scripts
+        hostPath:
+          path: /Users/youyue/Documents/Study/DataEng/Spark/scripts
+          type: Directory
+      - name: data
+        hostPath:
+          path: /Users/youyue/Documents/Study/DataEng/Spark/data
+          type: Directory 

@@ -1,0 +1,12 @@
+{"timestamp":"2025-07-20T05:16:42.066560","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T05:16:42.189638","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T05:16:53.068693","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-07-20T05:16:53.152015Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T05:16:53.152216Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T05:16:53.152280Z","level":"info","event":"Current task name:env_var_test_task","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T05:16:53.152328Z","level":"info","event":"Dag name:example_passing_params_via_test_command","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T05:16:53.152530Z","level":"info","event":"foo=None","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T05:16:53.152659Z","level":"info","event":"AIRFLOW_TEST_MODE=None","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T05:16:53.152778Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T05:16:53.152905Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T05:16:53.152967Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): env_var_test_task>","chan":"stdout","logger":"task"}
