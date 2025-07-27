@@ -1,5 +1,9 @@
+import asyncio
+import time
 from fastmcp import FastMCP
+from mcp.types import Request
 from pydantic import BaseModel
+from starlette.responses import PlainTextResponse
 
 
 class Config(BaseModel):
@@ -49,6 +53,19 @@ def deprecated_tool() -> str:
     return "This tool is deprecated and will be removed in the future."
 
 
+def cpu_intensive_task(data: str) -> str:
+    time.sleep(3)
+    return f"CPU-intensive task completed {data}"
+
+
+@mcp.tool
+async def wrapped_cpu_intensive_task(data: str) -> str:
+    """
+    Wraps a CPU-intensive task in a function that can be called by the client.
+    """
+    return await asyncio.to_thread(cpu_intensive_task, data)
+
+
 @mcp.resource("data://config")
 def config() -> Config:
     """Provides the application configuration."""
@@ -72,6 +89,11 @@ def analyze_data(data: list[float]) -> str:
     """Creates a prompt asking for analysis of numerical data."""
     formatted_data = ", ".join(str(value) for value in data)
     return f"Analyse the these data points: {formatted_data}"
+
+
+@mcp.custom_route("/health", methods=["GET"])
+async def health_check(_: Request) -> PlainTextResponse:
+    return PlainTextResponse("OK", status_code=200)
 
 
 if __name__ == "__main__":
