@@ -20,15 +20,15 @@ struct BIT
         return i & (-i); // Bit manipulation trick: bitwise AND of i and its negative value
     }
 
-    // Add value to the specified position in the binary indexed tree
+    // Add delta value to the specified position in the binary indexed tree
     // Parameter index: Position to update (starting from 1)
-    // Parameter val: Value to add
-    void add(int index, int val)
+    // Parameter delta: Delta value to add
+    void add(int index, int delta)
     {
         // Starting from index, update all related nodes upward
         while (index < (int)tree.size())
         {
-            tree[index] += val;     // Add val to current node
+            tree[index] += delta;     // Add delta val to current node
             index += lowbit(index); // Move to parent node
         }
     }
