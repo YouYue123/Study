@@ -1,51 +1,51 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-// 树状数组（Binary Indexed Tree，又称Fenwick Tree）数据结构
+// https://oi-wiki.org/ds/fenwick/
+// Binary Indexed Tree (also known as Fenwick Tree) data structure
 struct BIT
 {
-    vector<int> tree; // 存储树状数组的数组
+    vector<int> tree; // Array storing the binary indexed tree
 
-    // 构造函数，初始化树状数组
-    // 参数N: 树状数组的大小（通常为元素个数+1，因为索引从1开始）
+    // Constructor, initializes the binary indexed tree
+    // Parameter N: Size of the binary indexed tree (usually element count + 1, since indexing starts from 1)
     BIT(int N)
     {
-        tree.assign(N + 1, 0); // 分配N+1个空间并初始化为0
+        tree.assign(N + 1, 0); // Allocate N+1 spaces and initialize to 0
     }
 
-    // 计算lowbit值，即一个数的最低位1所代表的值
-    // 例如：lowbit(6)=2 (6的二进制是110)
+    // Calculate the lowbit value, which is the value represented by the lowest set bit
+    // Example: lowbit(6)=2 (6 in binary is 110)
     int lowbit(int i)
     {
-        return i & (-i); // 位运算技巧：i与它的负数按位与
+        return i & (-i); // Bit manipulation trick: bitwise AND of i and its negative value
     }
 
-    // 向树状数组的指定位置添加值
-    // 参数index: 要更新的位置（从1开始）
-    // 参数val: 要增加的值
+    // Add value to the specified position in the binary indexed tree
+    // Parameter index: Position to update (starting from 1)
+    // Parameter val: Value to add
     void add(int index, int val)
     {
-        // 从index开始，向上更新所有相关节点
+        // Starting from index, update all related nodes upward
         while (index < (int)tree.size())
         {
-            tree[index] += val;     // 当前节点增加val
-            index += lowbit(index); // 移动到父节点
+            tree[index] += val;     // Add val to current node
+            index += lowbit(index); // Move to parent node
         }
     }
 
-    // 查询前缀和（从1到index的元素和）
-    // 参数index: 查询的结束位置
-    // 返回值: 前index个元素的和
+    // Query prefix sum (sum of elements from 1 to index)
+    // Parameter index: End position of the query
+    // Return value: Sum of the first index elements
     int query(int index)
     {
-        int ans = 0; // 初始化结果为0
+        int ans = 0; // Initialize result to 0
 
-        // 从index开始，向下累加所有相关节点的值
+        // Starting from index, accumulate values of all related nodes downward
         while (index > 0)
         {
-            ans += tree[index];     // 累加当前节点的值
-            index -= lowbit(index); // 移动到前一个需要累加的节点
+            ans += tree[index];     // Accumulate current node's value
+            index -= lowbit(index); // Move to the previous node that needs to be accumulated
         }
-        return ans; // 返回累加结果
+        return ans; // Return accumulated result
     }
 };
