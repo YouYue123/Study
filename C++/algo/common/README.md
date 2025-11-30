@@ -24,8 +24,20 @@ A collection of commonly used algorithms and data structures implemented in C++.
   - O(n) time complexity
 
 - **Segment Tree**
-  - Range queries and updates
-  - O(log n) per operation
+  - **Basic Segment Tree**: Single point update, range query
+    - Supports max, min, sum, gcd, etc.
+    - O(log n) per operation
+    - Includes binary search (findFirst/findLast)
+  - **Lazy Segment Tree**: Range update, range query
+    - Lazy propagation for efficient range updates
+    - O(log n) per operation
+  - **Dynamic Segment Tree**: Implicit segment tree for large value ranges
+    - No need for coordinate compression
+    - Memory efficient for sparse data
+  - **Persistent Segment Tree**: Version history support
+    - Query any historical version
+    - Useful for range kth smallest queries
+    - Based on the Go copypasta package
 
 - **Splay Tree**
   - Self-balancing binary search tree
@@ -58,6 +70,7 @@ make test
 make test-lca      # Run LCA tests
 make test-modulo   # Run modulo arithmetic tests
 make test-union    # Run union-find tests
+make test-segment  # Run segment tree tests
 
 # Clean build files
 make clean
@@ -74,6 +87,7 @@ make rebuild
 - `test-lca`: Run LCA tests only
 - `test-modulo`: Run modulo arithmetic tests only
 - `test-union`: Run union-find tests only
+- `test-segment`: Run segment tree tests only
 - `rebuild`: Clean and rebuild the project
 - `help`: Show help message
 
@@ -95,6 +109,7 @@ common/
     ├── test_main.cpp
     ├── test_lca.cpp
     ├── test_modulo_arthmetic.cpp
+    ├── test_segment_tree.cpp
     └── test_union_find.cpp
 ```
 

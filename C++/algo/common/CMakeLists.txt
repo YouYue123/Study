@@ -41,6 +41,7 @@ add_executable(common_test
     test/test_main.cpp
     test/test_lca.cpp
     test/test_modulo_arthmetic.cpp
+    test/test_segment_tree.cpp
     test/test_union_find.cpp
     test/test_kmp.cpp
 )

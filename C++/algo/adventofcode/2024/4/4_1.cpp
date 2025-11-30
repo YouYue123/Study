@@ -2,7 +2,7 @@
 using namespace std;
 
 const string TARGET_WORD = "XMAS"; 
-const int WORD_LENGTH = TARGET_WORD.length(); // 4
+const int WORD_LENGTH = TARGET_WORD.length();
 
 int main()
 {
@@ -25,21 +25,17 @@ int main()
 
     for(int i = 0; i < N; i++) {
         for(int j = 0; j < M; j++) {
-            
             if (g[i][j] != TARGET_WORD[0]) continue;
-            
             for(const auto& d : dirs) {
-                int dx = d.first;
-                int dy = d.second;
                 bool found = true;
                 for(int k = 1; k < WORD_LENGTH; k++) {
-                    int next_i = i + k * dx;
-                    int next_j = j + k * dy;
-                    if (next_i < 0 || next_i >= N || next_j < 0 || next_j >= M) {
+                    int ni = i + k * d.first;
+                    int nj = j + k * d.second;
+                    if (ni < 0 || ni >= N || nj < 0 || nj >= M) {
                         found = false;
                         break;
                     }
-                    if (g[next_i][next_j] != TARGET_WORD[k]) {
+                    if (g[ni][nj] != TARGET_WORD[k]) {
                         found = false;
                         break;
                     }

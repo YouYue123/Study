@@ -7,9 +7,7 @@ struct UF
     UF(int size) : n(size), parent(size)
     {
         for (int i = 0; i < n; ++i)
-        {
             parent[i] = i;
-        }
     }
     int findRoot(int x)
     {

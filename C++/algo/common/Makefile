@@ -30,6 +30,8 @@ test-modulo: build
 
 test-union: build
 	cd $(BUILD_DIR) && ./common_test --gtest_filter=UnionFind*
+test-segment: build
+	cd $(BUILD_DIR) && ./common_test --gtest_filter=*SegmentTree*
 test-kmp: build
 	cd $(BUILD_DIR) && ./common_test --gtest_filter=KMP*
 
@@ -46,8 +48,9 @@ help:
 	@echo "  test-lca   - Run LCA tests only"
 	@echo "  test-modulo - Run modulo arithmetic tests only"
 	@echo "  test-union - Run union-find tests only"
+	@echo "  test-segment - Run segment tree tests only"
 	@echo "  test-kmp   - Run KMP tests only"
 	@echo "  rebuild    - Clean and rebuild the project"
 	@echo "  help       - Show this help message"
 
-.PHONY: all build clean test test-lca test-modulo test-union rebuild help 
+.PHONY: all build clean test test-lca test-modulo test-union test-segment test-kmp rebuild help 
