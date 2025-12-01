@@ -22,3 +22,4 @@ data/*
 **/docs/*
 .terraform/
 node_modules/
+sample.txt
