@@ -14,8 +14,7 @@ int main()
         char d = line[0];
         ll steps = stoll(line.substr(1));
         if(d == 'L') {
-            x = (x - steps) % MOD;
-            if(x < 0) x += MOD;
+            x = ((x - steps) % MOD + MOD) % MOD;
         } else {
             x = (x + steps) % MOD;
         }

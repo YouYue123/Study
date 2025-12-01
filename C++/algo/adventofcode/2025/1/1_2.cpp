@@ -17,8 +17,7 @@ int main()
         if(d == 'L') {
             cout << "x: " << x << " steps: " << steps << endl;
             if (steps >= x) ans += (x != 0) + (steps - x) / MOD;
-            x = (x - steps) % MOD;
-            if (x < 0) x += MOD;
+            x = ((x - steps) % MOD + MOD) % MOD;
         } else {
             ll steps_to_zero = MOD - x;
             if(steps >= steps_to_zero) ans += 1 + (steps - steps_to_zero) / MOD;
