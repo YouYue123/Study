@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// https://oi-wiki.org/string/trie/
 struct TrieNode {
     TrieNode* ch[26];
     bool is_end;

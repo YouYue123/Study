@@ -4,13 +4,13 @@ using namespace std;
 
 /**
  * XOR Basis (Linear Basis)
- * 
+ *
  * Maintains a basis for the vector space over GF(2) (binary field) using XOR operations.
  * This allows efficient computation of:
  * - Maximum XOR value that can be formed from the inserted numbers
  * - Checking if a number can be represented as XOR of inserted numbers
  * - Finding the rank (dimension) of the vector space
- * 
+ *
  * The basis is stored such that each basis vector has a unique highest bit position,
  * which enables efficient greedy algorithms for maximum XOR queries.
  */
@@ -29,14 +29,14 @@ public:
 
     /**
      * Insert a number into the basis
-     * 
+     *
      * Uses Gaussian elimination to maintain a basis where each basis vector
      * has a unique highest bit position. This property ensures that:
      * 1. The basis is linearly independent
      * 2. Maximum XOR can be computed greedily
-     * 
+     *
      * @param x The number to insert
-     * 
+     *
      * Algorithm:
      * 1. While x is non-zero:
      *    - Find the highest bit position i of x
@@ -65,14 +65,14 @@ public:
 
     /**
      * Compute the maximum XOR value that can be formed from the basis
-     * 
+     *
      * Uses a greedy approach: from highest bit to lowest, decide whether to
      * include each basis vector in the XOR result. Since each basis vector
      * has a unique highest bit, we can greedily choose to include it if it
      * increases the result.
-     * 
+     *
      * @return Maximum XOR value achievable from the basis
-     * 
+     *
      * Algorithm:
      * - Start with res = 0
      * - For each basis vector from highest bit to lowest:

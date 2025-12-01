@@ -1,5 +1,6 @@
 #include <deque>
 using namespace std;
+// https://oi-wiki.org/ds/monotonous-queue/
 struct MonoQueue
 {
     deque<int> q;
