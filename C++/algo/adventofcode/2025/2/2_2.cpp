@@ -18,8 +18,33 @@ int main()
                 getline(ss2, end, '-');
                 ull start_num = stoull(start);
                 ull end_num = stoull(end);
-                // cout << "start: " << start << " end: " << end << endl;
-                
+                for(ull num = start_num; num <= end_num; num++) {
+                    string num_str = to_string(num);
+                    bool find = false;
+                    for(int t = 1; t < num_str.size(); t++) {
+                        if(num_str.size() % t != 0) continue;
+                        bool valid = false;
+                        string part = num_str.substr(0, t);
+                        // cout << "part: " << part << endl;
+                        for(int k = t; k < num_str.size(); k += t) {
+                            // cout << "num_str.substr(k, t): " << num_str.substr(k, t) << endl;
+                            if(num_str.substr(k, t) != part) {
+                                valid = true;
+                                break;
+                            }
+                        }
+                        if(valid == false) {
+                            // cout << num_str << " could be divided by " << t << " times" << endl;
+                            // cout << "part: " << part << endl;
+                            find = true;
+                            break;
+                        }
+                    }
+                    if(find) {
+                        cout << "invalid: " << num_str << endl;
+                        ans += num;
+                    }
+                }
             }
        }
     }
