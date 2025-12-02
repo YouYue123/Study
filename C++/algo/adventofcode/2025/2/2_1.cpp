@@ -18,7 +18,6 @@ int main()
                 getline(ss2, end, '-');
                 ull start_num = stoull(start);
                 ull end_num = stoull(end);
-                // Digit dp to find digits repeats twice
                 // cout << "start: " << start << " end: " << end << endl;
                 for(ull i = start_num; i <= end_num; i++) {
                     string num_str = to_string(i);
