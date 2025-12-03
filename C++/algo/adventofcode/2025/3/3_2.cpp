@@ -23,7 +23,7 @@ int main()
             while(!st.empty() && st.top() < num && remain + st.size() - 1 >= k) {
                 st.pop();
             }
-            if(st.size() < 12) st.push(num);
+            if(st.size() < k) st.push(num);
         }
         ull cur = 0;
         int i = 0;
