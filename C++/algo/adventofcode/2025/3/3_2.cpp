@@ -8,6 +8,7 @@ const ull POW10[] = {
 };
 int main()
 {
+    auto start = chrono::high_resolution_clock::now();
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);
     string line;
@@ -38,5 +39,8 @@ int main()
         ans += dfs(0, 12);
         i += 1;
     }
+    auto end = chrono::high_resolution_clock::now();
+    auto duration = chrono::duration_cast<chrono::milliseconds>(end - start);
     cout << "ans:" << ans << endl;
+    cout << "runtime: " << duration.count() << " ms" << endl;
 }
