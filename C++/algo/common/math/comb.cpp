@@ -1,8 +1,8 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-
-struct Comb
+int MOD = 1e9 + 7;
+struct Comb {
     vector<long long> fac, inv_fac;  // Factorial and inverse factorial arrays
     int mod;  // Modulo value
     Comb(int max_n, int mod = MOD) : mod(mod)
