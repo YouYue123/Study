@@ -2,7 +2,7 @@
 using namespace std;
 using ll = long long;
 using ull = unsigned long long;
-constexpr long long INF = 0x3f3f3f3f3f;
+constexpr long long INF = LLONG_MAX / 2;
 void solve()
 {
     ll n, m, k;
