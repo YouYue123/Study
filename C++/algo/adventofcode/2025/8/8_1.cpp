@@ -73,28 +73,28 @@ int main() {
     priority_queue<Pair, vector<Pair>, greater<Pair>> pairs;
     for(int i = 0; i < nums.size(); i ++) {
         for(int j = i + 1; j < nums.size(); j ++) {
-            cout << "i: " << i << " j: " << j << endl;
+            // cout << "i: " << i << " j: " << j << endl;
             ll distance = getEuclideanDistance(i, j);
-            cout << "distance: " << distance << endl;
+            // cout << "distance: " << distance << endl;
             Pair p = Pair(i, j, distance);
             pairs.push(p);
         }
     }
-    cout << "ranked pairs: " << pairs.size() << endl;
+    // cout << "ranked pairs: " << pairs.size() << endl;
     int cnt = 1;
     UF uf(nums.size());
     int k = 1000;
     while(!pairs.empty() && cnt <= k) {
         Pair p = pairs.top(); pairs.pop();
-        cout << "first element: " << nums[p.i][0] << "," << nums[p.i][1] << "," << nums[p.i][2] << endl;
-        cout << "second element: " << nums[p.j][0] << "," << nums[p.j][1] << "," << nums[p.j][2] << endl;
-        cout << "distance: " << p.distance << endl;
+        // cout << "first element: " << nums[p.i][0] << "," << nums[p.i][1] << "," << nums[p.i][2] << endl;
+        // cout << "second element: " << nums[p.j][0] << "," << nums[p.j][1] << "," << nums[p.j][2] << endl;
+        // cout << "distance: " << p.distance << endl;
         // cout << "p: " << p.i << " " << p.j << " " << p.distance << endl;
         if(!uf.connected(p.i, p.j)) {
             uf.unite(p.i, p.j);
         }
-        cout << "cnt: " << cnt << endl;
-        cout << "circuit: " << uf.count << endl;
+        // cout << "cnt: " << cnt << endl;
+        // cout << "circuit: " << uf.count << endl;
         cnt += 1;
     }
     vector<int> sizes;
@@ -105,7 +105,7 @@ int main() {
     }
     sort(sizes.begin(), sizes.end(), greater<int>());
     for(int i = 0; i < 3; i ++) {
-        cout << "size " << i << ": " << sizes[i] << endl;
+        // cout << "size " << i << ": " << sizes[i] << endl;
         ans = ans * sizes[i];
     }
     // ans = nums.size() - uf.count;
