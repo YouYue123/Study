@@ -9,17 +9,17 @@ struct Point {
 using line = pair<Point, Point>;
 
 // check point c is on which side of the line l (1: left/above, -1: right/below, 0: on the line)
-auto crossProduct = [](line l, const Point& c) -> ll {
+auto getOrientation = [](line l, const Point& c) -> ll {
     Point a = l.first;
     Point b = l.second;
     return (b.x - a.x) * (c.y - a.y) - (b.y - a.y) * (c.x - a.x);
 };
 
 bool isIntersect(line l1, line l2) {
-    auto cp1 = crossProduct(l1, l2.first);
-    auto cp2 = crossProduct(l1, l2.second);
-    auto cp3 = crossProduct(l2, l1.first);
-    auto cp4 = crossProduct(l2, l1.second);
+    auto cp1 = getOrientation(l1, l2.first);
+    auto cp2 = getOrientation(l1, l2.second);
+    auto cp3 = getOrientation(l2, l1.first);
+    auto cp4 = getOrientation(l2, l1.second);
     // if cp1 and cp2 have different signs, then l1 and l2 intersect
     // or if cp3 and cp4 have different signs, then l1 and l2 intersect
     if (((cp1 > 0 && cp2 < 0) || (cp1 < 0 && cp2 > 0)) &&
@@ -29,13 +29,23 @@ bool isIntersect(line l1, line l2) {
     return false;
 }
 
+bool isRayIntersect(const Point& p, const Point& p1, const Point& p2) {
+    ll lhs = (p2.x - p1.x) * (p.y - p1.y);
+    ll rhs = (p.x - p1.x) * (p2.y - p1.y);
+    if (p2.y > p1.y) {
+        return lhs > rhs;
+    } else {
+        return lhs < rhs;
+    }
+}
+
 bool isInOrOnPoly(Point p, const vector<Point>& poly) {
     int n = poly.size();
     bool inside = false;
     for (int i = 0; i < n; i++) {
         Point p1 = poly[i];
         Point p2 = poly[(i + 1) % n];
-        ll cross = (p2.x - p1.x) * (p.y - p1.y) - (p.x - p1.x) * (p2.y - p1.y);
+        ll cross = getOrientation({p1, p2}, p);
         if (cross == 0) {
             // on the edge of the polygon
             ll minX = min(p1.x, p2.x);
@@ -47,12 +57,8 @@ bool isInOrOnPoly(Point p, const vector<Point>& poly) {
             // Not on the edge of the polygon
             // Use ray casting
             if ((p1.y > p.y) != (p2.y > p.y)) {
-                ll lhs = (p2.x - p1.x) * (p.y - p1.y);
-                ll rhs = (p.x - p1.x) * (p2.y - p1.y);
-                if (p2.y > p1.y) {
-                    if (lhs > rhs) inside = !inside; 
-                } else {
-                    if (lhs < rhs) inside = !inside;
+                if (isRayIntersect(p, p1, p2)) {
+                    inside = !inside;
                 }
             }
         }
