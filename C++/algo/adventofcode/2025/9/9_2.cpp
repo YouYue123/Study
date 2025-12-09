@@ -6,15 +6,22 @@ using pii = pair<ll, ll>;
 struct Point {
     ll x, y;
 };
-auto crossProduct = [](const Point& a, const Point& b, const Point& c) -> ll {
+using line = pair<Point, Point>;
+
+// check point c is on which side of the line l (1: left/above, -1: right/below, 0: on the line)
+auto crossProduct = [](line l, const Point& c) -> ll {
+    Point a = l.first;
+    Point b = l.second;
     return (b.x - a.x) * (c.y - a.y) - (b.y - a.y) * (c.x - a.x);
 };
 
-bool isIntersect(Point a, Point b, Point c, Point d) {
-    auto cp1 = crossProduct(a, b, c);
-    auto cp2 = crossProduct(a, b, d);
-    auto cp3 = crossProduct(c, d, a);
-    auto cp4 = crossProduct(c, d, b);
+bool isIntersect(line l1, line l2) {
+    auto cp1 = crossProduct(l1, l2.first);
+    auto cp2 = crossProduct(l1, l2.second);
+    auto cp3 = crossProduct(l2, l1.first);
+    auto cp4 = crossProduct(l2, l1.second);
+    // if cp1 and cp2 have different signs, then l1 and l2 intersect
+    // or if cp3 and cp4 have different signs, then l1 and l2 intersect
     if (((cp1 > 0 && cp2 < 0) || (cp1 < 0 && cp2 > 0)) &&
         ((cp3 > 0 && cp4 < 0) || (cp3 < 0 && cp4 > 0))) {
         return true;
@@ -71,12 +78,13 @@ bool isValid(Point p1, Point p2, const vector<Point>& poly) {
     for (int i = 0; i < n; i++) {
         Point u = poly[i];
         Point v = poly[(i + 1) % n];
+        line polyEdge = {u, v};
         // For each edge of the polygon, check if it intersects with the rectangle
         // If it does, that means there are some part of the rectangle is outside the polygon
-        if (isIntersect(u, v, A, B)) return false;
-        if (isIntersect(u, v, B, C)) return false;
-        if (isIntersect(u, v, C, D)) return false;
-        if (isIntersect(u, v, D, A)) return false;
+        if (isIntersect(polyEdge, {A, B})) return false;
+        if (isIntersect(polyEdge, {B, C})) return false;
+        if (isIntersect(polyEdge, {C, D})) return false;
+        if (isIntersect(polyEdge, {D, A})) return false;
     }
     return true;
 }
