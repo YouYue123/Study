@@ -94,13 +94,19 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     vector<Point> points;
-    string line;
+    string line = "";
     while(getline(cin, line)) {
-        if (line.empty()) break;
-        size_t comma_pos = line.find(',');
-        ll x = stoll(line.substr(0, comma_pos));
-        ll y = stoll(line.substr(comma_pos + 1));
-        points.push_back({x, y});
+        stringstream ss(line);
+        string num;
+        int x= 0, y = 0;
+        // 7, 1
+        // 11, 1
+        while(getline(ss, num, ',')) {
+            x = stoi(num);
+            getline(ss, num, ',');
+            y = stoi(num);
+            points.push_back({x, y});
+        }
     }
     ll ans = 0;
     int n = points.size();
