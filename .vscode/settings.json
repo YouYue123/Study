@@ -107,6 +107,8 @@
         "stop_token": "cpp",
         "text_encoding": "cpp",
         "thread": "cpp",
-        "__hash_table": "cpp"
-    }
+        "__hash_table": "cpp",
+        "cassert": "cpp"
+    },
+    "cmake.ignoreCMakeListsMissing": true
 }
