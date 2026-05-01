@@ -26,10 +26,10 @@ void solve()
     }
     vector<int> ans;
     int p = 0;
+    for(int num : div_6) ans.push_back(num);
     for(int num : div_2) ans.push_back(num);
     for(int num : rest) ans.push_back(num);
     for(int num : div_3) ans.push_back(num);
-    for(int num : div_6) ans.push_back(num);
     for(int i = 0; i < n; i ++) {
         cout << ans[i] << (i != n - 1 ? " " : "");
     }
