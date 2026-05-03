@@ -1,0 +1,18 @@
+// 392. Is Subsequence [E]
+// LeetCode is-subsequence
+
+class Solution {
+public:
+    bool isSubsequence(string s, string t) {
+        int p1 = 0, p2 = 0;
+        while(p1 < s.size() && p2 < t.size()) {
+            if(s[p1] == t[p2]) {
+                p1 += 1;
+                p2 += 1;
+            } else {
+                p2 += 1;
+            }
+        }
+        return p1 == s.size();
+    }
+};

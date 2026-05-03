@@ -1,55 +1,49 @@
-#include<bits/stdc++.h>
-using namespace std;
+// 772. Basic Calculator III [H]
+// LeetCode basic-calculator-iii
+
 class Solution {
-    public:
-        int calculate(string s) {
-            int n = s.size();
-            stack<int> numSt;
-            if(s[0] == '-') numSt.push(0);
-            stack<char> opSt;
-            long long num = 0;
-            unordered_map<char, int> priority = {
-                {'+', 0}, {'-', 0}, {'*', 1}, {'/', 1}
-            };
-            auto calc = [&] () {
-                auto op = opSt.top(); opSt.pop();
-                auto a = numSt.top(); numSt.pop();
-                auto b = numSt.top(); numSt.pop();
-                if(op == '+') {
-                    numSt.push(b + a);
-                } else if(op == '-') {
-                    numSt.push(b - a);
-                } else if(op == '*') {
-                    numSt.push(b * a);
-                } else if(op == '/') {
-                    numSt.push(b / a);
-                }
-            };
-            for(int i = 0; i < n; i ++) {
-                if(s[i] == ' ') continue;
-                if(isdigit(s[i])) {
-                    while(i < n && isdigit(s[i])) {
-                        num = num * 10 + (s[i] - '0');
-                        i += 1;
-                    }
-                    numSt.push(num);
-                    num = 0;
-                    i -= 1;
-                } else if(s[i] == ')') {
-                    while(opSt.top() != '(') calc();
-                    opSt.pop();
-                } else if(s[i] == '(') {
-                    if(s[i + 1] == '-') numSt.push(0);
-                    opSt.push(s[i]);
-                } else {
-                    // + , -, * , /
-                    while(!opSt.empty() && opSt.top() != '(' && priority[opSt.top()] >= priority[s[i]]) {
-                        calc();
-                    }
-                    opSt.push(s[i]);
-                }
-            }
-            while(!opSt.empty()) calc();
-            return numSt.top();
+private:
+    int cursor = 0;
+    string s;
+    int L0() {
+        int ans = L1();
+        while(cursor < s.size()) {
+            if(s[cursor] != '+' && s[cursor] != '-') break;
+            char op = s[cursor];
+            cursor += 1;
+            int nxt = L1();
+            ans = (op == '+' ? ans + nxt : ans - nxt); 
         }
-    };
+        return ans;
+    }
+    int L1() {
+        int ans = L2();
+        while(cursor < s.size()) {
+            if(s[cursor] != '*' && s[cursor] != '/') break;
+            char op = s[cursor];
+            cursor += 1;
+            int nxt = L2();
+            ans = (op == '*' ? ans * nxt : ans / nxt);
+        }
+        return ans;
+    }
+    int L2() {
+        if(s[cursor] == '(') {
+            cursor += 1;
+            int ans = L0();
+            cursor += 1;
+            return ans;
+        }
+        int ans = 0;
+        while(cursor < s.size() && isdigit(s[cursor])) {
+            ans = ans * 10 + (s[cursor] - '0');
+            cursor += 1;
+        }
+        return ans;
+    }
+public:
+    int calculate(string s) {
+        this->s = s;
+        return L0();
+    }
+};

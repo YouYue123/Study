@@ -1,5 +1,6 @@
-#include <bits/stdc++.h>
-using namespace std;
+// 787. Cheapest Flights Within K Stops [M]
+// LeetCode cheapest-flights-within-k-stops
+
 int constexpr INF = 0x3f3f3f3f;
 struct Node {
     int idx;

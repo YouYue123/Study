@@ -1,0 +1,18 @@
+// 852. Peak Index in a Mountain Array [M]
+// LeetCode peak-index-in-a-mountain-array
+
+class Solution {
+public:
+    int peakIndexInMountainArray(vector<int>& arr) {
+        int left = -1, right = arr.size();
+        while(left + 1 < right) {
+            int mid = left + (right - left) / 2;
+            if(arr[mid] > arr[mid + 1]) {
+                right = mid;
+            } else {
+                left = mid;
+            }
+        }
+        return left + 1;
+    }
+};
