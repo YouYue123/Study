@@ -4,23 +4,24 @@ using namespace std;
 // 790. Domino and Tromino Tiling [M]
 // LeetCode domino-and-tromino-tiling
 
+int MOD = 1e9 + 7;
 class Solution {
 public:
-    int mod = 1e9 + 7;
-    unordered_map<int, int> memoF;
-    unordered_map<int, int> memoP;
-    long f(int k) {
-        if(k == 1) return 1;
-        else if(k == 2) return 2;
-        if(memoF.contains(k)) return memoF[k];
-        return memoF[k] = (f(k - 1) + f(k - 2) + 2 * p (k - 1)) % mod;
-    }
-    long p(int k) {
-        if(k == 2) return 1;
-        if(memoP.contains(k)) return memoP[k];
-        return memoP[k] = (p(k - 1) + f(k - 2)) % mod;
-    }
     int numTilings(int n) {
-        return f(n);
+        vector memo(n, vector(2, -1LL));
+        auto dfs = [&] (this auto&& dfs, int i, bool is_special) -> long long {
+            if(i > n) return 0;
+            if(i == n) return is_special ? 0 : 1;
+            if(memo[i][is_special] != -1LL) return memo[i][is_special];
+            int ans = 0;
+            if (is_special) { // staggered: H to close or L to extend (+1)
+                ans = (dfs(i + 1, false) + dfs(i + 1, true)) % MOD;
+            } else { // aligned: V (+1), HH (+2), L×2 (+2)
+                ans = (dfs(i + 1, false) + dfs(i + 2, false) + 2 * dfs(i + 2, true) % MOD) % MOD;
+            }
+            return memo[i][is_special] = ans;
+        };
+
+        return dfs(0, false);
     }
 };
