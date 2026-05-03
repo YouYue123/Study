@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1762. Buildings With an Ocean View [M]
 // LeetCode buildings-with-an-ocean-view
 

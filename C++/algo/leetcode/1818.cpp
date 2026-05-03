@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1818. Minimum Absolute Sum Difference [M]
 // LeetCode minimum-absolute-sum-difference
 

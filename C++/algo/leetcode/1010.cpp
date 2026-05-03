@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1010. Pairs of Songs With Total Durations Divisible by 60 [M]
 // LeetCode pairs-of-songs-with-total-durations-divisible-by-60
 

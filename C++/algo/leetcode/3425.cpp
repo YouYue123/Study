@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3425. Longest Special Path [H]
 // LeetCode longest-special-path
 

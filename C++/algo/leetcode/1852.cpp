@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1852. Distinct Numbers in Each Subarray [M]
 // LeetCode distinct-numbers-in-each-subarray
 

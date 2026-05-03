@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1167. Minimum Cost to Connect Sticks [M]
 // LeetCode minimum-cost-to-connect-sticks
 

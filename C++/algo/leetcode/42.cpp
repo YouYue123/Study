@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 42. Trapping Rain Water [H]
 // LeetCode trapping-rain-water
 

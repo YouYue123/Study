@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1063. Number of Valid Subarrays [H]
 // LeetCode number-of-valid-subarrays
 

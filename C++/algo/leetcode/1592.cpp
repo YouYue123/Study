@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1592. Rearrange Spaces Between Words [E]
 // LeetCode rearrange-spaces-between-words
 

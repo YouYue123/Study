@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2551. Put Marbles in Bags [H]
 // LeetCode put-marbles-in-bags
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1250. Check If It Is a Good Array [H]
 // LeetCode check-if-it-is-a-good-array
 

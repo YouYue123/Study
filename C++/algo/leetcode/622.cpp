@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 622. Design Circular Queue [M]
 // LeetCode design-circular-queue
 

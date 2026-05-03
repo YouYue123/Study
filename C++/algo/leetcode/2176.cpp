@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2176. Count Equal and Divisible Pairs in an Array [E]
 // LeetCode count-equal-and-divisible-pairs-in-an-array
 

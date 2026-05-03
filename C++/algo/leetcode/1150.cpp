@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1150. Check If a Number Is Majority Element in a Sorted Array [E]
 // LeetCode check-if-a-number-is-majority-element-in-a-sorted-array
 

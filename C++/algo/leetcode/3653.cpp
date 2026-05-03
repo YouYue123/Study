@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3653. XOR After Range Multiplication Queries I [M]
 // LeetCode xor-after-range-multiplication-queries-i
 

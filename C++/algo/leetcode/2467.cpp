@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2467. Most Profitable Path in a Tree [M]
 // LeetCode most-profitable-path-in-a-tree
 

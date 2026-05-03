@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2222. Number of Ways to Select Buildings [M]
 // LeetCode number-of-ways-to-select-buildings
 

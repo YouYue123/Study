@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 812. Largest Triangle Area [E]
 // LeetCode largest-triangle-area
 

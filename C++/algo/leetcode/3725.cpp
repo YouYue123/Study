@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3725. Count Ways to Choose Coprime Integers from Rows [H]
 // LeetCode count-ways-to-choose-coprime-integers-from-rows
 

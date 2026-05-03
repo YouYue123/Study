@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 419. Battleships in a Board [M]
 // LeetCode battleships-in-a-board
 

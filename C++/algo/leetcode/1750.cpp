@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1750. Minimum Length of String After Deleting Similar Ends [M]
 // LeetCode minimum-length-of-string-after-deleting-similar-ends
 

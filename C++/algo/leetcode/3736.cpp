@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3736. Minimum Moves to Equal Array Elements III [E]
 // LeetCode minimum-moves-to-equal-array-elements-iii
 

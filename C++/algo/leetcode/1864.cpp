@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1864. Minimum Number of Swaps to Make the Binary String Alternating [M]
 // LeetCode minimum-number-of-swaps-to-make-the-binary-string-alternating
 

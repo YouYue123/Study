@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 852. Peak Index in a Mountain Array [M]
 // LeetCode peak-index-in-a-mountain-array
 

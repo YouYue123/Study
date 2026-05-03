@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3473. Sum of K Subarrays With Length at Least M [M]
 // LeetCode sum-of-k-subarrays-with-length-at-least-m
 

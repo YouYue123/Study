@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1429. First Unique Number [M]
 // LeetCode first-unique-number
 

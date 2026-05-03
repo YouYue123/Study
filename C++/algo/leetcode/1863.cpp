@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1863. Sum of All Subset XOR Totals [E]
 // LeetCode sum-of-all-subset-xor-totals
 

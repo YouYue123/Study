@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1948. Delete Duplicate Folders in System [H]
 // LeetCode delete-duplicate-folders-in-system
 

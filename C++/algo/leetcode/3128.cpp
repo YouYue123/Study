@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3128. Right Triangles [M]
 // LeetCode right-triangles
 

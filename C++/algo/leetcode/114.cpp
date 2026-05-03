@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 114. Flatten Binary Tree to Linked List [M]
 // LeetCode flatten-binary-tree-to-linked-list
 

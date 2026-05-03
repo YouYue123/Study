@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3471. Find the Largest Almost Missing Integer [E]
 // LeetCode find-the-largest-almost-missing-integer
 

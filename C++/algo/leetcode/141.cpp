@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 141. Linked List Cycle [E]
 // LeetCode linked-list-cycle
 

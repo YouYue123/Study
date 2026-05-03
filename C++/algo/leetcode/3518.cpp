@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3518. Smallest Palindromic Rearrangement II [H]
 // LeetCode smallest-palindromic-rearrangement-ii
 

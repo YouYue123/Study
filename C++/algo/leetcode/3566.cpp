@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3566. Partition Array into Two Equal Product Subsets [M]
 // LeetCode partition-array-into-two-equal-product-subsets
 

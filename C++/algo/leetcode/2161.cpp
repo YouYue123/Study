@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2161. Partition Array According to Given Pivot [M]
 // LeetCode partition-array-according-to-given-pivot
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 283. Move Zeroes [E]
 // LeetCode move-zeroes
 

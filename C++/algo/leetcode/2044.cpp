@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2044. Count Number of Maximum Bitwise-OR Subsets [M]
 // LeetCode count-number-of-maximum-bitwise-or-subsets
 

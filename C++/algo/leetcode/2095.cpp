@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2095. Delete the Middle Node of a Linked List [M]
 // LeetCode delete-the-middle-node-of-a-linked-list
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 818. Race Car [H]
 // LeetCode race-car
 

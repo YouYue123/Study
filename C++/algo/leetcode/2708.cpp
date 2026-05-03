@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2708. Maximum Strength of a Group [M]
 // LeetCode maximum-strength-of-a-group
 

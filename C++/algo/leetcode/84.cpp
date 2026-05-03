@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 84. Largest Rectangle in Histogram [H]
 // LeetCode largest-rectangle-in-histogram
 

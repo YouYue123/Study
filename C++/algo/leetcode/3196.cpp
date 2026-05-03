@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3196. Maximize Total Cost of Alternating Subarrays [M]
 // LeetCode maximize-total-cost-of-alternating-subarrays
 

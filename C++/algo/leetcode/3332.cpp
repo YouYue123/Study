@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3332. Maximum Points Tourist Can Earn [M]
 // LeetCode maximum-points-tourist-can-earn
 

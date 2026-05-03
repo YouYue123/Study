@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 773. Sliding Puzzle [H]
 // LeetCode sliding-puzzle
 

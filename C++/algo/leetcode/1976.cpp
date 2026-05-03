@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1976. Number of Ways to Arrive at Destination [M]
 // LeetCode number-of-ways-to-arrive-at-destination
 

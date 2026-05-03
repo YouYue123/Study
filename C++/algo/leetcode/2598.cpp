@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2598. Smallest Missing Non-negative Integer After Operations [M]
 // LeetCode smallest-missing-non-negative-integer-after-operations
 

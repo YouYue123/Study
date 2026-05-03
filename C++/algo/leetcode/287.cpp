@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 287. Find the Duplicate Number [M]
 // LeetCode find-the-duplicate-number
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3557. Find Maximum Number of Non Intersecting Substrings [M]
 // LeetCode find-maximum-number-of-non-intersecting-substrings
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2968. Apply Operations to Maximize Frequency Score [H]
 // LeetCode apply-operations-to-maximize-frequency-score
 

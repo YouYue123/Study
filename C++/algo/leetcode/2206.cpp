@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2206. Divide Array Into Equal Pairs [E]
 // LeetCode divide-array-into-equal-pairs
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1081. Smallest Subsequence of Distinct Characters [M]
 // LeetCode smallest-subsequence-of-distinct-characters
 

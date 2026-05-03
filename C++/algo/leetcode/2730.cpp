@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2730. Find the Longest Semi-Repetitive Substring [M]
 // LeetCode find-the-longest-semi-repetitive-substring
 

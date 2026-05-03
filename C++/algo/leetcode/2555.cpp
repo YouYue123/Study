@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2555. Maximize Win From Two Segments [M]
 // LeetCode maximize-win-from-two-segments
 

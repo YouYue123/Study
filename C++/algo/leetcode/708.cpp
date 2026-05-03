@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 708. Insert into a Sorted Circular Linked List [M]
 // LeetCode insert-into-a-sorted-circular-linked-list
 

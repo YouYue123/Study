@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1312. Minimum Insertion Steps to Make a String Palindrome [H]
 // LeetCode minimum-insertion-steps-to-make-a-string-palindrome
 

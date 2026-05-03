@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3915. Maximum Sum of Alternating Subsequence With Distance at Least K [H]
 // LeetCode maximum-sum-of-alternating-subsequence-with-distance-at-least-k
 

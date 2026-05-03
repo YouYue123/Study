@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1685. Sum of Absolute Differences in a Sorted Array [M]
 // LeetCode sum-of-absolute-differences-in-a-sorted-array
 

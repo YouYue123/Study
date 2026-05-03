@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1007. Minimum Domino Rotations For Equal Row [M]
 // LeetCode minimum-domino-rotations-for-equal-row
 

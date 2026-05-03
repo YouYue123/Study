@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1942. The Number of the Smallest Unoccupied Chair [M]
 // LeetCode the-number-of-the-smallest-unoccupied-chair
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2742. Painting the Walls [H]
 // LeetCode painting-the-walls
 

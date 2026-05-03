@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2707. Extra Characters in a String [M]
 // LeetCode extra-characters-in-a-string
 

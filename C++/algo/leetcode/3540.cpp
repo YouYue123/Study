@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3540. Minimum Time to Visit All Houses [M]
 // LeetCode minimum-time-to-visit-all-houses
 

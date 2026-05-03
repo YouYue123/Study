@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3622. Check Divisibility by Digit Sum and Product [E]
 // LeetCode check-divisibility-by-digit-sum-and-product
 

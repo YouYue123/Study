@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3558. Number of Ways to Assign Edge Weights I [M]
 // LeetCode number-of-ways-to-assign-edge-weights-i
 

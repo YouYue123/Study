@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2787. Ways to Express an Integer as Sum of Powers [M]
 // LeetCode ways-to-express-an-integer-as-sum-of-powers
 

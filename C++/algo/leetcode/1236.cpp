@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1236. Web Crawler [M]
 // LeetCode web-crawler
 

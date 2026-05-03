@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 9. Palindrome Number [E]
 // LeetCode palindrome-number
 

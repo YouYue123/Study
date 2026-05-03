@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1652. Defuse the Bomb [E]
 // LeetCode defuse-the-bomb
 

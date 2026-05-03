@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1432. Max Difference You Can Get From Changing an Integer [M]
 // LeetCode max-difference-you-can-get-from-changing-an-integer
 

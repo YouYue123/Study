@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 868. Binary Gap [E]
 // LeetCode binary-gap
 

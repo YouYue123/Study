@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2602. Minimum Operations to Make All Array Elements Equal [M]
 // LeetCode minimum-operations-to-make-all-array-elements-equal
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3588. Find Maximum Area of a Triangle [M]
 // LeetCode find-maximum-area-of-a-triangle
 

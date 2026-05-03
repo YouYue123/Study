@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 372. Super Pow [M]
 // LeetCode super-pow
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1504. Count Submatrices With All Ones [M]
 // LeetCode count-submatrices-with-all-ones
 

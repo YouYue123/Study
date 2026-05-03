@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3639. Minimum Time to Activate String [M]
 // LeetCode minimum-time-to-activate-string
 

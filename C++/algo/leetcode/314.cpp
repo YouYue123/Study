@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 314. Binary Tree Vertical Order Traversal [M]
 // LeetCode binary-tree-vertical-order-traversal
 

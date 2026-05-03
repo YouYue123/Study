@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3488. Closest Equal Element Queries [M]
 // LeetCode closest-equal-element-queries
 

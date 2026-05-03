@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2138. Divide a String Into Groups of Size k [E]
 // LeetCode divide-a-string-into-groups-of-size-k
 

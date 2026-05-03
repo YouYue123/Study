@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2092. Find All People With Secret [H]
 // LeetCode find-all-people-with-secret
 

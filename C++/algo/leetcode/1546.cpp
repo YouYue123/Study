@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target [M]
 // LeetCode maximum-number-of-non-overlapping-subarrays-with-sum-equals-target
 

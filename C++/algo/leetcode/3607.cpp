@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3607. Power Grid Maintenance [M]
 // LeetCode power-grid-maintenance
 

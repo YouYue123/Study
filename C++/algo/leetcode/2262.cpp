@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2262. Total Appeal of A String [H]
 // LeetCode total-appeal-of-a-string
 

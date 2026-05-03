@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3289. The Two Sneaky Numbers of Digitville [E]
 // LeetCode the-two-sneaky-numbers-of-digitville
 

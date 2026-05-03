@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1143. Longest Common Subsequence [M]
 // LeetCode longest-common-subsequence
 

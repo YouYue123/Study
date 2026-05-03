@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3899. Angles of a Triangle [M]
 // LeetCode angles-of-a-triangle
 

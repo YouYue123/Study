@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1059. All Paths from Source Lead to Destination [M]
 // LeetCode all-paths-from-source-lead-to-destination
 

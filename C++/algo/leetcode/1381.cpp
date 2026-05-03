@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1381. Design a Stack With Increment Operation [M]
 // LeetCode design-a-stack-with-increment-operation
 

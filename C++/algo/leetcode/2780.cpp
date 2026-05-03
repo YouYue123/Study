@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2780. Minimum Index of a Valid Split [M]
 // LeetCode minimum-index-of-a-valid-split
 

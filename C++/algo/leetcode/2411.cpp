@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2411. Smallest Subarrays With Maximum Bitwise OR [M]
 // LeetCode smallest-subarrays-with-maximum-bitwise-or
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 408. Valid Word Abbreviation [E]
 // LeetCode valid-word-abbreviation
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 50. Pow(x, n) [M]
 // LeetCode powx-n
 

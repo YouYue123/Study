@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 48. Rotate Image [M]
 // LeetCode rotate-image
 

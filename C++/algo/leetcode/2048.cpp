@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2048. Next Greater Numerically Balanced Number [M]
 // LeetCode next-greater-numerically-balanced-number
 

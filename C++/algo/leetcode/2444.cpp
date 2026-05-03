@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2444. Count Subarrays With Fixed Bounds [H]
 // LeetCode count-subarrays-with-fixed-bounds
 

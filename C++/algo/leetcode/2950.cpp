@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2950. Number of Divisible Substrings [M]
 // LeetCode number-of-divisible-substrings
 

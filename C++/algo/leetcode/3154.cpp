@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3154. Find Number of Ways to Reach the K-th Stair [H]
 // LeetCode find-number-of-ways-to-reach-the-k-th-stair
 

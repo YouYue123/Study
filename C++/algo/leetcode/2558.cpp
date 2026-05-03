@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2558. Take Gifts From the Richest Pile [E]
 // LeetCode take-gifts-from-the-richest-pile
 

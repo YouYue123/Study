@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1039. Minimum Score Triangulation of Polygon [M]
 // LeetCode minimum-score-triangulation-of-polygon
 

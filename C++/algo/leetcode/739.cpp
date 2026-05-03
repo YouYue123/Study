@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 739. Daily Temperatures [M]
 // LeetCode daily-temperatures
 

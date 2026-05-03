@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 447. Number of Boomerangs [M]
 // LeetCode number-of-boomerangs
 

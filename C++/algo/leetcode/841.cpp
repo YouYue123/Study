@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 841. Keys and Rooms [M]
 // LeetCode keys-and-rooms
 

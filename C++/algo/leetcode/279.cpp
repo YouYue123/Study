@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 279. Perfect Squares [M]
 // LeetCode perfect-squares
 

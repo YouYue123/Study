@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2321. Maximum Score Of Spliced Array [H]
 // LeetCode maximum-score-of-spliced-array
 

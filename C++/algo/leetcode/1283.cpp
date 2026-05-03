@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1283. Find the Smallest Divisor Given a Threshold [M]
 // LeetCode find-the-smallest-divisor-given-a-threshold
 

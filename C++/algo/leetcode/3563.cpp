@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3563. Lexicographically Smallest String After Adjacent Removals [H]
 // LeetCode lexicographically-smallest-string-after-adjacent-removals
 

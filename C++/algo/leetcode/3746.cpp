@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3746. Minimum String Length After Balanced Removals [M]
 // LeetCode minimum-string-length-after-balanced-removals
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2588. Count the Number of Beautiful Subarrays [M]
 // LeetCode count-the-number-of-beautiful-subarrays
 

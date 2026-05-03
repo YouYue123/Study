@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1717. Maximum Score From Removing Substrings [M]
 // LeetCode maximum-score-from-removing-substrings
 

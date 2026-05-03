@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 758. Bold Words in String [M]
 // LeetCode bold-words-in-string
 

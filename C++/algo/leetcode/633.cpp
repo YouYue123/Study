@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 633. Sum of Square Numbers [M]
 // LeetCode sum-of-square-numbers
 

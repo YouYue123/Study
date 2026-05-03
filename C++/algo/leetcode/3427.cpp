@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3427. Sum of Variable Length Subarrays [E]
 // LeetCode sum-of-variable-length-subarrays
 

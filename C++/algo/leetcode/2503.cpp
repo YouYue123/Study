@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2503. Maximum Number of Points From Grid Queries [H]
 // LeetCode maximum-number-of-points-from-grid-queries
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1352. Product of the Last K Numbers [M]
 // LeetCode product-of-the-last-k-numbers
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 987. Vertical Order Traversal of a Binary Tree [H]
 // LeetCode vertical-order-traversal-of-a-binary-tree
 

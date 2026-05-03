@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1929. Concatenation of Array [E]
 // LeetCode concatenation-of-array
 

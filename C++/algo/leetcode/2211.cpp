@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2211. Count Collisions on a Road [M]
 // LeetCode count-collisions-on-a-road
 

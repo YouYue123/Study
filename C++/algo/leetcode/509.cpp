@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 509. Fibonacci Number [E]
 // LeetCode fibonacci-number
 

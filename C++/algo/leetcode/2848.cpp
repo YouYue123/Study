@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2848. Points That Intersect With Cars [E]
 // LeetCode points-that-intersect-with-cars
 

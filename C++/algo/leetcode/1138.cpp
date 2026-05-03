@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1138. Alphabet Board Path [M]
 // LeetCode alphabet-board-path
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2748. Number of Beautiful Pairs [E]
 // LeetCode number-of-beautiful-pairs
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 746. Min Cost Climbing Stairs [E]
 // LeetCode min-cost-climbing-stairs
 

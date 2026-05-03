@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3608. Minimum Time for K Connected Components [M]
 // LeetCode minimum-time-for-k-connected-components
 

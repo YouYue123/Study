@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1680. Concatenation of Consecutive Binary Numbers [M]
 // LeetCode concatenation-of-consecutive-binary-numbers
 

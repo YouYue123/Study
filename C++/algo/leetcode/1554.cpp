@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1554. Strings Differ by One Character [M]
 // LeetCode strings-differ-by-one-character
 

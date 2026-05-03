@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1073. Adding Two Negabinary Numbers [M]
 // LeetCode adding-two-negabinary-numbers
 

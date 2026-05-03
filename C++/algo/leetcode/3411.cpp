@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3411. Maximum Subarray With Equal Products [E]
 // LeetCode maximum-subarray-with-equal-products
 

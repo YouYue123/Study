@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3414. Maximum Score of Non-overlapping Intervals [H]
 // LeetCode maximum-score-of-non-overlapping-intervals
 

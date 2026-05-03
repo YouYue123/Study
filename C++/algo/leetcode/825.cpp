@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 825. Friends Of Appropriate Ages [M]
 // LeetCode friends-of-appropriate-ages
 

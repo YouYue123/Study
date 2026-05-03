@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1375. Number of Times Binary String Is Prefix-Aligned [M]
 // LeetCode number-of-times-binary-string-is-prefix-aligned
 

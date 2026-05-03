@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2576. Find the Maximum Number of Marked Indices [M]
 // LeetCode find-the-maximum-number-of-marked-indices
 

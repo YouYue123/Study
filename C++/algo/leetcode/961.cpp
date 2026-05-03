@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 961. N-Repeated Element in Size 2N Array [E]
 // LeetCode n-repeated-element-in-size-2n-array
 

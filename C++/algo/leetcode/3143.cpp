@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3143. Maximum Points Inside the Square [M]
 // LeetCode maximum-points-inside-the-square
 

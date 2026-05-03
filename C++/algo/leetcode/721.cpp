@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 721. Accounts Merge [M]
 // LeetCode accounts-merge
 

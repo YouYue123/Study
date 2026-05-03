@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 670. Maximum Swap [M]
 // LeetCode maximum-swap
 

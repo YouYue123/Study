@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2014. Longest Subsequence Repeated k Times [H]
 // LeetCode longest-subsequence-repeated-k-times
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3606. Coupon Code Validator [E]
 // LeetCode coupon-code-validator
 

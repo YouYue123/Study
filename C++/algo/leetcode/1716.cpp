@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1716. Calculate Money in Leetcode Bank [E]
 // LeetCode calculate-money-in-leetcode-bank
 

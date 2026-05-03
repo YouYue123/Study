@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1912. Design Movie Rental System [H]
 // LeetCode design-movie-rental-system
 

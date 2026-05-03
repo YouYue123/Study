@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 214. Shortest Palindrome [H]
 // LeetCode shortest-palindrome
 

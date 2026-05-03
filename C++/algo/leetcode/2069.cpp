@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2069. Walking Robot Simulation II [M]
 // LeetCode walking-robot-simulation-ii
 

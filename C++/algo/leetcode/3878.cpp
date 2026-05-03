@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3878. Count Good Subarrays [H]
 // LeetCode count-good-subarrays
 

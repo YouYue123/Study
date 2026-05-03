@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 962. Maximum Width Ramp [M]
 // LeetCode maximum-width-ramp
 

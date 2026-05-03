@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 459. Repeated Substring Pattern [E]
 // LeetCode repeated-substring-pattern
 

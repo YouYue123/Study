@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 632. Smallest Range Covering Elements from K Lists [H]
 // LeetCode smallest-range-covering-elements-from-k-lists
 

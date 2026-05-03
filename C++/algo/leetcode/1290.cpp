@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1290. Convert Binary Number in a Linked List to Integer [E]
 // LeetCode convert-binary-number-in-a-linked-list-to-integer
 

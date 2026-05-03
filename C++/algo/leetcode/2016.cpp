@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2016. Maximum Difference Between Increasing Elements [E]
 // LeetCode maximum-difference-between-increasing-elements
 

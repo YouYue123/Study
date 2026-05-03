@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3075. Maximize Happiness of Selected Children [M]
 // LeetCode maximize-happiness-of-selected-children
 

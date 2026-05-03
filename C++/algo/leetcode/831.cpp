@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 831. Masking Personal Information [M]
 // LeetCode masking-personal-information
 

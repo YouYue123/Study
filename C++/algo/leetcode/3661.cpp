@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3661. Maximum Walls Destroyed by Robots [H]
 // LeetCode maximum-walls-destroyed-by-robots
 

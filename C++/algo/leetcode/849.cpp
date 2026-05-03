@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 849. Maximize Distance to Closest Person [M]
 // LeetCode maximize-distance-to-closest-person
 

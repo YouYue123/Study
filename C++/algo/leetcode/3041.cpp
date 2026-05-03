@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3041. Maximize Consecutive Elements in an Array After Modification [H]
 // LeetCode maximize-consecutive-elements-in-an-array-after-modification
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3610. Minimum Number of Primes to Sum to Target [M]
 // LeetCode minimum-number-of-primes-to-sum-to-target
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2337. Move Pieces to Obtain a String [M]
 // LeetCode move-pieces-to-obtain-a-string
 

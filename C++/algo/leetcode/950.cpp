@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 950. Reveal Cards In Increasing Order [M]
 // LeetCode reveal-cards-in-increasing-order
 

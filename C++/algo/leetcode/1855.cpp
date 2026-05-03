@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1855. Maximum Distance Between a Pair of Values [M]
 // LeetCode maximum-distance-between-a-pair-of-values
 

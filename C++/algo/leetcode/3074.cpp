@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3074. Apple Redistribution into Boxes [E]
 // LeetCode apple-redistribution-into-boxes
 

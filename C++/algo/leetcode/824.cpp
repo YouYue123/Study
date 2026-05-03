@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 824. Goat Latin [E]
 // LeetCode goat-latin
 

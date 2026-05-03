@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2571. Minimum Operations to Reduce an Integer to 0 [M]
 // LeetCode minimum-operations-to-reduce-an-integer-to-0
 

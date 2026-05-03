@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 334. Increasing Triplet Subsequence [M]
 // LeetCode increasing-triplet-subsequence
 

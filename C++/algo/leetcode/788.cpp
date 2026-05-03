@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 788. Rotated Digits [M]
 // LeetCode rotated-digits
 

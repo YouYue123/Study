@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3024. Type of Triangle [E]
 // LeetCode type-of-triangle
 

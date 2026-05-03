@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3507. Minimum Pair Removal to Sort Array I [E]
 // LeetCode minimum-pair-removal-to-sort-array-i
 

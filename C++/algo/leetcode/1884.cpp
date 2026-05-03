@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1884. Egg Drop With 2 Eggs and N Floors [M]
 // LeetCode egg-drop-with-2-eggs-and-n-floors
 

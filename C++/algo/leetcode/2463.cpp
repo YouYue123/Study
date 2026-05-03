@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2463. Minimum Total Distance Traveled [H]
 // LeetCode minimum-total-distance-traveled
 

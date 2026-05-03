@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 996. Number of Squareful Arrays [H]
 // LeetCode number-of-squareful-arrays
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2336. Smallest Number in Infinite Set [M]
 // LeetCode smallest-number-in-infinite-set
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2845. Count of Interesting Subarrays [M]
 // LeetCode count-of-interesting-subarrays
 

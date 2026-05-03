@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 642. Design Search Autocomplete System [H]
 // LeetCode design-search-autocomplete-system
 

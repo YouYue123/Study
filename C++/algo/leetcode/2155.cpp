@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2155. All Divisions With the Highest Score of a Binary Array [M]
 // LeetCode all-divisions-with-the-highest-score-of-a-binary-array
 

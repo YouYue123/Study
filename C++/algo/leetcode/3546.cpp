@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3546. Equal Sum Grid Partition I [M]
 // LeetCode equal-sum-grid-partition-i
 

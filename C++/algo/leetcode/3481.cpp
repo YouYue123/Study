@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3481. Apply Substitutions [M]
 // LeetCode apply-substitutions
 

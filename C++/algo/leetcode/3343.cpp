@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3343. Count Number of Balanced Permutations [H]
 // LeetCode count-number-of-balanced-permutations
 

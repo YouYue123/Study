@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 41. First Missing Positive [H]
 // LeetCode first-missing-positive
 

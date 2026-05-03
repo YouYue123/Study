@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 409. Longest Palindrome [E]
 // LeetCode longest-palindrome
 

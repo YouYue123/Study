@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 351. Android Unlock Patterns [M]
 // LeetCode android-unlock-patterns
 

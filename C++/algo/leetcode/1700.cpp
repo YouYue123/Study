@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1700. Number of Students Unable to Eat Lunch [E]
 // LeetCode number-of-students-unable-to-eat-lunch
 

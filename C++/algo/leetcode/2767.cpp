@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2767. Partition String Into Minimum Beautiful Substrings [M]
 // LeetCode partition-string-into-minimum-beautiful-substrings
 

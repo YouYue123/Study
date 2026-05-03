@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3599. Partition Array to Minimize XOR [M]
 // LeetCode partition-array-to-minimize-xor
 

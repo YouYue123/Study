@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3467. Transform Array by Parity [E]
 // LeetCode transform-array-by-parity
 

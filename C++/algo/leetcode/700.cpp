@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 700. Search in a Binary Search Tree [E]
 // LeetCode search-in-a-binary-search-tree
 

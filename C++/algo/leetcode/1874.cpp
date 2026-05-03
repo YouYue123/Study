@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1874. Minimize Product Sum of Two Arrays [M]
 // LeetCode minimize-product-sum-of-two-arrays
 

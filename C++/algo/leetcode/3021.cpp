@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3021. Alice and Bob Playing Flower Game [M]
 // LeetCode alice-and-bob-playing-flower-game
 

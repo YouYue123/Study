@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1792. Maximum Average Pass Ratio [M]
 // LeetCode maximum-average-pass-ratio
 

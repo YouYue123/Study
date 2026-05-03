@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3409. Longest Subsequence With Decreasing Adjacent Difference [M]
 // LeetCode longest-subsequence-with-decreasing-adjacent-difference
 

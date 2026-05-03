@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 418. Sentence Screen Fitting [M]
 // LeetCode sentence-screen-fitting
 

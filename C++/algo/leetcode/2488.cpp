@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2488. Count Subarrays With Median K [H]
 // LeetCode count-subarrays-with-median-k
 

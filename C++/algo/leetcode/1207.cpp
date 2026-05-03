@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1207. Unique Number of Occurrences [E]
 // LeetCode unique-number-of-occurrences
 

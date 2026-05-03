@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3760. Maximum Substrings With Distinct Start [M]
 // LeetCode maximum-substrings-with-distinct-start
 

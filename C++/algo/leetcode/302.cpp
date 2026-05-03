@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 302. Smallest Rectangle Enclosing Black Pixels [H]
 // LeetCode smallest-rectangle-enclosing-black-pixels
 

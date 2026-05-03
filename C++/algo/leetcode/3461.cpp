@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3461. Check If Digits Are Equal in String After Operations I [E]
 // LeetCode check-if-digits-are-equal-in-string-after-operations-i
 

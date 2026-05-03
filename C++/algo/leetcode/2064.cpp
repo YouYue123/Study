@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2064. Minimized Maximum of Products Distributed to Any Store [M]
 // LeetCode minimized-maximum-of-products-distributed-to-any-store
 

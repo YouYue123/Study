@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 995. Minimum Number of K Consecutive Bit Flips [H]
 // LeetCode minimum-number-of-k-consecutive-bit-flips
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1878. Get Biggest Three Rhombus Sums in a Grid [M]
 // LeetCode get-biggest-three-rhombus-sums-in-a-grid
 

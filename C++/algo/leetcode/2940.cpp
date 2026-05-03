@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2940. Find Building Where Alice and Bob Can Meet [H]
 // LeetCode find-building-where-alice-and-bob-can-meet
 

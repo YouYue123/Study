@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1047. Remove All Adjacent Duplicates In String [E]
 // LeetCode remove-all-adjacent-duplicates-in-string
 

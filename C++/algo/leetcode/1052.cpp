@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1052. Grumpy Bookstore Owner [M]
 // LeetCode grumpy-bookstore-owner
 

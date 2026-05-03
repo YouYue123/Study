@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1611. Minimum One Bit Operations to Make Integers Zero [H]
 // LeetCode minimum-one-bit-operations-to-make-integers-zero
 

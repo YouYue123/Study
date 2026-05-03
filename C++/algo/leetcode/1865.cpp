@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1865. Finding Pairs With a Certain Sum [M]
 // LeetCode finding-pairs-with-a-certain-sum
 

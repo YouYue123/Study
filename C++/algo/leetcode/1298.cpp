@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1298. Maximum Candies You Can Get from Boxes [H]
 // LeetCode maximum-candies-you-can-get-from-boxes
 

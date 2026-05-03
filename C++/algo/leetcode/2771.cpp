@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2771. Longest Non-decreasing Subarray From Two Arrays [M]
 // LeetCode longest-non-decreasing-subarray-from-two-arrays
 

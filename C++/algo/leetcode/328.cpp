@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 328. Odd Even Linked List [M]
 // LeetCode odd-even-linked-list
 

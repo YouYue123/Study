@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2192. All Ancestors of a Node in a Directed Acyclic Graph [M]
 // LeetCode all-ancestors-of-a-node-in-a-directed-acyclic-graph
 

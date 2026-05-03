@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 70. Climbing Stairs [E]
 // LeetCode climbing-stairs
 

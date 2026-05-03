@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1061. Lexicographically Smallest Equivalent String [M]
 // LeetCode lexicographically-smallest-equivalent-string
 

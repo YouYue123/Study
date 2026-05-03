@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3186. Maximum Total Damage With Spell Casting [M]
 // LeetCode maximum-total-damage-with-spell-casting
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 720. Longest Word in Dictionary [M]
 // LeetCode longest-word-in-dictionary
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2125. Number of Laser Beams in a Bank [M]
 // LeetCode number-of-laser-beams-in-a-bank
 

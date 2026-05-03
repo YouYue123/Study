@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2861. Maximum Number of Alloys [M]
 // LeetCode maximum-number-of-alloys
 

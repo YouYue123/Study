@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2302. Count Subarrays With Score Less Than K [H]
 // LeetCode count-subarrays-with-score-less-than-k
 

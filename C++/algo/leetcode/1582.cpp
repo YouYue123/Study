@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1582. Special Positions in a Binary Matrix [E]
 // LeetCode special-positions-in-a-binary-matrix
 

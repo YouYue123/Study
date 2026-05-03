@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2081. Sum of k-Mirror Numbers [H]
 // LeetCode sum-of-k-mirror-numbers
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3909. Compare Sums of Bitonic Parts [M]
 // LeetCode compare-sums-of-bitonic-parts
 

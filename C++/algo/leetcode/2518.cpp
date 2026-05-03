@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2518. Number of Great Partitions [H]
 // LeetCode number-of-great-partitions
 

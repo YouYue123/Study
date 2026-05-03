@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1187. Make Array Strictly Increasing [H]
 // LeetCode make-array-strictly-increasing
 

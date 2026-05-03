@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2158. Amount of New Area Painted Each Day [H]
 // LeetCode amount-of-new-area-painted-each-day
 

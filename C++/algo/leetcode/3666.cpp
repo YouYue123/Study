@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3666. Minimum Operations to Equalize Binary String [H]
 // LeetCode minimum-operations-to-equalize-binary-string
 

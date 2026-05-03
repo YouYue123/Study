@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 387. First Unique Character in a String [E]
 // LeetCode first-unique-character-in-a-string
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1182. Shortest Distance to Target Color [M]
 // LeetCode shortest-distance-to-target-color
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 499. The Maze III [H]
 // LeetCode the-maze-iii
 

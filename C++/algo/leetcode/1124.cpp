@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1124. Longest Well-Performing Interval [M]
 // LeetCode longest-well-performing-interval
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 202. Happy Number [E]
 // LeetCode happy-number
 

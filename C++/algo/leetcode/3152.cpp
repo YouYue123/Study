@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3152. Special Array II [M]
 // LeetCode special-array-ii
 

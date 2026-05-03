@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3761. Minimum Absolute Distance Between Mirror Pairs [M]
 // LeetCode minimum-absolute-distance-between-mirror-pairs
 

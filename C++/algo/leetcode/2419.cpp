@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2419. Longest Subarray With Maximum Bitwise AND [M]
 // LeetCode longest-subarray-with-maximum-bitwise-and
 

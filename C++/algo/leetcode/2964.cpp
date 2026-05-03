@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2964. Number of Divisible Triplet Sums [M]
 // LeetCode number-of-divisible-triplet-sums
 

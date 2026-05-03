@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1545. Find Kth Bit in Nth Binary String [M]
 // LeetCode find-kth-bit-in-nth-binary-string
 

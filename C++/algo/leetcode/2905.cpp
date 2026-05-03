@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2905. Find Indices With Index and Value Difference II [M]
 // LeetCode find-indices-with-index-and-value-difference-ii
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2466. Count Ways To Build Good Strings [M]
 // LeetCode count-ways-to-build-good-strings
 

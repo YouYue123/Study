@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 531. Lonely Pixel I [M]
 // LeetCode lonely-pixel-i
 

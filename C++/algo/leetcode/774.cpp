@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 774. Minimize Max Distance to Gas Station [H]
 // LeetCode minimize-max-distance-to-gas-station
 

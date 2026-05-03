@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3904. Smallest Stable Index II [M]
 // LeetCode smallest-stable-index-ii
 

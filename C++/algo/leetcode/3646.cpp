@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3646. Next Special Palindrome Number [H]
 // LeetCode next-special-palindrome-number
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2040. Kth Smallest Product of Two Sorted Arrays [H]
 // LeetCode kth-smallest-product-of-two-sorted-arrays
 

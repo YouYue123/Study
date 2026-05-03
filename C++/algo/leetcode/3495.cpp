@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3495. Minimum Operations to Make Array Elements Zero [H]
 // LeetCode minimum-operations-to-make-array-elements-zero
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1799. Maximize Score After N Operations [H]
 // LeetCode maximize-score-after-n-operations
 

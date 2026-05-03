@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1944. Number of Visible People in a Queue [H]
 // LeetCode number-of-visible-people-in-a-queue
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 869. Reordered Power of 2 [M]
 // LeetCode reordered-power-of-2
 

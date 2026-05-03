@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1514. Path with Maximum Probability [M]
 // LeetCode path-with-maximum-probability
 

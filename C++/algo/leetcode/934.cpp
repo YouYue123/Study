@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 934. Shortest Bridge [M]
 // LeetCode shortest-bridge
 

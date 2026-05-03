@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 26. Remove Duplicates from Sorted Array [E]
 // LeetCode remove-duplicates-from-sorted-array
 

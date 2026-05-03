@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 813. Largest Sum of Averages [M]
 // LeetCode largest-sum-of-averages
 

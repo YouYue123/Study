@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2762. Continuous Subarrays [M]
 // LeetCode continuous-subarrays
 

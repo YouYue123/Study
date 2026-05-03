@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1217. Minimum Cost to Move Chips to The Same Position [E]
 // LeetCode minimum-cost-to-move-chips-to-the-same-position
 

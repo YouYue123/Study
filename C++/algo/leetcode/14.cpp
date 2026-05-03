@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 14. Longest Common Prefix [E]
 // LeetCode longest-common-prefix
 

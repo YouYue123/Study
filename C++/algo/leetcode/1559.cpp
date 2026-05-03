@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1559. Detect Cycles in 2D Grid [M]
 // LeetCode detect-cycles-in-2d-grid
 

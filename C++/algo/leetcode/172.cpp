@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 172. Factorial Trailing Zeroes [M]
 // LeetCode factorial-trailing-zeroes
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2597. The Number of Beautiful Subsets [M]
 // LeetCode the-number-of-beautiful-subsets
 

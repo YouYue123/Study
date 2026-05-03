@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1011. Capacity To Ship Packages Within D Days [M]
 // LeetCode capacity-to-ship-packages-within-d-days
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 396. Rotate Function [M]
 // LeetCode rotate-function
 

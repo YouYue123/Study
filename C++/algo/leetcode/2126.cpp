@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2126. Destroying Asteroids [M]
 // LeetCode destroying-asteroids
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3613. Minimize Maximum Component Cost [M]
 // LeetCode minimize-maximum-component-cost
 

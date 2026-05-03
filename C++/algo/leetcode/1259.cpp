@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1259. Handshakes That Don't Cross [H]
 // LeetCode handshakes-that-dont-cross
 

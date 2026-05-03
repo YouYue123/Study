@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3474. Lexicographically Smallest Generated String [H]
 // LeetCode lexicographically-smallest-generated-string
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3472. Longest Palindromic Subsequence After at Most K Operations [M]
 // LeetCode longest-palindromic-subsequence-after-at-most-k-operations
 

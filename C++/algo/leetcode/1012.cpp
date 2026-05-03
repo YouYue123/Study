@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1012. Numbers With Repeated Digits [H]
 // LeetCode numbers-with-repeated-digits
 

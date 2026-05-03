@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 901. Online Stock Span [M]
 // LeetCode online-stock-span
 

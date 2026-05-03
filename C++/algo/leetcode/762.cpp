@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 762. Prime Number of Set Bits in Binary Representation [E]
 // LeetCode prime-number-of-set-bits-in-binary-representation
 

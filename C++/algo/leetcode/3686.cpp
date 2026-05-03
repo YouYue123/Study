@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3686. Number of Stable Subsequences [H]
 // LeetCode number-of-stable-subsequences
 

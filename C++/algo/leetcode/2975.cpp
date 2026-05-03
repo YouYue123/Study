@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2975. Maximum Square Area by Removing Fences From a Field [M]
 // LeetCode maximum-square-area-by-removing-fences-from-a-field
 

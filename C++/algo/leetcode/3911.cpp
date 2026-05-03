@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3911. K-th Smallest Remaining Even Integer in Subarray Queries [H]
 // LeetCode k-th-smallest-remaining-even-integer-in-subarray-queries
 

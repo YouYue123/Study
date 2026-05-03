@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3315. Construct the Minimum Bitwise Array II [M]
 // LeetCode construct-the-minimum-bitwise-array-ii
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 122. Best Time to Buy and Sell Stock II [M]
 // LeetCode best-time-to-buy-and-sell-stock-ii
 

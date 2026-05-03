@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1431. Kids With the Greatest Number of Candies [E]
 // LeetCode kids-with-the-greatest-number-of-candies
 

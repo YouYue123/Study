@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1095. Find in Mountain Array [H]
 // LeetCode find-in-mountain-array
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2799. Count Complete Subarrays in an Array [M]
 // LeetCode count-complete-subarrays-in-an-array
 

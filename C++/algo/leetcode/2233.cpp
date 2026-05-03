@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2233. Maximum Product After K Increments [M]
 // LeetCode maximum-product-after-k-increments
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 522. Longest Uncommon Subsequence II [M]
 // LeetCode longest-uncommon-subsequence-ii
 

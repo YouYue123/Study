@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2088. Count Fertile Pyramids in a Land [H]
 // LeetCode count-fertile-pyramids-in-a-land
 

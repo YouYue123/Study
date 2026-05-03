@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 664. Strange Printer [H]
 // LeetCode strange-printer
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2401. Longest Nice Subarray [M]
 // LeetCode longest-nice-subarray
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 375. Guess Number Higher or Lower II [M]
 // LeetCode guess-number-higher-or-lower-ii
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 556. Next Greater Element III [M]
 // LeetCode next-greater-element-iii
 

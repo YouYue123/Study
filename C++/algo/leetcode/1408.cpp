@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1408. String Matching in an Array [E]
 // LeetCode string-matching-in-an-array
 

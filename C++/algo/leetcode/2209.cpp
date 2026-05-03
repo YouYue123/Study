@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2209. Minimum White Tiles After Covering With Carpets [H]
 // LeetCode minimum-white-tiles-after-covering-with-carpets
 

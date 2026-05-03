@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3234. Count the Number of Substrings With Dominant Ones [M]
 // LeetCode count-the-number-of-substrings-with-dominant-ones
 

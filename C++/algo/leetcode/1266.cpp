@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1266. Minimum Time Visiting All Points [E]
 // LeetCode minimum-time-visiting-all-points
 

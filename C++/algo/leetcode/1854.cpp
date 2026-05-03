@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1854. Maximum Population Year [E]
 // LeetCode maximum-population-year
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1390. Four Divisors [M]
 // LeetCode four-divisors
 

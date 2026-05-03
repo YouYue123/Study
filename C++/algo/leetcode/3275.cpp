@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3275. K-th Nearest Obstacle Queries [M]
 // LeetCode k-th-nearest-obstacle-queries
 

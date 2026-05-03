@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2147. Number of Ways to Divide a Long Corridor [H]
 // LeetCode number-of-ways-to-divide-a-long-corridor
 

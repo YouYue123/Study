@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3637. Trionic Array I [E]
 // LeetCode trionic-array-i
 

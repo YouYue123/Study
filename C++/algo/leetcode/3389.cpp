@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3389. Minimum Operations to Make Character Frequencies Equal [H]
 // LeetCode minimum-operations-to-make-character-frequencies-equal
 

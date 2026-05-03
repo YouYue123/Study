@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 352. Data Stream as Disjoint Intervals [H]
 // LeetCode data-stream-as-disjoint-intervals
 

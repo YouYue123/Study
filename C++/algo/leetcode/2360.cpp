@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2360. Longest Cycle in a Graph [H]
 // LeetCode longest-cycle-in-a-graph
 

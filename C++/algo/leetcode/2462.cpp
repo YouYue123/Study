@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2462. Total Cost to Hire K Workers [M]
 // LeetCode total-cost-to-hire-k-workers
 

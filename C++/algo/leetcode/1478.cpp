@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1478. Allocate Mailboxes [H]
 // LeetCode allocate-mailboxes
 

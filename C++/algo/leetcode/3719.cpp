@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3719. Longest Balanced Subarray I [M]
 // LeetCode longest-balanced-subarray-i
 

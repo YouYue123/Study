@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3130. Find All Possible Stable Binary Arrays II [H]
 // LeetCode find-all-possible-stable-binary-arrays-ii
 

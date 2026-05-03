@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3598. Longest Common Prefix Between Adjacent Strings After Removals [M]
 // LeetCode longest-common-prefix-between-adjacent-strings-after-removals
 

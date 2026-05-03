@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3205. Maximum Array Hopping Score I [M]
 // LeetCode maximum-array-hopping-score-i
 

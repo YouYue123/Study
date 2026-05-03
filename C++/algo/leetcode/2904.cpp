@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2904. Shortest and Lexicographically Smallest Beautiful String [M]
 // LeetCode shortest-and-lexicographically-smallest-beautiful-string
 

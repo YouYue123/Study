@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2242. Maximum Score of a Node Sequence [H]
 // LeetCode maximum-score-of-a-node-sequence
 

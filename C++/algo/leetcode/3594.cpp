@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3594. Minimum Time to Transport All Individuals [H]
 // LeetCode minimum-time-to-transport-all-individuals
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2746. Decremental String Concatenation [M]
 // LeetCode decremental-string-concatenation
 

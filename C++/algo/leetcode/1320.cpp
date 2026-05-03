@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1320. Minimum Distance to Type a Word Using Two Fingers [H]
 // LeetCode minimum-distance-to-type-a-word-using-two-fingers
 

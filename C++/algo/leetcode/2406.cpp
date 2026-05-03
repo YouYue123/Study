@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2406. Divide Intervals Into Minimum Number of Groups [M]
 // LeetCode divide-intervals-into-minimum-number-of-groups
 

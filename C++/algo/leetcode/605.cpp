@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 605. Can Place Flowers [E]
 // LeetCode can-place-flowers
 

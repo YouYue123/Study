@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2840. Check if Strings Can be Made Equal With Operations II [M]
 // LeetCode check-if-strings-can-be-made-equal-with-operations-ii
 

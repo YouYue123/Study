@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 915. Partition Array into Disjoint Intervals [M]
 // LeetCode partition-array-into-disjoint-intervals
 

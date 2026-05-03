@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2495. Number of Subarrays Having Even Product [M]
 // LeetCode number-of-subarrays-having-even-product
 

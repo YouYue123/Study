@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1512. Number of Good Pairs [E]
 // LeetCode number-of-good-pairs
 

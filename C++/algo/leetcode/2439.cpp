@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2439. Minimize Maximum of Array [M]
 // LeetCode minimize-maximum-of-array
 

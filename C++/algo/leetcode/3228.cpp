@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3228. Maximum Number of Operations to Move Ones to the End [M]
 // LeetCode maximum-number-of-operations-to-move-ones-to-the-end
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1130. Minimum Cost Tree From Leaf Values [M]
 // LeetCode minimum-cost-tree-from-leaf-values
 

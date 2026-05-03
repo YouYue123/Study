@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 228. Summary Ranges [E]
 // LeetCode summary-ranges
 

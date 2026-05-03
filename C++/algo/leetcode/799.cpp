@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 799. Champagne Tower [M]
 // LeetCode champagne-tower
 

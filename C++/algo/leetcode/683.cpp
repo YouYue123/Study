@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 683. K Empty Slots [H]
 // LeetCode k-empty-slots
 

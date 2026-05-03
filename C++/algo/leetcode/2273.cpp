@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2273. Find Resultant Array After Removing Anagrams [E]
 // LeetCode find-resultant-array-after-removing-anagrams
 

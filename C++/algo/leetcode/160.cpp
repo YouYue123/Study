@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 160. Intersection of Two Linked Lists [E]
 // LeetCode intersection-of-two-linked-lists
 

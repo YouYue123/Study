@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2873. Maximum Value of an Ordered Triplet I [E]
 // LeetCode maximum-value-of-an-ordered-triplet-i
 

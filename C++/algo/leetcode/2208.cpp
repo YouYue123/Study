@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2208. Minimum Operations to Halve Array Sum [M]
 // LeetCode minimum-operations-to-halve-array-sum
 

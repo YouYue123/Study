@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3394. Check if Grid can be Cut into Sections [M]
 // LeetCode check-if-grid-can-be-cut-into-sections
 

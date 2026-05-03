@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2271. Maximum White Tiles Covered by a Carpet [M]
 // LeetCode maximum-white-tiles-covered-by-a-carpet
 

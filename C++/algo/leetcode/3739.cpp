@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3739. Count Subarrays With Majority Element II [H]
 // LeetCode count-subarrays-with-majority-element-ii
 

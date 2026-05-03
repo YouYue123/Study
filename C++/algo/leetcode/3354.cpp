@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3354. Make Array Elements Equal to Zero [E]
 // LeetCode make-array-elements-equal-to-zero
 

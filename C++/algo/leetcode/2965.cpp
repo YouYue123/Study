@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2965. Find Missing and Repeated Values [E]
 // LeetCode find-missing-and-repeated-values
 

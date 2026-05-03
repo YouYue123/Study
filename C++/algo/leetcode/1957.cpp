@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1957. Delete Characters to Make Fancy String [E]
 // LeetCode delete-characters-to-make-fancy-string
 

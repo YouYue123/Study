@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 118. Pascal's Triangle [E]
 // LeetCode pascals-triangle
 

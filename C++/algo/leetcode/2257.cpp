@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2257. Count Unguarded Cells in the Grid [M]
 // LeetCode count-unguarded-cells-in-the-grid
 

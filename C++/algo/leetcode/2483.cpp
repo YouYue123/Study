@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2483. Minimum Penalty for a Shop [M]
 // LeetCode minimum-penalty-for-a-shop
 

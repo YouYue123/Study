@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2976. Minimum Cost to Convert String I [M]
 // LeetCode minimum-cost-to-convert-string-i
 

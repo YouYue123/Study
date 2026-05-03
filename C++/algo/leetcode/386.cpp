@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 386. Lexicographical Numbers [M]
 // LeetCode lexicographical-numbers
 

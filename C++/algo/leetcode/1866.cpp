@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1866. Number of Ways to Rearrange Sticks With K Sticks Visible [H]
 // LeetCode number-of-ways-to-rearrange-sticks-with-k-sticks-visible
 

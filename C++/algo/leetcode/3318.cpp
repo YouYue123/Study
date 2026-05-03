@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3318. Find X-Sum of All K-Long Subarrays I [E]
 // LeetCode find-x-sum-of-all-k-long-subarrays-i
 

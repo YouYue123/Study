@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 211. Design Add and Search Words Data Structure [M]
 // LeetCode design-add-and-search-words-data-structure
 

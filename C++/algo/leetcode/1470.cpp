@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1470. Shuffle the Array [E]
 // LeetCode shuffle-the-array
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1610. Maximum Number of Visible Points [H]
 // LeetCode maximum-number-of-visible-points
 

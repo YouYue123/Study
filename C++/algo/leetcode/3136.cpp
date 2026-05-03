@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3136. Valid Word [E]
 // LeetCode valid-word
 

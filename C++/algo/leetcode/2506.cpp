@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2506. Count Pairs Of Similar Strings [E]
 // LeetCode count-pairs-of-similar-strings
 

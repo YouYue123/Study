@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3296. Minimum Number of Seconds to Make Mountain Height Zero [M]
 // LeetCode minimum-number-of-seconds-to-make-mountain-height-zero
 

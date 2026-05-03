@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 421. Maximum XOR of Two Numbers in an Array [M]
 // LeetCode maximum-xor-of-two-numbers-in-an-array
 

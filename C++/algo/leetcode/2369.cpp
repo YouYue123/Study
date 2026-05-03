@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2369. Check if There is a Valid Partition For The Array [M]
 // LeetCode check-if-there-is-a-valid-partition-for-the-array
 

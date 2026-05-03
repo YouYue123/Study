@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1128. Number of Equivalent Domino Pairs [E]
 // LeetCode number-of-equivalent-domino-pairs
 

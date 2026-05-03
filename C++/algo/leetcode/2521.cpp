@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2521. Distinct Prime Factors of Product of Array [M]
 // LeetCode distinct-prime-factors-of-product-of-array
 

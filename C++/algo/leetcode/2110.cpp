@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2110. Number of Smooth Descent Periods of a Stock [M]
 // LeetCode number-of-smooth-descent-periods-of-a-stock
 

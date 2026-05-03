@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 752. Open the Lock [M]
 // LeetCode open-the-lock
 

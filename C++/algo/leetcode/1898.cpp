@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1898. Maximum Number of Removable Characters [M]
 // LeetCode maximum-number-of-removable-characters
 

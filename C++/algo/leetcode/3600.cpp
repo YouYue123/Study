@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3600. Maximize Spanning Tree Stability with Upgrades [H]
 // LeetCode maximize-spanning-tree-stability-with-upgrades
 

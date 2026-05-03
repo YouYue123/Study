@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2943. Maximize Area of Square Hole in Grid [M]
 // LeetCode maximize-area-of-square-hole-in-grid
 

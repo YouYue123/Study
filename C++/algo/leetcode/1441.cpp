@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1441. Build an Array With Stack Operations [M]
 // LeetCode build-an-array-with-stack-operations
 

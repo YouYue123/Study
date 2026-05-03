@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2106. Maximum Fruits Harvested After at Most K Steps [H]
 // LeetCode maximum-fruits-harvested-after-at-most-k-steps
 

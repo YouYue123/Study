@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2131. Longest Palindrome by Concatenating Two Letter Words [M]
 // LeetCode longest-palindrome-by-concatenating-two-letter-words
 

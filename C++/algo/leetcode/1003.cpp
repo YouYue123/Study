@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1003. Check If Word Is Valid After Substitutions [M]
 // LeetCode check-if-word-is-valid-after-substitutions
 

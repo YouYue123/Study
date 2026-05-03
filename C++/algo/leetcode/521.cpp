@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 521. Longest Uncommon Subsequence I [E]
 // LeetCode longest-uncommon-subsequence-i
 

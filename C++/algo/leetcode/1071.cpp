@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1071. Greatest Common Divisor of Strings [E]
 // LeetCode greatest-common-divisor-of-strings
 

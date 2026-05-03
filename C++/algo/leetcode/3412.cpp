@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3412. Find Mirror Score of a String [M]
 // LeetCode find-mirror-score-of-a-string
 

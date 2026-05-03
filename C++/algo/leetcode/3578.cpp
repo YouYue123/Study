@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3578. Count Partitions With Max-Min Difference at Most K [M]
 // LeetCode count-partitions-with-max-min-difference-at-most-k
 

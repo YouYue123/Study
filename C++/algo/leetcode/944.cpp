@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 944. Delete Columns to Make Sorted [E]
 // LeetCode delete-columns-to-make-sorted
 

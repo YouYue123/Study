@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2843.   Count Symmetric Integers [E]
 // LeetCode count-symmetric-integers
 

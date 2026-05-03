@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 231. Power of Two [E]
 // LeetCode power-of-two
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 947. Most Stones Removed with Same Row or Column [M]
 // LeetCode most-stones-removed-with-same-row-or-column
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2001. Number of Pairs of Interchangeable Rectangles [M]
 // LeetCode number-of-pairs-of-interchangeable-rectangles
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 528. Random Pick with Weight [M]
 // LeetCode random-pick-with-weight
 

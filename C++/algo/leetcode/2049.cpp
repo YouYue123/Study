@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2049. Count Nodes With the Highest Score [M]
 // LeetCode count-nodes-with-the-highest-score
 

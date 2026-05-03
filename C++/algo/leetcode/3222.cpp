@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3222. Find the Winning Player in Coin Game [E]
 // LeetCode find-the-winning-player-in-coin-game
 

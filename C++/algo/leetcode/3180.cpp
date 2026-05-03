@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3180. Maximum Total Reward Using Operations I [M]
 // LeetCode maximum-total-reward-using-operations-i
 

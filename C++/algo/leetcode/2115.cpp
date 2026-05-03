@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2115. Find All Possible Recipes from Given Supplies [M]
 // LeetCode find-all-possible-recipes-from-given-supplies
 

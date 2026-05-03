@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1664. Ways to Make a Fair Array [M]
 // LeetCode ways-to-make-a-fair-array
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 547. Number of Provinces [M]
 // LeetCode number-of-provinces
 

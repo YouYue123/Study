@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 120. Triangle [M]
 // LeetCode triangle
 

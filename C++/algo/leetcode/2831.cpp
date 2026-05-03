@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2831. Find the Longest Equal Subarray [M]
 // LeetCode find-the-longest-equal-subarray
 

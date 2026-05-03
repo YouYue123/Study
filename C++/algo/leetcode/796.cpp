@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 796. Rotate String [E]
 // LeetCode rotate-string
 

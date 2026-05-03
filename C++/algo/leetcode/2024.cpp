@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2024. Maximize the Confusion of an Exam [M]
 // LeetCode maximize-the-confusion-of-an-exam
 

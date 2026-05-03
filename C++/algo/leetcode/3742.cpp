@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3742. Maximum Path Score in a Grid [M]
 // LeetCode maximum-path-score-in-a-grid
 

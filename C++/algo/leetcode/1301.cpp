@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1301. Number of Paths with Max Score [H]
 // LeetCode number-of-paths-with-max-score
 

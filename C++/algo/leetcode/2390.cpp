@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2390. Removing Stars From a String [M]
 // LeetCode removing-stars-from-a-string
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 317. Shortest Distance from All Buildings [H]
 // LeetCode shortest-distance-from-all-buildings
 

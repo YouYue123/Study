@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2400. Number of Ways to Reach a Position After Exactly k Steps [M]
 // LeetCode number-of-ways-to-reach-a-position-after-exactly-k-steps
 

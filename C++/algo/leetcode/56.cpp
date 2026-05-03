@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 56. Merge Intervals [M]
 // LeetCode merge-intervals
 

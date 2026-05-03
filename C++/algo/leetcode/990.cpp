@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 990. Satisfiability of Equality Equations [M]
 // LeetCode satisfiability-of-equality-equations
 

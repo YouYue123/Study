@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2431. Maximize Total Tastiness of Purchased Fruits [M]
 // LeetCode maximize-total-tastiness-of-purchased-fruits
 

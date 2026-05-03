@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1780. Check if Number is a Sum of Powers of Three [M]
 // LeetCode check-if-number-is-a-sum-of-powers-of-three
 

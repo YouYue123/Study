@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 526. Beautiful Arrangement [M]
 // LeetCode beautiful-arrangement
 

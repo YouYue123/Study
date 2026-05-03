@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 743. Network Delay Time [M]
 // LeetCode network-delay-time
 

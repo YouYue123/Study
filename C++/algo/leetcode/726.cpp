@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 726. Number of Atoms [H]
 // LeetCode number-of-atoms
 

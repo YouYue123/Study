@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1749. Maximum Absolute Sum of Any Subarray [M]
 // LeetCode maximum-absolute-sum-of-any-subarray
 

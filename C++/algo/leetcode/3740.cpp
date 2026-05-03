@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3740. Minimum Distance Between Three Equal Elements I [E]
 // LeetCode minimum-distance-between-three-equal-elements-i
 

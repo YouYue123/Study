@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 362. Design Hit Counter [M]
 // LeetCode design-hit-counter
 

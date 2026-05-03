@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1020. Number of Enclaves [M]
 // LeetCode number-of-enclaves
 

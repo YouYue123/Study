@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3082. Find the Sum of the Power of All Subsequences [H]
 // LeetCode find-the-sum-of-the-power-of-all-subsequences
 

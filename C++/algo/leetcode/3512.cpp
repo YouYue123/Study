@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3512. Minimum Operations to Make Array Sum Divisible by K [E]
 // LeetCode minimum-operations-to-make-array-sum-divisible-by-k
 

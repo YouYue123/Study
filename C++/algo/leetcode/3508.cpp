@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3508. Implement Router [M]
 // LeetCode implement-router
 

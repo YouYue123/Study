@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 657. Robot Return to Origin [E]
 // LeetCode robot-return-to-origin
 

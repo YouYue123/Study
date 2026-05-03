@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 5. Longest Palindromic Substring [M]
 // LeetCode longest-palindromic-substring
 

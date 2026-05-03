@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2960. Count Tested Devices After Test Operations [E]
 // LeetCode count-tested-devices-after-test-operations
 

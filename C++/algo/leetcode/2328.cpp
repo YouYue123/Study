@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2328. Number of Increasing Paths in a Grid [H]
 // LeetCode number-of-increasing-paths-in-a-grid
 

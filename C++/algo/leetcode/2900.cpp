@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2900. Longest Unequal Adjacent Groups Subsequence I [E]
 // LeetCode longest-unequal-adjacent-groups-subsequence-i
 

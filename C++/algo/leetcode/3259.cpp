@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3259. Maximum Energy Boost From Two Drinks [M]
 // LeetCode maximum-energy-boost-from-two-drinks
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1055. Shortest Way to Form String [M]
 // LeetCode shortest-way-to-form-string
 

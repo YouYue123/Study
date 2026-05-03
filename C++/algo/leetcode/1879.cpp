@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1879. Minimum XOR Sum of Two Arrays [H]
 // LeetCode minimum-xor-sum-of-two-arrays
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 767. Reorganize String [M]
 // LeetCode reorganize-string
 

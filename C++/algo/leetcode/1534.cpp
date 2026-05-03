@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1534. Count Good Triplets [E]
 // LeetCode count-good-triplets
 

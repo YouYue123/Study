@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 651. 4 Keys Keyboard [M]
 // LeetCode 4-keys-keyboard
 

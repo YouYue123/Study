@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2322. Minimum Score After Removals on a Tree [H]
 // LeetCode minimum-score-after-removals-on-a-tree
 

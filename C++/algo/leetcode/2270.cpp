@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2270. Number of Ways to Split Array [M]
 // LeetCode number-of-ways-to-split-array
 

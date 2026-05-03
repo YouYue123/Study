@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1542. Find Longest Awesome Substring [H]
 // LeetCode find-longest-awesome-substring
 

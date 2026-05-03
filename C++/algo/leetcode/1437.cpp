@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1437. Check If All 1's Are at Least Length K Places Away [E]
 // LeetCode check-if-all-1s-are-at-least-length-k-places-away
 

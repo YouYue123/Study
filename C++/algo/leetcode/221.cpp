@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 221. Maximal Square [M]
 // LeetCode maximal-square
 

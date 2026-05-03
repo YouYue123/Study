@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1092. Shortest Common Supersequence  [H]
 // LeetCode shortest-common-supersequence
 

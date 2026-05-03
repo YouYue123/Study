@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3370. Smallest Number With All Set Bits [E]
 // LeetCode smallest-number-with-all-set-bits
 

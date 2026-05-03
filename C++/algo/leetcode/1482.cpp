@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1482. Minimum Number of Days to Make m Bouquets [M]
 // LeetCode minimum-number-of-days-to-make-m-bouquets
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 66. Plus One [E]
 // LeetCode plus-one
 

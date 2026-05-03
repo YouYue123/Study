@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1014. Best Sightseeing Pair [M]
 // LeetCode best-sightseeing-pair
 

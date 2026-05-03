@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1984. Minimum Difference Between Highest and Lowest of K Scores [E]
 // LeetCode minimum-difference-between-highest-and-lowest-of-k-scores
 

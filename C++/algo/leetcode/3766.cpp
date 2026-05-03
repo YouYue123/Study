@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3766. Minimum Operations to Make Binary Palindrome [M]
 // LeetCode minimum-operations-to-make-binary-palindrome
 

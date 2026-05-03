@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2111. Minimum Operations to Make the Array K-Increasing [H]
 // LeetCode minimum-operations-to-make-the-array-k-increasing
 

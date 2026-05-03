@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 753. Cracking the Safe [H]
 // LeetCode cracking-the-safe
 

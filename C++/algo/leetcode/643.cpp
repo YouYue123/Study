@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 643. Maximum Average Subarray I [E]
 // LeetCode maximum-average-subarray-i
 

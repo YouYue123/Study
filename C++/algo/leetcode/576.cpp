@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 576. Out of Boundary Paths [M]
 // LeetCode out-of-boundary-paths
 

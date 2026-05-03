@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2561. Rearranging Fruits [H]
 // LeetCode rearranging-fruits
 

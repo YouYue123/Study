@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1386. Cinema Seat Allocation [M]
 // LeetCode cinema-seat-allocation
 

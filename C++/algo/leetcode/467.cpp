@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 467. Unique Substrings in Wraparound String [M]
 // LeetCode unique-substrings-in-wraparound-string
 

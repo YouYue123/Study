@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3349. Adjacent Increasing Subarrays Detection I [E]
 // LeetCode adjacent-increasing-subarrays-detection-i
 

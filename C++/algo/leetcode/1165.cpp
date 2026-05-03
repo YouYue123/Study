@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1165. Single-Row Keyboard [E]
 // LeetCode single-row-keyboard
 

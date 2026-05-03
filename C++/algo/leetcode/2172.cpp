@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2172. Maximum AND Sum of Array [H]
 // LeetCode maximum-and-sum-of-array
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2352. Equal Row and Column Pairs [M]
 // LeetCode equal-row-and-column-pairs
 

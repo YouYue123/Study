@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 930. Binary Subarrays With Sum [M]
 // LeetCode binary-subarrays-with-sum
 

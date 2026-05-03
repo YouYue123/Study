@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3872. Longest Arithmetic Sequence After Changing At Most One Element [M]
 // LeetCode longest-arithmetic-sequence-after-changing-at-most-one-element
 

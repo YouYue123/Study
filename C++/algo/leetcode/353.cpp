@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 353. Design Snake Game [M]
 // LeetCode design-snake-game
 

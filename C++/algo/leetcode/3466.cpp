@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3466. Maximum Coin Collection  [M]
 // LeetCode maximum-coin-collection
 

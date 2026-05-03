@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 392. Is Subsequence [E]
 // LeetCode is-subsequence
 

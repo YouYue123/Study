@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2403. Minimum Time to Kill All Monsters [H]
 // LeetCode minimum-time-to-kill-all-monsters
 

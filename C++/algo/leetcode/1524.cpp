@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1524. Number of Sub-arrays With Odd Sum [M]
 // LeetCode number-of-sub-arrays-with-odd-sum
 

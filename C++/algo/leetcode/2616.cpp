@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2616. Minimize the Maximum Difference of Pairs [M]
 // LeetCode minimize-the-maximum-difference-of-pairs
 

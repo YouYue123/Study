@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2318. Number of Distinct Roll Sequences [H]
 // LeetCode number-of-distinct-roll-sequences
 

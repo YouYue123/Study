@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3288. Length of the Longest Increasing Path [H]
 // LeetCode length-of-the-longest-increasing-path
 

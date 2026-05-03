@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2507. Smallest Value After Replacing With Sum of Prime Factors [M]
 // LeetCode smallest-value-after-replacing-with-sum-of-prime-factors
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1170. Compare Strings by Frequency of the Smallest Character [M]
 // LeetCode compare-strings-by-frequency-of-the-smallest-character
 

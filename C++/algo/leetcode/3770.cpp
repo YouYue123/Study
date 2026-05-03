@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3770. Largest Prime from Consecutive Prime Sum [M]
 // LeetCode largest-prime-from-consecutive-prime-sum
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 946. Validate Stack Sequences [M]
 // LeetCode validate-stack-sequences
 

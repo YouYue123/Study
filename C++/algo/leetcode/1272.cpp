@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1272. Remove Interval [M]
 // LeetCode remove-interval
 

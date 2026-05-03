@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3144. Minimum Substring Partition of Equal Character Frequency [M]
 // LeetCode minimum-substring-partition-of-equal-character-frequency
 

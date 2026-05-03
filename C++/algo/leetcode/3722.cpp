@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3722. Lexicographically Smallest String After Reverse [M]
 // LeetCode lexicographically-smallest-string-after-reverse
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2501. Longest Square Streak in an Array [M]
 // LeetCode longest-square-streak-in-an-array
 

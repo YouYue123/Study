@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2992. Number of Self-Divisible Permutations [M]
 // LeetCode number-of-self-divisible-permutations
 

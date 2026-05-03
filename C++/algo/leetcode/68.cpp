@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 68. Text Justification [H]
 // LeetCode text-justification
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1444. Number of Ways of Cutting a Pizza [H]
 // LeetCode number-of-ways-of-cutting-a-pizza
 

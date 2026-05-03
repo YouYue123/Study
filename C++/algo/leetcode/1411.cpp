@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1411. Number of Ways to Paint N × 3 Grid [H]
 // LeetCode number-of-ways-to-paint-n-3-grid
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 481. Magical String [M]
 // LeetCode magical-string
 

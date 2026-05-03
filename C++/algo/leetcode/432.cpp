@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 432. All O`one Data Structure [H]
 // LeetCode all-oone-data-structure
 

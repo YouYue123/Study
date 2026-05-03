@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3316. Find Maximum Removals From Source String [M]
 // LeetCode find-maximum-removals-from-source-string
 

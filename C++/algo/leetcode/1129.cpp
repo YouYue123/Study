@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1129. Shortest Path with Alternating Colors [M]
 // LeetCode shortest-path-with-alternating-colors
 

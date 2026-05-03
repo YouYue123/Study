@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1490. Clone N-ary Tree [M]
 // LeetCode clone-n-ary-tree
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3477. Fruits Into Baskets II [E]
 // LeetCode fruits-into-baskets-ii
 

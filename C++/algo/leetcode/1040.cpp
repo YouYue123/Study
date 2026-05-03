@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1040. Moving Stones Until Consecutive II [M]
 // LeetCode moving-stones-until-consecutive-ii
 

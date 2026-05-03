@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 6. Zigzag Conversion [M]
 // LeetCode zigzag-conversion
 

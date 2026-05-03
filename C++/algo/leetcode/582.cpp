@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 582. Kill Process [M]
 // LeetCode kill-process
 

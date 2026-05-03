@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1277. Count Square Submatrices with All Ones [M]
 // LeetCode count-square-submatrices-with-all-ones
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3876. Construct Uniform Parity Array II [M]
 // LeetCode construct-uniform-parity-array-ii
 

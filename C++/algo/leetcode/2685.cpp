@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2685. Count the Number of Complete Components [M]
 // LeetCode count-the-number-of-complete-components
 

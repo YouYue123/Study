@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 696. Count Binary Substrings [E]
 // LeetCode count-binary-substrings
 

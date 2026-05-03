@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3264. Final Array State After K Multiplication Operations I [E]
 // LeetCode final-array-state-after-k-multiplication-operations-i
 

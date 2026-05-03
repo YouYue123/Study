@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 456. 132 Pattern [M]
 // LeetCode 132-pattern
 

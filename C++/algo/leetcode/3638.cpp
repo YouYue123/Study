@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3638. Maximum Balanced Shipments [M]
 // LeetCode maximum-balanced-shipments
 

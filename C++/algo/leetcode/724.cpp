@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 724. Find Pivot Index [E]
 // LeetCode find-pivot-index
 

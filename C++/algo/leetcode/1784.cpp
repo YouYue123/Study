@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1784. Check if Binary String Has at Most One Segment of Ones [E]
 // LeetCode check-if-binary-string-has-at-most-one-segment-of-ones
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3269. Constructing Two Increasing Arrays [H]
 // LeetCode constructing-two-increasing-arrays
 

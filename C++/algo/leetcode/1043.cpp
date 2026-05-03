@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1043. Partition Array for Maximum Sum [M]
 // LeetCode partition-array-for-maximum-sum
 

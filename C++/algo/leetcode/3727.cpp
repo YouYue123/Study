@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3727. Maximum Alternating Sum of Squares [M]
 // LeetCode maximum-alternating-sum-of-squares
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2966. Divide Array Into Arrays With Max Difference [M]
 // LeetCode divide-array-into-arrays-with-max-difference
 

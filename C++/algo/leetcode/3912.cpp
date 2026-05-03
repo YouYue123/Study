@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3912. Valid Elements in an Array [E]
 // LeetCode valid-elements-in-an-array
 

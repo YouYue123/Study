@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 520. Detect Capital [E]
 // LeetCode detect-capital
 

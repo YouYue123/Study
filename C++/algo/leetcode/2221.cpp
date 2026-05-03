@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2221. Find Triangular Sum of an Array [M]
 // LeetCode find-triangular-sum-of-an-array
 

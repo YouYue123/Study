@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 155. Min Stack [M]
 // LeetCode min-stack
 

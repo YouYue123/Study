@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3587. Minimum Adjacent Swaps to Alternate Parity [M]
 // LeetCode minimum-adjacent-swaps-to-alternate-parity
 

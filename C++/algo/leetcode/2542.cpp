@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2542. Maximum Subsequence Score [M]
 // LeetCode maximum-subsequence-score
 

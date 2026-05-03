@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 276. Paint Fence [M]
 // LeetCode paint-fence
 

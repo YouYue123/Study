@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 86. Partition List [M]
 // LeetCode partition-list
 

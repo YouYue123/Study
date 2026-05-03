@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3591. Check if Any Element Has Prime Frequency [E]
 // LeetCode check-if-any-element-has-prime-frequency
 

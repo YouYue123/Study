@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 588. Design In-Memory File System [H]
 // LeetCode design-in-memory-file-system
 

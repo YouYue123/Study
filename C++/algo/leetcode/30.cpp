@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 30. Substring with Concatenation of All Words [H]
 // LeetCode substring-with-concatenation-of-all-words
 

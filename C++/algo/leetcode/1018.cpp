@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1018. Binary Prefix Divisible By 5 [E]
 // LeetCode binary-prefix-divisible-by-5
 

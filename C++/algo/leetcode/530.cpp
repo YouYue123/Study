@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 530. Minimum Absolute Difference in BST [E]
 // LeetCode minimum-absolute-difference-in-bst
 

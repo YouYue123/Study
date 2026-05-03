@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 855. Exam Room [M]
 // LeetCode exam-room
 

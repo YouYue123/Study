@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3531. Count Covered Buildings [M]
 // LeetCode count-covered-buildings
 

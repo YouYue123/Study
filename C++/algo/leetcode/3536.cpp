@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3536. Maximum Product of Two Digits [E]
 // LeetCode maximum-product-of-two-digits
 

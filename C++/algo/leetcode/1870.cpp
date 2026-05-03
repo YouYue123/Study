@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1870. Minimum Speed to Arrive on Time [M]
 // LeetCode minimum-speed-to-arrive-on-time
 

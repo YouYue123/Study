@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 682. Baseball Game [E]
 // LeetCode baseball-game
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1382. Balance a Binary Search Tree [M]
 // LeetCode balance-a-binary-search-tree
 

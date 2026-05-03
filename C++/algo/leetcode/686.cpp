@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 686. Repeated String Match [M]
 // LeetCode repeated-string-match
 

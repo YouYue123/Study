@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1658. Minimum Operations to Reduce X to Zero [M]
 // LeetCode minimum-operations-to-reduce-x-to-zero
 

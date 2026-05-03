@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2187. Minimum Time to Complete Trips [M]
 // LeetCode minimum-time-to-complete-trips
 

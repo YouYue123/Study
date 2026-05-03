@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2570. Merge Two 2D Arrays by Summing Values [E]
 // LeetCode merge-two-2d-arrays-by-summing-values
 

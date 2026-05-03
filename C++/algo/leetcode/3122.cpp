@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3122. Minimum Number of Operations to Satisfy Conditions [M]
 // LeetCode minimum-number-of-operations-to-satisfy-conditions
 

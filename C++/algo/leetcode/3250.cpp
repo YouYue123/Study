@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3250. Find the Count of Monotonic Pairs I [H]
 // LeetCode find-the-count-of-monotonic-pairs-i
 

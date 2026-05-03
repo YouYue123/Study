@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3480. Maximize Subarrays After Removing One Conflicting Pair [H]
 // LeetCode maximize-subarrays-after-removing-one-conflicting-pair
 

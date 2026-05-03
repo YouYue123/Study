@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2999. Count the Number of Powerful Integers [H]
 // LeetCode count-the-number-of-powerful-integers
 

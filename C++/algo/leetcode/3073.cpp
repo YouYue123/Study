@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3073. Maximum Increasing Triplet Value [M]
 // LeetCode maximum-increasing-triplet-value
 

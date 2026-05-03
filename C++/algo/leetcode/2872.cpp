@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2872. Maximum Number of K-Divisible Components [H]
 // LeetCode maximum-number-of-k-divisible-components
 

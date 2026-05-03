@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3405. Count the Number of Arrays with K Matching Adjacent Elements [H]
 // LeetCode count-the-number-of-arrays-with-k-matching-adjacent-elements
 

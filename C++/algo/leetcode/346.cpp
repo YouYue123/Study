@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 346. Moving Average from Data Stream [E]
 // LeetCode moving-average-from-data-stream
 

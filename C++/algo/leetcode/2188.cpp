@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2188. Minimum Time to Finish the Race [H]
 // LeetCode minimum-time-to-finish-the-race
 

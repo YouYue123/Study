@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2818. Apply Operations to Maximize Score [H]
 // LeetCode apply-operations-to-maximize-score
 

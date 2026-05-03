@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2145. Count the Hidden Sequences [M]
 // LeetCode count-the-hidden-sequences
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 349. Intersection of Two Arrays [E]
 // LeetCode intersection-of-two-arrays
 

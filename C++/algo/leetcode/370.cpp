@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 370. Range Addition [M]
 // LeetCode range-addition
 

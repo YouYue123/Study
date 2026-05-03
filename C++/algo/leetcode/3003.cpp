@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3003. Maximize the Number of Partitions After Operations [H]
 // LeetCode maximize-the-number-of-partitions-after-operations
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 487. Max Consecutive Ones II [M]
 // LeetCode max-consecutive-ones-ii
 

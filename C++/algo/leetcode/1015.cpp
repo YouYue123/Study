@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1015. Smallest Integer Divisible by K [M]
 // LeetCode smallest-integer-divisible-by-k
 

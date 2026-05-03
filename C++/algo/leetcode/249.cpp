@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 249. Group Shifted Strings [M]
 // LeetCode group-shifted-strings
 

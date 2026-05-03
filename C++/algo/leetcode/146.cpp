@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 146. LRU Cache [M]
 // LeetCode lru-cache
 

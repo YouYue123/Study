@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1959. Minimum Total Space Wasted With K Resizing Operations [M]
 // LeetCode minimum-total-space-wasted-with-k-resizing-operations
 

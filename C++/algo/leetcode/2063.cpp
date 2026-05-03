@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2063. Vowels of All Substrings [M]
 // LeetCode vowels-of-all-substrings
 

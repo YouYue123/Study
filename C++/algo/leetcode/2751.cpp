@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2751. Robot Collisions [H]
 // LeetCode robot-collisions
 

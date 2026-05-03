@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2684. Maximum Number of Moves in a Grid [M]
 // LeetCode maximum-number-of-moves-in-a-grid
 

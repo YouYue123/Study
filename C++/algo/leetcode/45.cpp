@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 45. Jump Game II [M]
 // LeetCode jump-game-ii
 

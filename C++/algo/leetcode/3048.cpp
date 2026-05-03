@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3048. Earliest Second to Mark Indices I [M]
 // LeetCode earliest-second-to-mark-indices-i
 

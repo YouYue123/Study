@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 809. Expressive Words [M]
 // LeetCode expressive-words
 

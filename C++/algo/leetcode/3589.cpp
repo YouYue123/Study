@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3589. Count Prime-Gap Balanced Subarrays [M]
 // LeetCode count-prime-gap-balanced-subarrays
 

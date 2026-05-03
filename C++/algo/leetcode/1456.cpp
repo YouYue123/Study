@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1456. Maximum Number of Vowels in a Substring of Given Length [M]
 // LeetCode maximum-number-of-vowels-in-a-substring-of-given-length
 

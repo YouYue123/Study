@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 191. Number of 1 Bits [E]
 // LeetCode number-of-1-bits
 

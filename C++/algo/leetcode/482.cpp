@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 482. License Key Formatting [E]
 // LeetCode license-key-formatting
 

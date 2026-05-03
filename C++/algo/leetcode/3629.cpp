@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3629. Minimum Jumps to Reach End via Prime Teleportation [M]
 // LeetCode minimum-jumps-to-reach-end-via-prime-teleportation
 

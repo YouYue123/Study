@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3532. Path Existence Queries in a Graph I [M]
 // LeetCode path-existence-queries-in-a-graph-i
 

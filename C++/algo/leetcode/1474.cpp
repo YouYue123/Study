@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1474. Delete N Nodes After M Nodes of a Linked List [E]
 // LeetCode delete-n-nodes-after-m-nodes-of-a-linked-list
 

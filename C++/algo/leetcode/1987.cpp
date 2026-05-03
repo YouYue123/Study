@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1987. Number of Unique Good Subsequences [H]
 // LeetCode number-of-unique-good-subsequences
 

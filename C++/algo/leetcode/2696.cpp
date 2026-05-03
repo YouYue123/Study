@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2696. Minimum String Length After Removing Substrings [E]
 // LeetCode minimum-string-length-after-removing-substrings
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 983. Minimum Cost For Tickets [M]
 // LeetCode minimum-cost-for-tickets
 

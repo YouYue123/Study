@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 649. Dota2 Senate [M]
 // LeetCode dota2-senate
 

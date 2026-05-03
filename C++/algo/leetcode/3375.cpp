@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3375. Minimum Operations to Make Array Values Equal to K [E]
 // LeetCode minimum-operations-to-make-array-values-equal-to-k
 

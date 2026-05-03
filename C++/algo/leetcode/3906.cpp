@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3906. Count Good Integers on a Grid Path [H]
 // LeetCode count-good-integers-on-a-grid-path
 

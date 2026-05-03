@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1146. Snapshot Array [M]
 // LeetCode snapshot-array
 

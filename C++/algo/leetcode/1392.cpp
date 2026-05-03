@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1392. Longest Happy Prefix [H]
 // LeetCode longest-happy-prefix
 

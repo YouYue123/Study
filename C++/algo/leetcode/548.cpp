@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 548. Split Array with Equal Sum [H]
 // LeetCode split-array-with-equal-sum
 

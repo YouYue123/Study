@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1066. Campus Bikes II [M]
 // LeetCode campus-bikes-ii
 

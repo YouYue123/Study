@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2141. Maximum Running Time of N Computers [H]
 // LeetCode maximum-running-time-of-n-computers
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2909. Minimum Sum of Mountain Triplets II [M]
 // LeetCode minimum-sum-of-mountain-triplets-ii
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2513. Minimize the Maximum of Two Arrays [M]
 // LeetCode minimize-the-maximum-of-two-arrays
 

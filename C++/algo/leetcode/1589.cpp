@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1589. Maximum Sum Obtained of Any Permutation [M]
 // LeetCode maximum-sum-obtained-of-any-permutation
 

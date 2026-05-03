@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3644. Maximum K to Sort a Permutation [M]
 // LeetCode maximum-k-to-sort-a-permutation
 

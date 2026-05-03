@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2067. Number of Equal Count Substrings [M]
 // LeetCode number-of-equal-count-substrings
 

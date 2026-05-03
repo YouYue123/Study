@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2200. Find All K-Distant Indices in an Array [E]
 // LeetCode find-all-k-distant-indices-in-an-array
 

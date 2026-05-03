@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 51. N-Queens [H]
 // LeetCode n-queens
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1578. Minimum Time to Make Rope Colorful [M]
 // LeetCode minimum-time-to-make-rope-colorful
 

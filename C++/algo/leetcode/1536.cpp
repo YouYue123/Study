@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1536. Minimum Swaps to Arrange a Binary Grid [M]
 // LeetCode minimum-swaps-to-arrange-a-binary-grid
 

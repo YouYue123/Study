@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1090. Largest Values From Labels [M]
 // LeetCode largest-values-from-labels
 

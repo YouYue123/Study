@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3306. Count of Substrings Containing Every Vowel and K Consonants II [M]
 // LeetCode count-of-substrings-containing-every-vowel-and-k-consonants-ii
 

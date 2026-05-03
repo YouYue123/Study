@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3567. Minimum Absolute Difference in Sliding Submatrix [M]
 // LeetCode minimum-absolute-difference-in-sliding-submatrix
 

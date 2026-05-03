@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 33. Search in Rotated Sorted Array [M]
 // LeetCode search-in-rotated-sorted-array
 

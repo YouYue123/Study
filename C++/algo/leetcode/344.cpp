@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 344. Reverse String [E]
 // LeetCode reverse-string
 

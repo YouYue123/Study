@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1049. Last Stone Weight II [M]
 // LeetCode last-stone-weight-ii
 

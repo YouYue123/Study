@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1756. Design Most Recently Used Queue [M]
 // LeetCode design-most-recently-used-queue
 

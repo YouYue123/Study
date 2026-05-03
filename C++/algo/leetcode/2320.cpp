@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2320. Count Number of Ways to Place Houses [M]
 // LeetCode count-number-of-ways-to-place-houses
 

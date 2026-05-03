@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2533. Number of Good Binary Strings [M]
 // LeetCode number-of-good-binary-strings
 

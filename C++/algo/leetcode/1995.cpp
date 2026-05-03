@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1995. Count Special Quadruplets [E]
 // LeetCode count-special-quadruplets
 

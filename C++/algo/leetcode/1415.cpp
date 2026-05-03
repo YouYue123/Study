@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1415. The k-th Lexicographical String of All Happy Strings of Length n [M]
 // LeetCode the-k-th-lexicographical-string-of-all-happy-strings-of-length-n
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1394. Find Lucky Integer in an Array [E]
 // LeetCode find-lucky-integer-in-an-array
 

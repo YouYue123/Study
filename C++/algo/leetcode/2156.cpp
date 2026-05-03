@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2156. Find Substring With Given Hash Value [H]
 // LeetCode find-substring-with-given-hash-value
 

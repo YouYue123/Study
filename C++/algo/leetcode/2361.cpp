@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2361. Minimum Costs Using the Train Line [H]
 // LeetCode minimum-costs-using-the-train-line
 

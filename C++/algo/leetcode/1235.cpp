@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1235. Maximum Profit in Job Scheduling [H]
 // LeetCode maximum-profit-in-job-scheduling
 

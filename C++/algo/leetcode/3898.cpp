@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3898. Find the Degree of Each Vertex [E]
 // LeetCode find-the-degree-of-each-vertex
 

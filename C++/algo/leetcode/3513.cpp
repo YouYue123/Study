@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3513. Number of Unique XOR Triplets I [M]
 // LeetCode number-of-unique-xor-triplets-i
 

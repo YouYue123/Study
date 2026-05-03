@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1067. Digit Count in Range [H]
 // LeetCode digit-count-in-range
 

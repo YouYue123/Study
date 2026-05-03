@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1513. Number of Substrings With Only 1s [M]
 // LeetCode number-of-substrings-with-only-1s
 

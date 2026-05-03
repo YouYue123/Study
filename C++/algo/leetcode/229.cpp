@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 229. Majority Element II [M]
 // LeetCode majority-element-ii
 

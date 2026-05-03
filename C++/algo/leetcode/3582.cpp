@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3582. Generate Tag for Video Caption [E]
 // LeetCode generate-tag-for-video-caption
 

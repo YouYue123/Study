@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 701. Insert into a Binary Search Tree [M]
 // LeetCode insert-into-a-binary-search-tree
 

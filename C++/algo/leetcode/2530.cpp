@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2530. Maximal Score After Applying K Operations [M]
 // LeetCode maximal-score-after-applying-k-operations
 

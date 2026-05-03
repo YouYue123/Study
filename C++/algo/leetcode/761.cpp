@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 761. Special Binary String [H]
 // LeetCode special-binary-string
 

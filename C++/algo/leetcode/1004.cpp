@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1004. Max Consecutive Ones III [M]
 // LeetCode max-consecutive-ones-iii
 

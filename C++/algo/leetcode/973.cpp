@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 973. K Closest Points to Origin [M]
 // LeetCode k-closest-points-to-origin
 

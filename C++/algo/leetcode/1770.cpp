@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1770. Maximum Score from Performing Multiplication Operations [H]
 // LeetCode maximum-score-from-performing-multiplication-operations
 

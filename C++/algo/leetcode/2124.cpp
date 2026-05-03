@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2124. Check if All A's Appears Before All B's [E]
 // LeetCode check-if-all-as-appears-before-all-bs
 

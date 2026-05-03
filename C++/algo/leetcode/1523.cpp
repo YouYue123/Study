@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1523. Count Odd Numbers in an Interval Range [E]
 // LeetCode count-odd-numbers-in-an-interval-range
 

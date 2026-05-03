@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 840. Magic Squares In Grid [M]
 // LeetCode magic-squares-in-grid
 

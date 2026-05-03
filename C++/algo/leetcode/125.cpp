@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 125. Valid Palindrome [E]
 // LeetCode valid-palindrome
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3539. Find Sum of Array Product of Magical Sequences [H]
 // LeetCode find-sum-of-array-product-of-magical-sequences
 

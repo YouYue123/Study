@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1218. Longest Arithmetic Subsequence of Given Difference [M]
 // LeetCode longest-arithmetic-subsequence-of-given-difference
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1570. Dot Product of Two Sparse Vectors [M]
 // LeetCode dot-product-of-two-sparse-vectors
 

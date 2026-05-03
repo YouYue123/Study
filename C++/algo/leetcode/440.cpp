@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 440. K-th Smallest in Lexicographical Order [H]
 // LeetCode k-th-smallest-in-lexicographical-order
 

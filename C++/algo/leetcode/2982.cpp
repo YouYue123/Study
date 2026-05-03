@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2982. Find Longest Special Substring That Occurs Thrice II [M]
 // LeetCode find-longest-special-substring-that-occurs-thrice-ii
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3413. Maximum Coins From K Consecutive Bags [M]
 // LeetCode maximum-coins-from-k-consecutive-bags
 

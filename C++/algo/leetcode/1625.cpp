@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1625. Lexicographically Smallest String After Applying Operations [M]
 // LeetCode lexicographically-smallest-string-after-applying-operations
 

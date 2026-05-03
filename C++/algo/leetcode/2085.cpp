@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2085. Count Common Words With One Occurrence [E]
 // LeetCode count-common-words-with-one-occurrence
 

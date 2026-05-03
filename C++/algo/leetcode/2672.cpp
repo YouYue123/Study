@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2672. Number of Adjacent Elements With the Same Color [M]
 // LeetCode number-of-adjacent-elements-with-the-same-color
 

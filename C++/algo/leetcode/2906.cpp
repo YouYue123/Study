@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2906. Construct Product Matrix [M]
 // LeetCode construct-product-matrix
 

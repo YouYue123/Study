@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 348. Design Tic-Tac-Toe [M]
 // LeetCode design-tic-tac-toe
 

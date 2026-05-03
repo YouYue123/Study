@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3185. Count Pairs That Form a Complete Day II [M]
 // LeetCode count-pairs-that-form-a-complete-day-ii
 

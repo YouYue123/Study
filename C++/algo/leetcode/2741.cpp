@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2741. Special Permutations [M]
 // LeetCode special-permutations
 

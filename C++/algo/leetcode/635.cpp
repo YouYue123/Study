@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 635. Design Log Storage System [M]
 // LeetCode design-log-storage-system
 

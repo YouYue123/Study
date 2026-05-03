@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2962. Count Subarrays Where Max Element Appears at Least K Times [M]
 // LeetCode count-subarrays-where-max-element-appears-at-least-k-times
 

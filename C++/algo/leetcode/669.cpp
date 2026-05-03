@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 669. Trim a Binary Search Tree [M]
 // LeetCode trim-a-binary-search-tree
 

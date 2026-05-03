@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2566. Maximum Difference by Remapping a Digit [E]
 // LeetCode maximum-difference-by-remapping-a-digit
 

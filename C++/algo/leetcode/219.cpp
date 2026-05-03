@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 219. Contains Duplicate II [E]
 // LeetCode contains-duplicate-ii
 

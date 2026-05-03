@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2819. Minimum Relative Loss After Buying Chocolates [H]
 // LeetCode minimum-relative-loss-after-buying-chocolates
 

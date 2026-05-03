@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2304. Minimum Path Cost in a Grid [M]
 // LeetCode minimum-path-cost-in-a-grid
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2107. Number of Unique Flavors After Sharing K Candies [M]
 // LeetCode number-of-unique-flavors-after-sharing-k-candies
 

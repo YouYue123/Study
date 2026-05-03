@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1626. Best Team With No Conflicts [M]
 // LeetCode best-team-with-no-conflicts
 

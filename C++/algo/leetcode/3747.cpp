@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3747. Count Distinct Integers After Removing Zeros [M]
 // LeetCode count-distinct-integers-after-removing-zeros
 

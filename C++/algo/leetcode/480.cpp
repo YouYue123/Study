@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 480. Sliding Window Median [H]
 // LeetCode sliding-window-median
 

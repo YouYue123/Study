@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1760. Minimum Limit of Balls in a Bag [M]
 // LeetCode minimum-limit-of-balls-in-a-bag
 

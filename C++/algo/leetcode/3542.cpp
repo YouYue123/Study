@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3542. Minimum Operations to Convert All Elements to Zero [M]
 // LeetCode minimum-operations-to-convert-all-elements-to-zero
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2833. Furthest Point From Origin [E]
 // LeetCode furthest-point-from-origin
 

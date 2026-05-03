@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3500. Minimum Cost to Divide Array Into Subarrays [H]
 // LeetCode minimum-cost-to-divide-array-into-subarrays
 

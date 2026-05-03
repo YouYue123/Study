@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2168. Unique Substrings With Equal Digit Frequency [M]
 // LeetCode unique-substrings-with-equal-digit-frequency
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 163. Missing Ranges [E]
 // LeetCode missing-ranges
 

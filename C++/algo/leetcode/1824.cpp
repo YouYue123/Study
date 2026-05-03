@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1824. Minimum Sideway Jumps [M]
 // LeetCode minimum-sideway-jumps
 

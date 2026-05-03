@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1848. Minimum Distance to the Target Element [E]
 // LeetCode minimum-distance-to-the-target-element
 

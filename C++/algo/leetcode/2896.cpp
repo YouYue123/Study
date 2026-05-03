@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2896. Apply Operations to Make Two Strings Equal [M]
 // LeetCode apply-operations-to-make-two-strings-equal
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2370. Longest Ideal Subsequence [M]
 // LeetCode longest-ideal-subsequence
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2345. Finding the Number of Visible Mountains [M]
 // LeetCode finding-the-number-of-visible-mountains
 

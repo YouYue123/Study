@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 650. 2 Keys Keyboard [M]
 // LeetCode 2-keys-keyboard
 

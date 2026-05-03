@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 205. Isomorphic Strings [E]
 // LeetCode isomorphic-strings
 

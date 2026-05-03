@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3732. Maximum Product of Three Elements After One Replacement [M]
 // LeetCode maximum-product-of-three-elements-after-one-replacement
 

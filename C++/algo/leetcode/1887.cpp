@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1887. Reduction Operations to Make the Array Elements Equal [M]
 // LeetCode reduction-operations-to-make-the-array-elements-equal
 

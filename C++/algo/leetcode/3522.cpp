@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3522. Calculate Score After Performing Instructions [M]
 // LeetCode calculate-score-after-performing-instructions
 

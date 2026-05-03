@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1088. Confusing Number II [H]
 // LeetCode confusing-number-ii
 

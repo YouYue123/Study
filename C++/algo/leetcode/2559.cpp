@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2559. Count Vowel Strings in Ranges [M]
 // LeetCode count-vowel-strings-in-ranges
 

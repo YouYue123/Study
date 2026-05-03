@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1673. Find the Most Competitive Subsequence [M]
 // LeetCode find-the-most-competitive-subsequence
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3191. Minimum Operations to Make Binary Array Elements Equal to One I [M]
 // LeetCode minimum-operations-to-make-binary-array-elements-equal-to-one-i
 

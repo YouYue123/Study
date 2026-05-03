@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1703. Minimum Adjacent Swaps for K Consecutive Ones [H]
 // LeetCode minimum-adjacent-swaps-for-k-consecutive-ones
 

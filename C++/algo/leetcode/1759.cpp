@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1759. Count Number of Homogenous Substrings [M]
 // LeetCode count-number-of-homogenous-substrings
 

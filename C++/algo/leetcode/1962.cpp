@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1962. Remove Stones to Minimize the Total [M]
 // LeetCode remove-stones-to-minimize-the-total
 

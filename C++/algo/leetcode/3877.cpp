@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3877. Minimum Removals to Achieve Target XOR [M]
 // LeetCode minimum-removals-to-achieve-target-xor
 

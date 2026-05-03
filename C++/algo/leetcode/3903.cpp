@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3903. Smallest Stable Index I [E]
 // LeetCode smallest-stable-index-i
 

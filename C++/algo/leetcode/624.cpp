@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 624. Maximum Distance in Arrays [M]
 // LeetCode maximum-distance-in-arrays
 

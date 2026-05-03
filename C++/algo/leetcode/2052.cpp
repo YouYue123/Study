@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2052. Minimum Cost to Separate Sentence Into Rows [M]
 // LeetCode minimum-cost-to-separate-sentence-into-rows
 

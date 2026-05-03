@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 898. Bitwise ORs of Subarrays [M]
 // LeetCode bitwise-ors-of-subarrays
 

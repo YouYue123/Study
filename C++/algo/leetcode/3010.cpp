@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3010. Divide an Array Into Subarrays With Minimum Cost I [E]
 // LeetCode divide-an-array-into-subarrays-with-minimum-cost-i
 

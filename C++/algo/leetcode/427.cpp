@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 427. Construct Quad Tree [M]
 // LeetCode construct-quad-tree
 

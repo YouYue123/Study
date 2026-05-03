@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1106. Parsing A Boolean Expression [H]
 // LeetCode parsing-a-boolean-expression
 

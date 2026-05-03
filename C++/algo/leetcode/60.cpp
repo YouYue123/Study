@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 60. Permutation Sequence [H]
 // LeetCode permutation-sequence
 

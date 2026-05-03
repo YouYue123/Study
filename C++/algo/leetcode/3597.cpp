@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3597. Partition String  [M]
 // LeetCode partition-string
 

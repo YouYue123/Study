@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2073. Time Needed to Buy Tickets [E]
 // LeetCode time-needed-to-buy-tickets
 

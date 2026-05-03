@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 4. Median of Two Sorted Arrays [H]
 // LeetCode median-of-two-sorted-arrays
 

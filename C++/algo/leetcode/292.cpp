@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 292. Nim Game [E]
 // LeetCode nim-game
 

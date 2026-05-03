@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2949. Count Beautiful Substrings II [H]
 // LeetCode count-beautiful-substrings-ii
 

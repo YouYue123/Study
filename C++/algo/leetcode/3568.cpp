@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3568. Minimum Moves to Clean the Classroom [M]
 // LeetCode minimum-moves-to-clean-the-classroom
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2604. Minimum Time to Eat All Grains [H]
 // LeetCode minimum-time-to-eat-all-grains
 

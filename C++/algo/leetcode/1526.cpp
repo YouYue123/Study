@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1526. Minimum Number of Increments on Subarrays to Form a Target Array [H]
 // LeetCode minimum-number-of-increments-on-subarrays-to-form-a-target-array
 

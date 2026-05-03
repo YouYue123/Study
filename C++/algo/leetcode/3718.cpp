@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3718. Smallest Missing Multiple of K [E]
 // LeetCode smallest-missing-multiple-of-k
 

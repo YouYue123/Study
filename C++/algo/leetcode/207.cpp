@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 207. Course Schedule [M]
 // LeetCode course-schedule
 

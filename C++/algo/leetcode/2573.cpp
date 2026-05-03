@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2573. Find the String with LCP [H]
 // LeetCode find-the-string-with-lcp
 

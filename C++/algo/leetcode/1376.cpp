@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1376. Time Needed to Inform All Employees [M]
 // LeetCode time-needed-to-inform-all-employees
 

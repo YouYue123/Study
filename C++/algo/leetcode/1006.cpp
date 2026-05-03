@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1006. Clumsy Factorial [M]
 // LeetCode clumsy-factorial
 

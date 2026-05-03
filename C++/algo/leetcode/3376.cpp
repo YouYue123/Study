@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3376. Minimum Time to Break Locks I [M]
 // LeetCode minimum-time-to-break-locks-i
 

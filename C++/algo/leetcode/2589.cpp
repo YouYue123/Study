@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2589. Minimum Time to Complete All Tasks [H]
 // LeetCode minimum-time-to-complete-all-tasks
 

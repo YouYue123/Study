@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2080. Range Frequency Queries [M]
 // LeetCode range-frequency-queries
 

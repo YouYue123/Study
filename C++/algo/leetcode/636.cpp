@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 636. Exclusive Time of Functions [M]
 // LeetCode exclusive-time-of-functions
 

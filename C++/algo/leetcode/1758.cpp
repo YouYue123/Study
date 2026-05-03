@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1758. Minimum Changes To Make Alternating Binary String [E]
 // LeetCode minimum-changes-to-make-alternating-binary-string
 

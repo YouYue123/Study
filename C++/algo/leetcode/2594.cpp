@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2594. Minimum Time to Repair Cars [M]
 // LeetCode minimum-time-to-repair-cars
 

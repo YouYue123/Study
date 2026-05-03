@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3550. Smallest Index With Digit Sum Equal to Index [E]
 // LeetCode smallest-index-with-digit-sum-equal-to-index
 

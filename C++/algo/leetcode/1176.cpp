@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1176. Diet Plan Performance [E]
 // LeetCode diet-plan-performance
 

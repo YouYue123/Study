@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3728. Stable Subarrays With Equal Boundary and Interior Sum [M]
 // LeetCode stable-subarrays-with-equal-boundary-and-interior-sum
 

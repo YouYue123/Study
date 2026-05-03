@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 857. Minimum Cost to Hire K Workers [H]
 // LeetCode minimum-cost-to-hire-k-workers
 

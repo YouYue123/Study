@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2946. Matrix Similarity After Cyclic Shifts [E]
 // LeetCode matrix-similarity-after-cyclic-shifts
 

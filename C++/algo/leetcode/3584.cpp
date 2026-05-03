@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3584. Maximum Product of First and Last Elements of a Subsequence [M]
 // LeetCode maximum-product-of-first-and-last-elements-of-a-subsequence
 

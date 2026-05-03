@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2247. Maximum Cost of Trip With K Highways [H]
 // LeetCode maximum-cost-of-trip-with-k-highways
 

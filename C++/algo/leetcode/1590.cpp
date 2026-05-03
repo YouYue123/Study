@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1590. Make Sum Divisible by P [M]
 // LeetCode make-sum-divisible-by-p
 

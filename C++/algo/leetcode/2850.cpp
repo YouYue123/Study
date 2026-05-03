@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2850. Minimum Moves to Spread Stones Over Grid [M]
 // LeetCode minimum-moves-to-spread-stones-over-grid
 

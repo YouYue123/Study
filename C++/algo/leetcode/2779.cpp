@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2779. Maximum Beauty of an Array After Applying Operation [M]
 // LeetCode maximum-beauty-of-an-array-after-applying-operation
 

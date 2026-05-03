@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2078. Two Furthest Houses With Different Colors [E]
 // LeetCode two-furthest-houses-with-different-colors
 

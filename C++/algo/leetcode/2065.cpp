@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2065. Maximum Path Quality of a Graph [H]
 // LeetCode maximum-path-quality-of-a-graph
 

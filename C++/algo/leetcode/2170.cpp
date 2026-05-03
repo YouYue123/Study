@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2170. Minimum Operations to Make the Array Alternating [M]
 // LeetCode minimum-operations-to-make-the-array-alternating
 

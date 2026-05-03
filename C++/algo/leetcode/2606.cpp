@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2606. Find the Substring With Maximum Cost [M]
 // LeetCode find-the-substring-with-maximum-cost
 

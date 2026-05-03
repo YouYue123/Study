@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1339. Maximum Product of Splitted Binary Tree [M]
 // LeetCode maximum-product-of-splitted-binary-tree
 

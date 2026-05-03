@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 433. Minimum Genetic Mutation [M]
 // LeetCode minimum-genetic-mutation
 

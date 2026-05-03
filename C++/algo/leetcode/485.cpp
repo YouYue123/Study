@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 485. Max Consecutive Ones [E]
 // LeetCode max-consecutive-ones
 

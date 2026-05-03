@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 551. Student Attendance Record I [E]
 // LeetCode student-attendance-record-i
 

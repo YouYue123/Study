@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2786. Visit Array Positions to Maximize Score [M]
 // LeetCode visit-array-positions-to-maximize-score
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2179. Count Good Triplets in an Array [H]
 // LeetCode count-good-triplets-in-an-array
 

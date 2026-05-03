@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1034. Coloring A Border [M]
 // LeetCode coloring-a-border
 

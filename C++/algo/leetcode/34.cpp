@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 34. Find First and Last Position of Element in Sorted Array [M]
 // LeetCode find-first-and-last-position-of-element-in-sorted-array
 

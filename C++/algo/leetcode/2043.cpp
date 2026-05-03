@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2043. Simple Bank System [M]
 // LeetCode simple-bank-system
 

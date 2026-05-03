@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1931. Painting a Grid With Three Different Colors [H]
 // LeetCode painting-a-grid-with-three-different-colors
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1156. Swap For Longest Repeated Character Substring [M]
 // LeetCode swap-for-longest-repeated-character-substring
 

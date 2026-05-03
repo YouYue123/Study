@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 695. Max Area of Island [M]
 // LeetCode max-area-of-island
 

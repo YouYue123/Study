@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 446. Arithmetic Slices II - Subsequence [H]
 // LeetCode arithmetic-slices-ii-subsequence
 

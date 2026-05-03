@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2433. Find The Original Array of Prefix Xor [M]
 // LeetCode find-the-original-array-of-prefix-xor
 

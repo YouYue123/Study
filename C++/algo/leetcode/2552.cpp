@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2552. Count Increasing Quadruplets [H]
 // LeetCode count-increasing-quadruplets
 

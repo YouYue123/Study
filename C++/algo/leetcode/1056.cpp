@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1056. Confusing Number [E]
 // LeetCode confusing-number
 

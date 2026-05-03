@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1745. Palindrome Partitioning IV [H]
 // LeetCode palindrome-partitioning-iv
 

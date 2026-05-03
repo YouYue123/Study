@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 583. Delete Operation for Two Strings [M]
 // LeetCode delete-operation-for-two-strings
 

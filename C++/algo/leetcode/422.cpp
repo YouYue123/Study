@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 422. Valid Word Square [E]
 // LeetCode valid-word-square
 

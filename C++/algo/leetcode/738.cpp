@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 738. Monotone Increasing Digits [M]
 // LeetCode monotone-increasing-digits
 

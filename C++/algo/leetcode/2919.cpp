@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2919. Minimum Increment Operations to Make Array Beautiful [M]
 // LeetCode minimum-increment-operations-to-make-array-beautiful
 

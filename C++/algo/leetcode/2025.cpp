@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2025. Maximum Number of Ways to Partition an Array [H]
 // LeetCode maximum-number-of-ways-to-partition-an-array
 

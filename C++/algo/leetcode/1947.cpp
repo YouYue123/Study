@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1947. Maximum Compatibility Score Sum [M]
 // LeetCode maximum-compatibility-score-sum
 

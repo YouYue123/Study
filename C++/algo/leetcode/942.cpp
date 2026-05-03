@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 942. DI String Match [E]
 // LeetCode di-string-match
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3908. Valid Digit Number [E]
 // LeetCode valid-digit-number
 

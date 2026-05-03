@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1550. Three Consecutive Odds [E]
 // LeetCode three-consecutive-odds
 

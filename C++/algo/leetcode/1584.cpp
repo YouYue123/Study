@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1584. Min Cost to Connect All Points [M]
 // LeetCode min-cost-to-connect-all-points
 

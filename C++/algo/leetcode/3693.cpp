@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3693. Climbing Stairs II [M]
 // LeetCode climbing-stairs-ii
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2094. Finding 3-Digit Even Numbers [E]
 // LeetCode finding-3-digit-even-numbers
 

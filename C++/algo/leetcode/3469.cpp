@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3469. Find Minimum Cost to Remove Array Elements [M]
 // LeetCode find-minimum-cost-to-remove-array-elements
 

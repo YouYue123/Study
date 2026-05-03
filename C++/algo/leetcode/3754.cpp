@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3754. Concatenate Non-Zero Digits and Multiply by Sum I [E]
 // LeetCode concatenate-non-zero-digits-and-multiply-by-sum-i
 

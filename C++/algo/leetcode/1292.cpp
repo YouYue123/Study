@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold [M]
 // LeetCode maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold
 

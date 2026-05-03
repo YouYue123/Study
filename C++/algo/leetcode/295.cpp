@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 295. Find Median from Data Stream [H]
 // LeetCode find-median-from-data-stream
 

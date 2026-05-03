@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 505. The Maze II [M]
 // LeetCode the-maze-ii
 

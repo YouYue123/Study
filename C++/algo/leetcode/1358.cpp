@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1358. Number of Substrings Containing All Three Characters [M]
 // LeetCode number-of-substrings-containing-all-three-characters
 

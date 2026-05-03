@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1814. Count Nice Pairs in an Array [M]
 // LeetCode count-nice-pairs-in-an-array
 

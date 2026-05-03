@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1857. Largest Color Value in a Directed Graph [H]
 // LeetCode largest-color-value-in-a-directed-graph
 

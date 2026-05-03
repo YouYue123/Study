@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1744. Can You Eat Your Favorite Candy on Your Favorite Day? [M]
 // LeetCode can-you-eat-your-favorite-candy-on-your-favorite-day
 

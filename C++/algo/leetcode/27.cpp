@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 27. Remove Element [E]
 // LeetCode remove-element
 

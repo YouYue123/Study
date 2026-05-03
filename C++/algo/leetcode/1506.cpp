@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1506. Find Root of N-Ary Tree [M]
 // LeetCode find-root-of-n-ary-tree
 

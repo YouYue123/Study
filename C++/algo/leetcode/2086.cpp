@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2086. Minimum Number of Food Buckets to Feed the Hamsters [M]
 // LeetCode minimum-number-of-food-buckets-to-feed-the-hamsters
 

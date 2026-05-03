@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3287. Find the Maximum Sequence Value of Array [H]
 // LeetCode find-the-maximum-sequence-value-of-array
 

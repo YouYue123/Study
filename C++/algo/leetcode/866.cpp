@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 866. Prime Palindrome [M]
 // LeetCode prime-palindrome
 

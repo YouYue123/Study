@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1900. The Earliest and Latest Rounds Where Players Compete [H]
 // LeetCode the-earliest-and-latest-rounds-where-players-compete
 

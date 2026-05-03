@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3281. Maximize Score of Numbers in Ranges [M]
 // LeetCode maximize-score-of-numbers-in-ranges
 

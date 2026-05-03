@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2075. Decode the Slanted Ciphertext [M]
 // LeetCode decode-the-slanted-ciphertext
 

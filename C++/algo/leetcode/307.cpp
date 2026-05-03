@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 307. Range Sum Query - Mutable [M]
 // LeetCode range-sum-query-mutable
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 525. Contiguous Array [M]
 // LeetCode contiguous-array
 

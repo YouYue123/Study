@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3724. Minimum Operations to Transform Array [M]
 // LeetCode minimum-operations-to-transform-array
 

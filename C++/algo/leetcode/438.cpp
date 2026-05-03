@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 438. Find All Anagrams in a String [M]
 // LeetCode find-all-anagrams-in-a-string
 

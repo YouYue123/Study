@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2528. Maximize the Minimum Powered City [H]
 // LeetCode maximize-the-minimum-powered-city
 

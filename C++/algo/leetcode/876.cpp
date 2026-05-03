@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 876. Middle of the Linked List [E]
 // LeetCode middle-of-the-linked-list
 

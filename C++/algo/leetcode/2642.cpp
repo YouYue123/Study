@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2642. Design Graph With Shortest Path Calculator [H]
 // LeetCode design-graph-with-shortest-path-calculator
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3615. Longest Palindromic Path in Graph [H]
 // LeetCode longest-palindromic-path-in-graph
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3169. Count Days Without Meetings [M]
 // LeetCode count-days-without-meetings
 

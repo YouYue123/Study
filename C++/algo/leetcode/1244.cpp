@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1244. Design A Leaderboard [M]
 // LeetCode design-a-leaderboard
 

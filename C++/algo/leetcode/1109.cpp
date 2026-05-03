@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1109. Corporate Flight Bookings [M]
 // LeetCode corporate-flight-bookings
 

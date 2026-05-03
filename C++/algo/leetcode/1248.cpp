@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1248. Count Number of Nice Subarrays [M]
 // LeetCode count-number-of-nice-subarrays
 

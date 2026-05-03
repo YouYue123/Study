@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3432. Count Partitions with Even Sum Difference [E]
 // LeetCode count-partitions-with-even-sum-difference
 

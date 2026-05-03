@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1895. Largest Magic Square [M]
 // LeetCode largest-magic-square
 

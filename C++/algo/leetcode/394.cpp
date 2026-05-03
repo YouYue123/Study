@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 394. Decode String [M]
 // LeetCode decode-string
 

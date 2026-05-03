@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3762. Minimum Operations to Equalize Subarrays [H]
 // LeetCode minimum-operations-to-equalize-subarrays
 

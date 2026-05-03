@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1991. Find the Middle Index in Array [E]
 // LeetCode find-the-middle-index-in-array
 

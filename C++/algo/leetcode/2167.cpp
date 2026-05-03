@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2167. Minimum Time to Remove All Cars Containing Illegal Goods [H]
 // LeetCode minimum-time-to-remove-all-cars-containing-illegal-goods
 

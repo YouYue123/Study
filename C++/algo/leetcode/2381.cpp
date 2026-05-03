@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2381. Shifting Letters II [M]
 // LeetCode shifting-letters-ii
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 992. Subarrays with K Different Integers [H]
 // LeetCode subarrays-with-k-different-integers
 

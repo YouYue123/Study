@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 941. Valid Mountain Array [E]
 // LeetCode valid-mountain-array
 

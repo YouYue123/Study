@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2653. Sliding Subarray Beauty [M]
 // LeetCode sliding-subarray-beauty
 

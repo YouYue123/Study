@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3768. Minimum Inversion Count in Subarrays of Fixed Length [H]
 // LeetCode minimum-inversion-count-in-subarrays-of-fixed-length
 

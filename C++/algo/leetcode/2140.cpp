@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2140. Solving Questions With Brainpower [M]
 // LeetCode solving-questions-with-brainpower
 

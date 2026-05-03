@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2931. Maximum Spending After Buying Items [H]
 // LeetCode maximum-spending-after-buying-items
 

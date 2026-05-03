@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 567. Permutation in String [M]
 // LeetCode permutation-in-string
 

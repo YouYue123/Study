@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3524. Find X Value of Array I [M]
 // LeetCode find-x-value-of-array-i
 

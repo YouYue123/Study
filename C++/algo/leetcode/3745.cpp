@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3745. Maximize Expression of Three Elements [E]
 // LeetCode maximize-expression-of-three-elements
 

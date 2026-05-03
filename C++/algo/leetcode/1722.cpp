@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1722. Minimize Hamming Distance After Swap Operations [M]
 // LeetCode minimize-hamming-distance-after-swap-operations
 

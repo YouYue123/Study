@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3047. Find the Largest Area of Square Inside Two Rectangles [M]
 // LeetCode find-the-largest-area-of-square-inside-two-rectangles
 

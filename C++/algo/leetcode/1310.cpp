@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1310. XOR Queries of a Subarray [M]
 // LeetCode xor-queries-of-a-subarray
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2438. Range Product Queries of Powers [M]
 // LeetCode range-product-queries-of-powers
 

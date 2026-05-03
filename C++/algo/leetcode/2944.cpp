@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2944. Minimum Number of Coins for Fruits [M]
 // LeetCode minimum-number-of-coins-for-fruits
 

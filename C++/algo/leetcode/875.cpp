@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 875. Koko Eating Bananas [M]
 // LeetCode koko-eating-bananas
 

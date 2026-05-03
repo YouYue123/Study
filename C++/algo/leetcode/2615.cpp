@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2615. Sum of Distances [M]
 // LeetCode sum-of-distances
 

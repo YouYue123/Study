@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3652. Best Time to Buy and Sell Stock using Strategy [M]
 // LeetCode best-time-to-buy-and-sell-stock-using-strategy
 

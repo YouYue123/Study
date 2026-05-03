@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1882. Process Tasks Using Servers [M]
 // LeetCode process-tasks-using-servers
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 865. Smallest Subtree with all the Deepest Nodes [M]
 // LeetCode smallest-subtree-with-all-the-deepest-nodes
 

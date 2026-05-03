@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3562. Maximum Profit from Trading Stocks with Discounts [H]
 // LeetCode maximum-profit-from-trading-stocks-with-discounts
 

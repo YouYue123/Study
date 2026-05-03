@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1404. Number of Steps to Reduce a Number in Binary Representation to One [M]
 // LeetCode number-of-steps-to-reduce-a-number-in-binary-representation-to-one
 

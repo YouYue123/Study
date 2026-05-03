@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 763. Partition Labels [M]
 // LeetCode partition-labels
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1886. Determine Whether Matrix Can Be Obtained By Rotation [E]
 // LeetCode determine-whether-matrix-can-be-obtained-by-rotation
 

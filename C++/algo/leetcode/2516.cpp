@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2516. Take K of Each Character From Left and Right [M]
 // LeetCode take-k-of-each-character-from-left-and-right
 

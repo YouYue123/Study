@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3726. Remove Zeros in Decimal Representation [E]
 // LeetCode remove-zeros-in-decimal-representation
 

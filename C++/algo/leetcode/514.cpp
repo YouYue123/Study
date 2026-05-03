@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 514. Freedom Trail [H]
 // LeetCode freedom-trail
 

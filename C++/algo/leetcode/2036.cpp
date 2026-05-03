@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2036. Maximum Alternating Subarray Sum [M]
 // LeetCode maximum-alternating-subarray-sum
 

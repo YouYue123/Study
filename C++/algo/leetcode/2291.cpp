@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2291. Maximum Profit From Trading Stocks [M]
 // LeetCode maximum-profit-from-trading-stocks
 

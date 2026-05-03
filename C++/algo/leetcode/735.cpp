@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 735. Asteroid Collision [M]
 // LeetCode asteroid-collision
 

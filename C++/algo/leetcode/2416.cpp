@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2416. Sum of Prefix Scores of Strings [H]
 // LeetCode sum-of-prefix-scores-of-strings
 

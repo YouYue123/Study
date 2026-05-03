@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 190. Reverse Bits [E]
 // LeetCode reverse-bits
 

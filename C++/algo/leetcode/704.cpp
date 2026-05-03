@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 704. Binary Search [E]
 // LeetCode binary-search
 

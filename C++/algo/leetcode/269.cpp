@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 269. Alien Dictionary [H]
 // LeetCode alien-dictionary
 

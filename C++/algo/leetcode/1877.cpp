@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1877. Minimize Maximum Pair Sum in Array [M]
 // LeetCode minimize-maximum-pair-sum-in-array
 

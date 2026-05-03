@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 31. Next Permutation [M]
 // LeetCode next-permutation
 

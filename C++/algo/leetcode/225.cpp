@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 225. Implement Stack using Queues [E]
 // LeetCode implement-stack-using-queues
 

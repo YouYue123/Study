@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 299. Bulls and Cows [M]
 // LeetCode bulls-and-cows
 

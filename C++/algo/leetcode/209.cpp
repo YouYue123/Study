@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 209. Minimum Size Subarray Sum [M]
 // LeetCode minimum-size-subarray-sum
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1763. Longest Nice Substring [E]
 // LeetCode longest-nice-substring
 

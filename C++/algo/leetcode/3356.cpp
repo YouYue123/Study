@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3356. Zero Array Transformation II [M]
 // LeetCode zero-array-transformation-ii
 

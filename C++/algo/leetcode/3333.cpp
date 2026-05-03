@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3333. Find the Original Typed String II [H]
 // LeetCode find-the-original-typed-string-ii
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3848. Check Digitorial Permutation [M]
 // LeetCode check-digitorial-permutation
 

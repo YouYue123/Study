@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 380. Insert Delete GetRandom O(1) [M]
 // LeetCode insert-delete-getrandom-o1
 

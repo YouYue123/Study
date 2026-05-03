@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1473. Paint House III [H]
 // LeetCode paint-house-iii
 

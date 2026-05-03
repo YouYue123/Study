@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 805. Split Array With Same Average [H]
 // LeetCode split-array-with-same-average
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2210. Count Hills and Valleys in an Array [E]
 // LeetCode count-hills-and-valleys-in-an-array
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1105. Filling Bookcase Shelves [M]
 // LeetCode filling-bookcase-shelves
 

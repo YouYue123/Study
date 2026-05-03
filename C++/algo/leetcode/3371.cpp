@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3371. Identify the Largest Outlier in an Array [M]
 // LeetCode identify-the-largest-outlier-in-an-array
 

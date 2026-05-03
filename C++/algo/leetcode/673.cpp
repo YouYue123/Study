@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 673. Number of Longest Increasing Subsequence [M]
 // LeetCode number-of-longest-increasing-subsequence
 

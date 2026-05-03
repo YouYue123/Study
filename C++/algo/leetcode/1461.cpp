@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1461. Check If a String Contains All Binary Codes of Size K [M]
 // LeetCode check-if-a-string-contains-all-binary-codes-of-size-k
 

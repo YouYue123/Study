@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 932. Beautiful Array [M]
 // LeetCode beautiful-array
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1642. Furthest Building You Can Reach [M]
 // LeetCode furthest-building-you-can-reach
 

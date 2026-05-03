@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3533. Concatenated Divisibility [H]
 // LeetCode concatenated-divisibility
 

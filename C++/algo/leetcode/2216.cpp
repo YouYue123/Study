@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2216. Minimum Deletions to Make Array Beautiful [M]
 // LeetCode minimum-deletions-to-make-array-beautiful
 

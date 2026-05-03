@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2121. Intervals Between Identical Elements [M]
 // LeetCode intervals-between-identical-elements
 

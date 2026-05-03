@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1048. Longest String Chain [M]
 // LeetCode longest-string-chain
 

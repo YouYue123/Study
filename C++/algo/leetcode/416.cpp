@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 416. Partition Equal Subset Sum [M]
 // LeetCode partition-equal-subset-sum
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2875. Minimum Size Subarray in Infinite Array [M]
 // LeetCode minimum-size-subarray-in-infinite-array
 

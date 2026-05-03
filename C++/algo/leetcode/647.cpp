@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 647. Palindromic Substrings [M]
 // LeetCode palindromic-substrings
 

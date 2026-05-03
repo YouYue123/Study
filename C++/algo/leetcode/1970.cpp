@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1970. Last Day Where You Can Still Cross [H]
 // LeetCode last-day-where-you-can-still-cross
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1926. Nearest Exit from Entrance in Maze [M]
 // LeetCode nearest-exit-from-entrance-in-maze
 

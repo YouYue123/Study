@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 790. Domino and Tromino Tiling [M]
 // LeetCode domino-and-tromino-tiling
 

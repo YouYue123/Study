@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 21. Merge Two Sorted Lists [E]
 // LeetCode merge-two-sorted-lists
 

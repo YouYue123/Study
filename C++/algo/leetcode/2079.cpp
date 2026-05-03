@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2079. Watering Plants [M]
 // LeetCode watering-plants
 

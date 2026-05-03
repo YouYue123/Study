@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2440. Create Components With Same Value [H]
 // LeetCode create-components-with-same-value
 

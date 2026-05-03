@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3418. Maximum Amount of Money Robot Can Earn [M]
 // LeetCode maximum-amount-of-money-robot-can-earn
 

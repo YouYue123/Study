@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2008. Maximum Earnings From Taxi [M]
 // LeetCode maximum-earnings-from-taxi
 

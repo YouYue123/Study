@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 687. Longest Univalue Path [M]
 // LeetCode longest-univalue-path
 

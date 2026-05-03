@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3592. Inverse Coin Change [M]
 // LeetCode inverse-coin-change
 

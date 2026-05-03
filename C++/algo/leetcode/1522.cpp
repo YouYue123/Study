@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1522. Diameter of N-Ary Tree [M]
 // LeetCode diameter-of-n-ary-tree
 

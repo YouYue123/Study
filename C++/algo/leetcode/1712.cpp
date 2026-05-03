@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1712. Ways to Split Array Into Three Subarrays [M]
 // LeetCode ways-to-split-array-into-three-subarrays
 

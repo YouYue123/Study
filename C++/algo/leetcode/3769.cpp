@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3769. Sort Integers by Binary Reflection [E]
 // LeetCode sort-integers-by-binary-reflection
 

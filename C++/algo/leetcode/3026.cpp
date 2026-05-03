@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3026. Maximum Good Subarray Sum [M]
 // LeetCode maximum-good-subarray-sum
 

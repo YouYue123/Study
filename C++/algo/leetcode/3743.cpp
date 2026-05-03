@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3743. Maximize Cyclic Partition Score [H]
 // LeetCode maximize-cyclic-partition-score
 

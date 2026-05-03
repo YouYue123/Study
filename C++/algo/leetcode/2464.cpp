@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2464. Minimum Subarrays in a Valid Split [M]
 // LeetCode minimum-subarrays-in-a-valid-split
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2312. Selling Pieces of Wood [H]
 // LeetCode selling-pieces-of-wood
 

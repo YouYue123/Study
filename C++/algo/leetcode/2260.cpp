@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2260. Minimum Consecutive Cards to Pick Up [M]
 // LeetCode minimum-consecutive-cards-to-pick-up
 

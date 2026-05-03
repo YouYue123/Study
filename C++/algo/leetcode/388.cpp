@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 388. Longest Absolute File Path [M]
 // LeetCode longest-absolute-file-path
 

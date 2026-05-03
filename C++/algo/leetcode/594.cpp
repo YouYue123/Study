@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 594. Longest Harmonious Subsequence [E]
 // LeetCode longest-harmonious-subsequence
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3561. Resulting String After Adjacent Removals [M]
 // LeetCode resulting-string-after-adjacent-removals
 

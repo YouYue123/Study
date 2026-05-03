@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1155. Number of Dice Rolls With Target Sum [M]
 // LeetCode number-of-dice-rolls-with-target-sum
 

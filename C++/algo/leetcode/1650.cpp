@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1650. Lowest Common Ancestor of a Binary Tree III [M]
 // LeetCode lowest-common-ancestor-of-a-binary-tree-iii
 

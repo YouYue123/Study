@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1234. Replace the Substring for Balanced String [M]
 // LeetCode replace-the-substring-for-balanced-string
 

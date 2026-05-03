@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2579. Count Total Number of Colored Cells [M]
 // LeetCode count-total-number-of-colored-cells
 

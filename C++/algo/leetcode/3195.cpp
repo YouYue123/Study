@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3195. Find the Minimum Area to Cover All Ones I [M]
 // LeetCode find-the-minimum-area-to-cover-all-ones-i
 

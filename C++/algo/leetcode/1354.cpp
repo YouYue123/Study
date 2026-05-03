@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1354. Construct Target Array With Multiple Sums [H]
 // LeetCode construct-target-array-with-multiple-sums
 

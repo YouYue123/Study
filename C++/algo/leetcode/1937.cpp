@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1937. Maximum Number of Points with Cost [M]
 // LeetCode maximum-number-of-points-with-cost
 

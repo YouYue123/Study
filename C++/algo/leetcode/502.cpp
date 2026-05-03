@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 502. IPO [H]
 // LeetCode ipo
 

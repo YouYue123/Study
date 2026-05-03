@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 658. Find K Closest Elements [M]
 // LeetCode find-k-closest-elements
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 67. Add Binary [E]
 // LeetCode add-binary
 

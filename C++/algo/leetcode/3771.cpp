@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3771. Total Score of Dungeon Runs [M]
 // LeetCode total-score-of-dungeon-runs
 

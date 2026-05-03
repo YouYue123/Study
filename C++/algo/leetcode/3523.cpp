@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3523. Make Array Non-decreasing [M]
 // LeetCode make-array-non-decreasing
 

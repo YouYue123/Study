@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 303. Range Sum Query - Immutable [E]
 // LeetCode range-sum-query-immutable
 

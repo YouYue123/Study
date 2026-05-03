@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2460. Apply Operations to an Array [E]
 // LeetCode apply-operations-to-an-array
 

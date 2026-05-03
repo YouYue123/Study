@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1920. Build Array from Permutation [E]
 // LeetCode build-array-from-permutation
 

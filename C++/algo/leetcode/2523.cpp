@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2523. Closest Prime Numbers in Range [M]
 // LeetCode closest-prime-numbers-in-range
 

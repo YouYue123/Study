@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 975. Odd Even Jump [H]
 // LeetCode odd-even-jump
 

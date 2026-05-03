@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1983. Widest Pair of Indices With Equal Range Sum [M]
 // LeetCode widest-pair-of-indices-with-equal-range-sum
 

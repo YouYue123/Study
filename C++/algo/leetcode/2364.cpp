@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2364. Count Number of Bad Pairs [M]
 // LeetCode count-number-of-bad-pairs
 

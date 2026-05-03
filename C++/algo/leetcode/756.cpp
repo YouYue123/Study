@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 756. Pyramid Transition Matrix [M]
 // LeetCode pyramid-transition-matrix
 

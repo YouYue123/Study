@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1539. Kth Missing Positive Number [E]
 // LeetCode kth-missing-positive-number
 

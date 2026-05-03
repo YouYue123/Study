@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1631. Path With Minimum Effort [M]
 // LeetCode path-with-minimum-effort
 

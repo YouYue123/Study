@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3272. Find the Count of Good Integers [H]
 // LeetCode find-the-count-of-good-integers
 

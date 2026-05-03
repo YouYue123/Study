@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 879. Profitable Schemes [H]
 // LeetCode profitable-schemes
 

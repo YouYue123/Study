@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1979. Find Greatest Common Divisor of Array [E]
 // LeetCode find-greatest-common-divisor-of-array
 

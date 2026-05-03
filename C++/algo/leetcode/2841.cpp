@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2841. Maximum Sum of Almost Unique Subarray [M]
 // LeetCode maximum-sum-of-almost-unique-subarray
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3612. Process String with Special Operations I [M]
 // LeetCode process-string-with-special-operations-i
 

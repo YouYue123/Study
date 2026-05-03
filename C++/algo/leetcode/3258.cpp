@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3258. Count Substrings That Satisfy K-Constraint I [E]
 // LeetCode count-substrings-that-satisfy-k-constraint-i
 

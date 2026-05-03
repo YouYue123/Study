@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3225. Maximum Score From Grid Operations [H]
 // LeetCode maximum-score-from-grid-operations
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3396. Minimum Number of Operations to Make Elements in Array Distinct [E]
 // LeetCode minimum-number-of-operations-to-make-elements-in-array-distinct
 

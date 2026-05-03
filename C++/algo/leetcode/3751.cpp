@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3751. Total Waviness of Numbers in Range I [M]
 // LeetCode total-waviness-of-numbers-in-range-i
 

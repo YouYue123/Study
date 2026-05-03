@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2547. Minimum Cost to Split an Array [H]
 // LeetCode minimum-cost-to-split-an-array
 

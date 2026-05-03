@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1838. Frequency of the Most Frequent Element [M]
 // LeetCode frequency-of-the-most-frequent-element
 

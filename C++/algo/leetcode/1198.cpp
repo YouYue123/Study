@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1198. Find Smallest Common Element in All Rows [M]
 // LeetCode find-smallest-common-element-in-all-rows
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2673. Make Costs of Paths Equal in a Binary Tree [M]
 // LeetCode make-costs-of-paths-equal-in-a-binary-tree
 

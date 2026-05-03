@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 523. Continuous Subarray Sum [M]
 // LeetCode continuous-subarray-sum
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 289. Game of Life [M]
 // LeetCode game-of-life
 

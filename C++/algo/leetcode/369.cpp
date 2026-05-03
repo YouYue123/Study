@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 369. Plus One Linked List [M]
 // LeetCode plus-one-linked-list
 

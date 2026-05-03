@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2070. Most Beautiful Item for Each Query [M]
 // LeetCode most-beautiful-item-for-each-query
 

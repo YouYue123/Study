@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3393. Count Paths With the Given XOR Value [M]
 // LeetCode count-paths-with-the-given-xor-value
 

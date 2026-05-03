@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3219. Minimum Cost for Cutting Cake II [H]
 // LeetCode minimum-cost-for-cutting-cake-ii
 

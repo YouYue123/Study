@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2272. Substring With Largest Variance [H]
 // LeetCode substring-with-largest-variance
 

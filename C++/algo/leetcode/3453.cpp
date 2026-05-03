@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3453. Separate Squares I [M]
 // LeetCode separate-squares-i
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2524. Maximum Frequency Score of a Subarray [H]
 // LeetCode maximum-frequency-score-of-a-subarray
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold [M]
 // LeetCode number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold
 

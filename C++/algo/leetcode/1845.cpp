@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1845. Seat Reservation Manager [M]
 // LeetCode seat-reservation-manager
 

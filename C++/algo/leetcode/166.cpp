@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 166. Fraction to Recurring Decimal [M]
 // LeetCode fraction-to-recurring-decimal
 

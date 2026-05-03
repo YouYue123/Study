@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2300. Successful Pairs of Spells and Potions [M]
 // LeetCode successful-pairs-of-spells-and-potions
 

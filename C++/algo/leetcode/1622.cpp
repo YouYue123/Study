@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1622. Fancy Sequence [H]
 // LeetCode fancy-sequence
 

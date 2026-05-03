@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 803. Bricks Falling When Hit [H]
 // LeetCode bricks-falling-when-hit
 

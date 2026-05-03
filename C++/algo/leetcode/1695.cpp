@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1695. Maximum Erasure Value [M]
 // LeetCode maximum-erasure-value
 

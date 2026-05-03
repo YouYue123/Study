@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 952. Largest Component Size by Common Factor [H]
 // LeetCode largest-component-size-by-common-factor
 

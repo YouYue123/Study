@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2517. Maximum Tastiness of Candy Basket [M]
 // LeetCode maximum-tastiness-of-candy-basket
 

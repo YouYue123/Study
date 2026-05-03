@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 37. Sudoku Solver [H]
 // LeetCode sudoku-solver
 

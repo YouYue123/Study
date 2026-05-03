@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 36. Valid Sudoku [M]
 // LeetCode valid-sudoku
 

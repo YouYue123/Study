@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 484. Find Permutation [M]
 // LeetCode find-permutation
 

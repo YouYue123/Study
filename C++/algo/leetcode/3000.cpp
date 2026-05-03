@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3000. Maximum Area of Longest Diagonal Rectangle [E]
 // LeetCode maximum-area-of-longest-diagonal-rectangle
 

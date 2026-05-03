@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1223. Dice Roll Simulation [H]
 // LeetCode dice-roll-simulation
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3748. Count Stable Subarrays [H]
 // LeetCode count-stable-subarrays
 

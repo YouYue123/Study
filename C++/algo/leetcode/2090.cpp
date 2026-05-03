@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2090. K Radius Subarray Averages [M]
 // LeetCode k-radius-subarray-averages
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2478. Number of Beautiful Partitions [H]
 // LeetCode number-of-beautiful-partitions
 

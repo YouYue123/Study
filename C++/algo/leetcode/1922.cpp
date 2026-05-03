@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1922. Count Good Numbers [M]
 // LeetCode count-good-numbers
 

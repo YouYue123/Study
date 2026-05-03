@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 793. Preimage Size of Factorial Zeroes Function [H]
 // LeetCode preimage-size-of-factorial-zeroes-function
 

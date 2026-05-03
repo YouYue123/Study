@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2009. Minimum Number of Operations to Make Array Continuous [H]
 // LeetCode minimum-number-of-operations-to-make-array-continuous
 

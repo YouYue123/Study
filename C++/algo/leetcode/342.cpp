@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 342. Power of Four [E]
 // LeetCode power-of-four
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3765. Complete Prime Number [M]
 // LeetCode complete-prime-number
 

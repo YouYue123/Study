@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1547. Minimum Cost to Cut a Stick [H]
 // LeetCode minimum-cost-to-cut-a-stick
 

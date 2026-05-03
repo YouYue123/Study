@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3342. Find Minimum Time to Reach Last Room II [M]
 // LeetCode find-minimum-time-to-reach-last-room-ii
 

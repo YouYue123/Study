@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 138. Copy List with Random Pointer [M]
 // LeetCode copy-list-with-random-pointer
 

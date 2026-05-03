@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2830. Maximize the Profit as the Salesman [M]
 // LeetCode maximize-the-profit-as-the-salesman
 

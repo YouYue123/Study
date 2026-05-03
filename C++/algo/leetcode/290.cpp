@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 290. Word Pattern [E]
 // LeetCode word-pattern
 

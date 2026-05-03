@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 128. Longest Consecutive Sequence [M]
 // LeetCode longest-consecutive-sequence
 

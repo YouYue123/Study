@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1027. Longest Arithmetic Subsequence [M]
 // LeetCode longest-arithmetic-subsequence
 

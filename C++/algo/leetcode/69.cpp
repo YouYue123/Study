@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 69. Sqrt(x) [E]
 // LeetCode sqrtx
 

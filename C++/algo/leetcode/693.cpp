@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 693. Binary Number with Alternating Bits [E]
 // LeetCode binary-number-with-alternating-bits
 

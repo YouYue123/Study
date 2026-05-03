@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1464. Maximum Product of Two Elements in an Array [E]
 // LeetCode maximum-product-of-two-elements-in-an-array
 

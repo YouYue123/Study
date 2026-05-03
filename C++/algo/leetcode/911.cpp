@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 911. Online Election [M]
 // LeetCode online-election
 

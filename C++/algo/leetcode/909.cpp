@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 909. Snakes and Ladders [M]
 // LeetCode snakes-and-ladders
 

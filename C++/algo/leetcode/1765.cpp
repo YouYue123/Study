@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1765. Map of Highest Peak [M]
 // LeetCode map-of-highest-peak
 

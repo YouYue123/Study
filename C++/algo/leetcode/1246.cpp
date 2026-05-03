@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1246. Palindrome Removal [H]
 // LeetCode palindrome-removal
 

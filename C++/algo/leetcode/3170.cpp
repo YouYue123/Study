@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3170. Lexicographically Minimum String After Removing Stars [M]
 // LeetCode lexicographically-minimum-string-after-removing-stars
 

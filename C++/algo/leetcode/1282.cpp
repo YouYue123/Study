@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1282. Group the People Given the Group Size They Belong To [M]
 // LeetCode group-the-people-given-the-group-size-they-belong-to
 

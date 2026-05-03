@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 15. 3Sum [M]
 // LeetCode 3sum
 

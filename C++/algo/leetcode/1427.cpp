@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1427. Perform String Shifts [E]
 // LeetCode perform-string-shifts
 

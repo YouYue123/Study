@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3299. Sum of Consecutive Subsequences [H]
 // LeetCode sum-of-consecutive-subsequences
 

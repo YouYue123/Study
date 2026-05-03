@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 206. Reverse Linked List [E]
 // LeetCode reverse-linked-list
 

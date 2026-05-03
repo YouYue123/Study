@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 242. Valid Anagram [E]
 // LeetCode valid-anagram
 

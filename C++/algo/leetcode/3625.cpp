@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3625. Count Number of Trapezoids II [H]
 // LeetCode count-number-of-trapezoids-ii
 

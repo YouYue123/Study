@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 88. Merge Sorted Array [E]
 // LeetCode merge-sorted-array
 

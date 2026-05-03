@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1893. Check if All the Integers in a Range Are Covered [E]
 // LeetCode check-if-all-the-integers-in-a-range-are-covered
 

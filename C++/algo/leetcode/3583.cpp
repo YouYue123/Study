@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3583. Count Special Triplets [M]
 // LeetCode count-special-triplets
 

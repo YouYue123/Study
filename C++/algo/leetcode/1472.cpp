@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1472. Design Browser History [M]
 // LeetCode design-browser-history
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 837. New 21 Game [M]
 // LeetCode new-21-game
 

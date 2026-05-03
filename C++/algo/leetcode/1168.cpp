@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1168. Optimize Water Distribution in a Village [H]
 // LeetCode optimize-water-distribution-in-a-village
 

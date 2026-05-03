@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3468. Find the Number of Copy Arrays [M]
 // LeetCode find-the-number-of-copy-arrays
 

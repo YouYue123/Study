@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2338. Count the Number of Ideal Arrays [H]
 // LeetCode count-the-number-of-ideal-arrays
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3723. Maximize Sum of Squares of Digits [M]
 // LeetCode maximize-sum-of-squares-of-digits
 

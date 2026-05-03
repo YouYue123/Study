@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 149. Max Points on a Line [H]
 // LeetCode max-points-on-a-line
 

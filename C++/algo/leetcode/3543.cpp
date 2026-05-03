@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3543. Maximum Weighted K-Edge Path [M]
 // LeetCode maximum-weighted-k-edge-path
 

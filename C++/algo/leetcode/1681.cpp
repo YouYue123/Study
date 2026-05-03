@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1681. Minimum Incompatibility [H]
 // LeetCode minimum-incompatibility
 

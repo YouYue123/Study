@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1639. Number of Ways to Form a Target String Given a Dictionary [H]
 // LeetCode number-of-ways-to-form-a-target-string-given-a-dictionary
 

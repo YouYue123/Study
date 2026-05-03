@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2379. Minimum Recolors to Get K Consecutive Black Blocks [E]
 // LeetCode minimum-recolors-to-get-k-consecutive-black-blocks
 

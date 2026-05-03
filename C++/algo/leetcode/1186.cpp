@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1186. Maximum Subarray Sum with One Deletion [M]
 // LeetCode maximum-subarray-sum-with-one-deletion
 

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 766. Toeplitz Matrix [E]
 // LeetCode toeplitz-matrix
 

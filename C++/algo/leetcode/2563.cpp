@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2563. Count the Number of Fair Pairs [M]
 // LeetCode count-the-number-of-fair-pairs
 

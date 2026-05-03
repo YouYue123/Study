@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 856. Score of Parentheses [M]
 // LeetCode score-of-parentheses
 

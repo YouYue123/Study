@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3392. Count Subarrays of Length Three With a Condition [E]
 // LeetCode count-subarrays-of-length-three-with-a-condition
 

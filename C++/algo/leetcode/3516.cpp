@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3516. Find Closest Person [E]
 // LeetCode find-closest-person
 

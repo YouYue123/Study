@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1732. Find the Highest Altitude [E]
 // LeetCode find-the-highest-altitude
 

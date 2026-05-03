@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3527. Find the Most Common Response [M]
 // LeetCode find-the-most-common-response
 

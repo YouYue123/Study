@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3366. Minimum Array Sum [M]
 // LeetCode minimum-array-sum
 

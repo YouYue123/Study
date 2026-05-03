@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1019. Next Greater Node In Linked List [M]
 // LeetCode next-greater-node-in-linked-list
 

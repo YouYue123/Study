@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1619. Mean of Array After Removing Some Elements [E]
 // LeetCode mean-of-array-after-removing-some-elements
 

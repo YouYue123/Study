@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3304. Find the K-th Character in String Game I [E]
 // LeetCode find-the-k-th-character-in-string-game-i
 

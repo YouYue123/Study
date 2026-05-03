@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3464. Maximize the Distance Between Points on a Square [H]
 // LeetCode maximize-the-distance-between-points-on-a-square
 

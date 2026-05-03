@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1278. Palindrome Partitioning III [H]
 // LeetCode palindrome-partitioning-iii
 

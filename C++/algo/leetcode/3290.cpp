@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3290. Maximum Multiplication Score [M]
 // LeetCode maximum-multiplication-score
 

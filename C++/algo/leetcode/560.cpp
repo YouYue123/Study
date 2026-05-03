@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 560. Subarray Sum Equals K [M]
 // LeetCode subarray-sum-equals-k
 

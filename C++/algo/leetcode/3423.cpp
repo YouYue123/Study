@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3423. Maximum Difference Between Adjacent Elements in a Circular Array [E]
 // LeetCode maximum-difference-between-adjacent-elements-in-a-circular-array
 

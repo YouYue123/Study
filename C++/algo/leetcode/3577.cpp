@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 3577. Count the Number of Computer Unlocking Permutations [M]
 // LeetCode count-the-number-of-computer-unlocking-permutations
 

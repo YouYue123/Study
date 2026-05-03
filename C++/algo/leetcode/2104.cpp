@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 2104. Sum of Subarray Ranges [M]
 // LeetCode sum-of-subarray-ranges
 

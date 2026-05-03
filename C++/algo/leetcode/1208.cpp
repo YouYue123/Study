@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // 1208. Get Equal Substrings Within Budget [M]
 // LeetCode get-equal-substrings-within-budget
 
