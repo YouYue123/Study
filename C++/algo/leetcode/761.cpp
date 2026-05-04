@@ -17,12 +17,12 @@ public:
                 diff += 1;
             } else {
                 diff -= 1;
-                if(diff == 0) {
-                    substr.push_back(
-                        "1" + makeLargestSpecial(s.substr(start + 1, i - start - 1)) +"0"
-                    );
-                    start = i + 1;
-                }
+            }
+            if(diff == 0) {
+                substr.push_back(
+                    "1" + makeLargestSpecial(s.substr(start + 1, i - start - 1)) +"0"
+                );
+                start = i + 1;
             }
         }
         // cout << substr.size() << endl;
