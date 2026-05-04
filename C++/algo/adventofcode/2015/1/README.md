@@ -1,0 +1,3 @@
+# Advent of Code 2015 — Day 1
+
+C++ sources for this day (typically part 1 and part 2). Inputs are often read from stdin; use your own puzzle input when running locally.
