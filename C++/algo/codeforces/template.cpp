@@ -2,6 +2,7 @@
 using namespace std;
 using ll = long long;
 using ull = unsigned long long;
+int constexpr INF = 0x3f3f3f3f;
 
 void solve()
 {
