@@ -26,7 +26,7 @@ int main()
         z += c_z;
     }
     string ans = "";
-    if(x == 0 && y == 0 == z == 0) ans = "YES";
+    if(x == 0 && y == 0 && z == 0) ans = "YES";
     else ans = "NO";
     cout << ans << endl;
 }
