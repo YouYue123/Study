@@ -2,61 +2,32 @@
 
 using namespace std;
 
-/**
- * KMP (Knuth-Morris-Pratt) string matching algorithm
- * http://oi-wiki.org/string/kmp/
- */
 struct KMP
 {
-    vector<int> calcPi(const string &p)
+    // LSP -> longest proper prefix
+    vector<int> get_lsp(const string &p)
     {
         vector<int> pi(p.size());
-        int match = 0; // length of current longest prefix-suffix match
-        
-        // Start from index 1 since pi[0] is always 0
-        for (int i = 1; i < p.size(); i++)
-        {
+        for (int i = 1, match = 0; i < p.size(); i++) {
             char v = p[i];
-            while (match > 0 && p[match] != v)
-            {
-                match = pi[match - 1];
-            }
-            if (p[match] == v)
-            {
-                match++;
-            }
+            while (match > 0 && p[match] != v)  match = pi[match - 1];
+            if (p[match] == v) match++;
             pi[i] = match;
         }
         return pi;
     }
     vector<int> kmp(const string &s, const string &p)
     {
-        if (p.empty())
-        {
-            vector<int> pos(s.size() + 1);
-            for (int i = 0; i <= s.size(); i++) {
-                pos[i] = i;
-            }
-            return pos;
-        }
-        
-        vector<int> pi = calcPi(p);
+        int n = s.size(), m = p.size();
+        vector<int> lsp = get_lsp(p);
         vector<int> pos;
-        int match = 0;
-        
-        for (int i = 0; i < s.size(); i++)
-        {
+        for (int i = 0, match = 0; i < n; i++) {
             char v = s[i];
-            while (match > 0 && p[match] != v)
-                match = pi[match - 1];
-            
-            if (p[match] == v)
-                match += 1;
-            
-            if (match == p.size())
-            {
-                pos.push_back(i - p.size() + 1);
-                match = pi[match - 1];
+            while (match > 0 && p[match] != v) match = lsp[match - 1]; 
+            if (p[match] == v) match += 1;
+            if (match == m) {
+                pos.push_back(i - m + 1);
+                match = lsp[match - 1];
             }
         }
         return pos;
