@@ -1,22 +1,22 @@
 # 🏆 CP Ability Profile
 
-<!-- Auto-generated weekly. Last updated: 2026-05-10 22:28 SGT -->
+<!-- Auto-generated weekly. Last updated: 2026-05-17 22:00 SGT -->
 
 ## 📊 Stats Overview
 
 | Metric | Value |
 |--------|-------|
 | **LeetCode** | 1626 solved · Guardian ~2262 |
-| **Codeforces** | 76 solved · youyue · Specialist 1423 (max) |
+| **Codeforces** | 98 solved · youyue · Specialist 1423 (max) |
 | **Difficulty (LC)** | 🟢 Easy 311 · 🟡 Medium 939 · 🔴 Hard 363 · ❓ Unknown 13 |
 
-### Weekly Activity (May 3–9, 2026)
+### Weekly Activity (May 10–16, 2026)
 
 | Platform | New Solutions |
 |----------|:------------:|
-| LeetCode | 8 |
-| Codeforces | 13 (across rounds 1, 4, 25, 69, 118, 126, 182, 230, 492, 1284, 2199, 2204, 2216, 2217, 2220, 2222, 2225, 2226) |
-| **Total** | **21** |
+| LeetCode | 0 |
+| Codeforces | 16 (across rounds 1407, 2218, 2228) |
+| **Total** | **16** |
 
 ### Difficulty Breakdown
 
@@ -33,17 +33,19 @@
 | Topic | Recent Problems |
 |-------|----------------|
 | **String / KMP** | LC 28 (strStr), LC 214 (Shortest Palindrome), LC 1397 (DP+KMP), CF 126B (Password), CF 182D (Common Divisors) |
-| **Combinatorics / Number Theory** | LC 1735 (stars-and-bars + factorization), CF 1284C (combinatorics), CF 182D (GCD) |
-| **Dynamic Programming** | LC 1397 (digit DP+KMP), LC 790 (domino tiling), LC 975 (DP+monotonic), LC 996 (bitmask), CF 2225C (grid DP) |
+| **Combinatorics / Number Theory** | LC 1735 (stars-and-bars + factorization), CF 1284C (combinatorics), CF 182D (GCD), CF 1407B (Big Vova — GCD + constructive), CF 2218D (OEIS — distinct GCD sequence), CF 2228D (Sanae Cross — combinatorial counting via Fenwick) |
+| **Dynamic Programming** | LC 1397 (digit DP+KMP), LC 790 (domino tiling), LC 975 (DP+monotonic), LC 996 (bitmask), CF 2225C (grid DP), CF 2218G (combinatorial DP — seating/awkwardness counting), CF 2228E (Amanojaku — combinatorial DP + segment tree) |
 
 ### 🟡 Good (comfortable)
 
 | Topic | Recent Problems |
 |-------|----------------|
-| **Graph / Shortest Path** | LC 1368 (Dijkstra / 0-1 BFS) |
-| **Data Structures** | LC 990 (Union Find), CF 2226C (multiset + binary search) |
-| **Greedy / Two Pointers** | LC 1793 (center expansion), CF 2217A, CF 2216B |
-| **Recursion / Sorting** | LC 761 (special binary string) |
+| **Graph / Tree** | LC 1368 (Dijkstra / 0-1 BFS), CF 2218F (tree construction — parity of subtree sizes) |
+| **Data Structures** | LC 990 (Union Find), CF 2226C (multiset + binary search), CF 2228D (Fenwick tree for counting) |
+| **Greedy / Constructive** | LC 1793 (center expansion), CF 2217A, CF 2216B, CF 1407A (Ahahahahahahahaha — binary array removal), CF 2218A (trivial min-max), CF 2218B (brute force negation), CF 2218C (permutation median maximization), CF 2228A (Marisa — subsequence sum divisible by 3) |
+| **Bit Manipulation** | CF 2218E (XOR elimination — maximize final element) |
+| **Game Theory** | CF 2228B (Remilia — pursuit-evasion on a circle) |
+| **Interactive** | CF 1407C (Chocolate Bunny — guess permutation via modulo queries) |
 
 ### ⬜ Gap Areas (needs practice)
 
@@ -54,7 +56,7 @@
 | Suffix Array / Automaton | Already strong at KMP — natural progression |
 | Flow / Matching | — |
 | Geometry | — |
-| Interactive Problems | — |
+| Interactive Problems | Getting started: solved CF 1407C (interactive + permutations) |
 | CF Div2 D+ | Current rating 1423 suggests ABC ceiling |
 
 ## 💻 Coding Style
@@ -89,6 +91,7 @@ const int MOD = 1e9 + 7;
 
 | Week | LC New | CF New | Total | Notes |
 |------|:------:|:------:|:-----:|-------|
+| May 10–16, 2026 | 0 | 16 | 16 | Div. 4 contest sweep (2218 A–G) · Touhou round (2228 A–E) · interactive + GCD + XOR focus |
 | May 3–9, 2026 | 8 | 13 | 21 | KMP focus week · bulk import of 1618 LC files |
 
 ---
