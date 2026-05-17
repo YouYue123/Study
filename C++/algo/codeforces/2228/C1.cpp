@@ -2,25 +2,21 @@
 using namespace std;
 
 using ll = long long;
-using u128 = unsigned __int128; // 改用无符号128位，安全性最高
+using u128 = unsigned __int128;
 
 void solve()
 {
-    ll a_input;
-    int n;
-    if (!(cin >> a_input >> n)) return;
+    ll a, n;
+    if (!(cin >> a >> n)) return;
     
     vector<int> d(n);
     for (int i = 0; i < n; i++) cin >> d[i];
-    sort(d.begin(), d.end()); // 确保有序
+    sort(d.begin(), d.end());
     
     int min_d = d.front(), max_d = d.back();
-    string S = to_string(a_input);
+    string S = to_string(a);
+    u128 ans = -1;
     
-    u128 a = a_input;
-    u128 ans = -1; // 自动回绕成无符号 128 位最大值，绝对安全的 INF
-    
-    // 安全更新答案的 lambda
     auto update_ans = [&](u128 val) {
         u128 diff = (val > a) ? (val - a) : (a - val);
         if (diff < ans) ans = diff;
@@ -34,6 +30,7 @@ void solve()
         }
         update_ans(num);
     }
+
     // 2. 尝试构造比 a 多一位的数 (排除只有数字 0 的极端情况)
     if(min_d != 0 || n > 1) {
         u128 num = (min_d == 0) ? d[1] : min_d;
@@ -42,12 +39,14 @@ void solve()
         }
         update_ans(num);
     }
+
     // 3. 同位数匹配：改用稳健的 DFS 避开贪心盲区
-    auto dfs = [&](auto& self, int idx, u128 cur, bool is_less, bool is_greater) -> void {
+    auto dfs = [&](this auto&& dfs, int idx, u128 cur, bool is_less, bool is_greater) -> void {
         if (idx == S.size()) {
             update_ans(cur);
             return;
         }
+        
         // 如果当前已经严格小了，后面直接全部无脑填最大，贪心结算
         if (is_less) {
             u128 num = cur;
@@ -75,23 +74,19 @@ void solve()
             if (idx == 0 && d[i] == 0 && S.size() > 1) {
                 continue;
             }
-            
             if (d[i] < target_digit) {
-                self(self, idx + 1, cur * 10 + d[i], true, false);
+                dfs(idx + 1, cur * 10 + d[i], true, false);
             } else if (d[i] > target_digit) {
-                self(self, idx + 1, cur * 10 + d[i], false, true);
+                dfs(idx + 1, cur * 10 + d[i], false, true);
             } else {
-                self(self, idx + 1, cur * 10 + d[i], false, false);
+                dfs(idx + 1, cur * 10 + d[i], false, false);
             }
         }
     };
     
-    // 启动 DFS
-    dfs(dfs, 0, 0, false, false);
+    dfs(0, 0, false, false);
     
-    // 输出最终答案
-    ll final_ans = (ll)ans;
-    cout << final_ans << "\n";
+    cout << (ll)ans << endl;
 }
 int main()
 {
