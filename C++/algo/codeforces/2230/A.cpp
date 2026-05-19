@@ -9,10 +9,6 @@ void solve()
 {
     ll n, a, b;
     cin >> n >> a >> b;
-    if(3 * a <= b) {
-        cout << n * a << endl;
-        return; 
-    }
     ll ans = min({
         n * a,
         (n / 3) * b + (n % 3) * a,
