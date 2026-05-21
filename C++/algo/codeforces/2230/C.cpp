@@ -9,27 +9,21 @@ void solve()
 {
     ll n;
     cin >> n;
-    vector c(n, 0LL);
-    ll cnt_ge_2 = 0, cnt_eq_1 = 0;
+    vector<ll> c(n, 0);
+    for(int i = 0; i < n; i ++) cin >> c[i];
+    ll cnt_1 = 0, cnt_more_than_2 = 0;
+    ll ans = 0, supp = 0;
     for(int i = 0; i < n; i ++) {
-        cin >> c[i];
-        if(c[i] >= 2) cnt_ge_2 += 1;
-        else if(c[i] == 1) cnt_eq_1 += 1;
-    }
-
-    ll ans = 0;
-    if(cnt_ge_2 == 1) {
-        ans = c.back() + min(c.back() / 2, cnt_eq_1);
-    } else if(cnt_ge_2 >= 2) {
-        ll sum_val = 0, cap = 0;
-        for(int i = 0; i < n; i ++) {
-            if(c[i] >= 2) {
-                sum_val += c[i];
-                cap += (c[i] - 2) / 2;
-            }
+        if(c[i] == 1) {
+            cnt_1 += 1;
+        } else {
+            supp += c[i] / 2 - 1;
+            ans += c[i];
+            if(c[i] > 0) cnt_more_than_2 += 1;
         }
-        ans = sum_val + min(cap, cnt_eq_1);
     }
+    if(cnt_more_than_2 == 1) supp += 1;
+    ans += min(cnt_1, max(0LL, supp));
     if(ans < 3) ans = 0;
     cout << ans << endl;
 }
@@ -45,4 +39,3 @@ int main()
         solve();
     }
 }
-
