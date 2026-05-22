@@ -4,32 +4,27 @@ using ll = long long;
 using ull = unsigned long long;
 using u128 = unsigned __int128;
 ll constexpr INF = 0x3f3f3f3f3f3f3f3f;
-
+// vector<int> memo
 void solve()
 {
     int x;
     cin >> x;
     vector<ll> candidate;
     unordered_map<int, bool> dp;
-    for(int i = 1; i <= 9; i ++) {
-        candidate.push_back(i * 10 + 1);
+    int mx = 11 * 111 - 111 - 11;
+    if(x > mx) {
+        cout << "YES" << endl;
+        return;
     }
-    unordered_map<int, bool> memo;
+    vector memo(mx, -1);
     auto dfs = [&] (this auto&& dfs, int num) -> bool {
-        if(num == 0) return true;
-        if(num < 0) return false;
-        if(memo.contains(num)) return memo[num];
-        bool ans = false;
-        for(auto& cand : candidate) {
-            if(dfs(num - cand)) {
-                ans = true;
-                break;
-            }
-        }
-        return memo[num] = ans;
+        if(num < 11) return false;
+        if(num == 11 || num == 111) return true;
+        if(memo[num] != -1) return memo[num];
+        return memo[num] = dfs(num - 11) || dfs(num - 111);
     };
 
-    cout << (dfs(x) == 1 ? "YES" : "NO") << endl;
+    cout << (dfs(x) ? "YES" : "NO") << endl;
 }
 
 int main()
