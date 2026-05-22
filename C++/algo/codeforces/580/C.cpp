@@ -14,14 +14,14 @@ int main()
     cin >> n >> m;
     vector a(n, 0);
     for(int i = 0; i < n; i ++) cin >> a[i];
-    unordered_map<ll, vector<ll>> g;
+    unordered_map<int, vector<int>> g;
     for(int i = 0; i < n - 1; i ++) {
-        ll x, y;
+        int x, y;
         cin >> x >> y;
         g[x].push_back(y);
         g[y].push_back(x);
     }
-    ll ans = 0;
+    int ans = 0;
     auto dfs = [&] (this auto&& dfs, int cur, int parent, int cnt) -> void {
         // cout << "cur: " << cur << "cnt: " << cnt << endl;
 
@@ -33,7 +33,7 @@ int main()
         // cout <<  g[cur].size() << endl;
         for(int nxt : g[cur]) {
             if(nxt == parent) continue;
-            ll nxt_cnt = a[nxt - 1] == 0 ? 0 : cnt + 1;
+            int nxt_cnt = a[nxt - 1] == 0 ? 0 : cnt + 1;
             dfs(nxt, cur, nxt_cnt);
         }
     };
