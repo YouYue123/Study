@@ -38,7 +38,7 @@ class FMVModelState:
     negotiation_ceiling: float
 
 
-def run_fmv_model(p_eok: float = 2591, tg_book_size: float = 990) -> FMVModelState:
+def run_fmv_model(p_eok: float = 2531, tg_book_size: float = 990) -> FMVModelState:
     h_deflator = 0.95
     p_base = p_eok * h_deflator
     adjustments = {
@@ -133,3 +133,8 @@ if __name__ == "__main__":
     print("=" * 55)
 
     plot_fmv_model(state, save_path=args.save)
+
+# floor 9 2675
+# floor 8 2531
+# floor 7 2507
+# floor 5 2483
