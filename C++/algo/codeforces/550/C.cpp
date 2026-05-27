@@ -24,7 +24,7 @@ void solve()
             if(cur_rem == 0) {
                 find = true;
                 ans = cur + s[i];
-                cur_num = true;
+                cur_ans = true;
             } else {
                 cur.push_back(s[i]);
                 dfs(i + 1, cur_rem);  
@@ -33,7 +33,7 @@ void solve()
         } else if(cur_num == 0) {
             find = true;
             ans = "0";
-            cur_num = true;
+            cur_ans = true;
         }
         return memo[i][rem] = (cur_num ? 1 : 0);
     };
