@@ -9,12 +9,12 @@ struct Rolling_Hash_Window {
     ll p = 1; // B ^ x
     void setup(vector<int>& nums) {
         for(int i = 0; i < len; i ++) { 
-            h = (h * B % MOD + nums[i]) % MOD;
-            p = p * B % MOD;
+            h = (h * BASE % MOD + nums[i]) % MOD;
+            p = p * BASE % MOD;
         }
     }
     void roll (vector<int>& nums, int idx) {
-        h = (h * B % MOD + nums[idx]) % MOD;
+        h = (h * BASE % MOD + nums[idx]) % MOD;
         h = (h - p * nums[idx - len] % MOD + MOD) % MOD;
     }
 };
