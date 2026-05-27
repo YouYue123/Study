@@ -2,7 +2,12 @@
 using namespace std;
 using ll = long long;
 
-template<ll BASE, ll MOD, class T>
+template<class T>
+concept RollingHashSeq = requires(T& s, int i) {
+    { s[i] } -> convertible_to<long long>;
+};
+
+template<ll BASE, ll MOD, RollingHashSeq T>
 struct Rolling_Hash_Window {
     int len;
     ll h = 0;
