@@ -2,19 +2,20 @@
 using namespace std;
 using ll = long long;
 
-template<ll BASE, ll MOD>
+template<ll BASE, ll MOD, class T>
 struct Rolling_Hash_Window {
-    ll len;
-    ll h = 0; // the hash
-    ll p = 1; // B ^ x
-    void setup(vector<int>& nums) {
-        for(int i = 0; i < len; i ++) { 
-            h = (h * BASE % MOD + nums[i]) % MOD;
+    int len;
+    ll h = 0;
+    ll p = 1;
+    void setup(T& s) {
+        for(int i = 0; i < len; i ++) {
+            h = (h * BASE % MOD + s[i]) % MOD;
             p = p * BASE % MOD;
         }
     }
-    void roll (vector<int>& nums, int idx) {
-        h = (h * BASE % MOD + nums[idx]) % MOD;
-        h = (h - p * nums[idx - len] % MOD + MOD) % MOD;
+    void roll(T& s, int idx) {
+        h = (h * BASE % MOD + s[idx]) % MOD;
+        ll remove = (p * (s[idx - len])) % MOD;
+        h = (h - remove + MOD) % MOD;
     }
 };
