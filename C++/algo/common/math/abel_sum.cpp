@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+long long INF = 0x3f3f3f3f;
 // LC: 3500
 // https://leetcode.com/problems/minimum-cost-to-divide-array-into-subarrays/
 class Solution {
@@ -16,7 +17,7 @@ class Solution {
             auto dfs = [&] (this auto&& dfs, int i) {
                 if(i == n) return 0LL;
                 if(memo[i] != -1LL) return memo[i];
-                long long ans = LONG_LONG_MAX;
+                long long ans = INF;
                 for(int j = i; j < n; j ++) {
                     // Abel's summation formula
                     // auto firstPart = (numPreSum[j + 1] + k * cnt) * (costPreSum[j + 1] - costPreSum[i]);
