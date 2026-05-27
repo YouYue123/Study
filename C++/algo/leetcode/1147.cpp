@@ -1,23 +1,19 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
 ll BASE_1 = 131, MOD_1 = 1e9 + 7;
 ll BASE_2 = 13331, MOD_2 = 1e9 + 9;
-ll modPow(ll base, ll exp, ll mod)
-{
-    ll ans = 1;
-    while (exp) {
-        if (exp % 2 == 1) ans = (ans * base) % mod;
-        exp /= 2;
-        base = (base * base) % mod;
-    }
-    return ans;
-}
-
 class Solution {
 public:
     int longestDecomposition(string text) {
         int n = text.size();
+        vector base_1_mod_pow(1001, 1LL);
+        vector base_2_mod_pow(1001, 1LL);
+        for(int i = 1; i < base_1_mod_pow.size(); i ++) {
+            base_1_mod_pow[i] = (base_1_mod_pow[i - 1] * BASE_1) % MOD_1;
+            base_2_mod_pow[i] = (base_2_mod_pow[i - 1] * BASE_2) % MOD_2;
+        }
         int left = 0, right = n - 1;
         int ans = 1;
         ll f_h1 = 0, f_h2 = 0;
@@ -27,8 +23,8 @@ public:
             f_h2 = (f_h2 * BASE_2 % MOD_2 + text[left]) % MOD_2;
             ll f_hash = f_h1 << 32 | f_h2;
 
-            b_h1 = (b_h1 + modPow(BASE_1, cnt, MOD_1) * text[right]) % MOD_1;
-            b_h2 = (b_h2 + modPow(BASE_2, cnt, MOD_2) * text[right]) % MOD_2;
+            b_h1 = (b_h1 + base_1_mod_pow[cnt] * text[right] % MOD_1) % MOD_1;
+            b_h2 = (b_h2 + base_2_mod_pow[cnt] * text[right] % MOD_2) % MOD_2;
             ll b_hash = b_h1 << 32 | b_h2;
             cnt += 1;
 
