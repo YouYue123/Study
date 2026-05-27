@@ -2,18 +2,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 constexpr int MOD = 1e9 + 7;
-
+using ll = long long;
 // https://oi-wiki.org/math/number-theory/mod-arithmetic/
 
-int modPlus(int a, int b, int mod = MOD) { return ((long long)(a) + b) % mod; }
+ll modPlus(ll a, ll b, ll mod = MOD) { return (a + b) % mod; }
 
-int modMinus(int a, int b, int mod = MOD) { return (((long long)(a)-b) + mod) % mod; }
+ll modMinus(ll a, ll b, ll mod = MOD) { return (a - b + mod) % mod; }
 
-int modMult(int a, int b, int mod = MOD) { return ((long long)(a)*b) % mod; }
+ll modMult(ll a, ll b, ll mod = MOD) { return a * b % mod; }
 
-int modPow(int base, int exp, int mod = MOD)
+ll modPow(ll base, ll exp, ll mod = MOD)
 {
-    long long result = 1;
+    ll result = 1;
     while (exp)
     {
         if (exp % 2 == 1)
@@ -21,13 +21,13 @@ int modPow(int base, int exp, int mod = MOD)
             result = (result * base) % mod;
         }
         exp /= 2;
-        base = ((long long)base * base) % mod;
+        base = (base * base) % mod;
     }
 
     return result;
 }
 
 // prime mod only, Fermat's little theorem.
-int modInv(int a, int mod = MOD) { return modPow(a, mod - 2); }
+ll modInv(ll a, ll mod = MOD) { return modPow(a, mod - 2); }
 
-int modDiv(int a, int b, int mod = MOD) { return modMult(a, modInv(b)); }
+ll modDiv(ll a, ll b, ll mod = MOD) { return modMult(a, modInv(b)); }
