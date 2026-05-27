@@ -2,9 +2,8 @@
 using namespace std;
 using ll = long long;
 
+template<ll BASE, ll MOD>
 struct Rolling_Hash_Window {
-    ll B;
-    ll MOD;
     ll len;
     ll h = 0; // the hash
     ll p = 1; // B ^ x
