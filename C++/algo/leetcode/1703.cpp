@@ -1,30 +1,48 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// 1703. Minimum Adjacent Swaps for K Consecutive Ones [H]
-// LeetCode minimum-adjacent-swaps-for-k-consecutive-ones
-
+using ll  = long long;
 class Solution {
 public:
     int minMoves(vector<int>& nums, int k) {
-        vector<int> p;
-        for(int i = 0; i < nums.size(); i ++) {
-            if(nums[i] == 1) p.push_back(i - p.size());
+        vector<long long> idxes;
+        for (int i = 0; i < nums.size(); i++) {
+            if (nums[i] == 1)  idxes.push_back(i);
         }
-        int m = p.size();
-        vector<int> presum(m + 1, 0);
-        for(int i = 1; i <= m; i ++) {
-            presum[i] = presum[i - 1] + p[i - 1];
+        int m = idxes.size();
+
+        vector<long long> presum(m + 1, 0);
+        for (int i = 0; i < m; i++) {
+            presum[i + 1] = presum[i] + idxes[i];
         }
-        int ans = INT_MAX;
-        for(int i = 0; i <= m - k; i ++) {
-            int medianIdx = i + k / 2;
-            int medianVal = p[medianIdx];
-            int pre =  medianVal * (k / 2) - (presum[medianIdx] - presum[i]);
-            int rightCnt = k / 2 + 1;
-            int post = (presum[i + k] - presum[medianIdx + 1]) - medianVal * (k - 1 - k / 2);
-            ans = min(ans, pre + post);
+        ll ans = -1; 
+
+        for (int i = 0; i <= m - k; i++) {
+            int left = i;
+            int right = i + k - 1;
+            // 找到当前窗口在 idxes 中的中位数下标
+            int mid = left + k / 2; 
+            // 左半部分(不含 mid)到 mid 的距离和
+            // 左边点的个数 * idxes[mid] - (左边所有点的和)
+            int left_count = mid - left;
+            ll left_dist = left_count * idxes[mid] - (presum[mid] - presum[left]);
+            
+            // 右半部分(不含 mid)到 mid 的距离和
+            // (右边所有点的和) - 右边点的个数 * idxes[mid]
+            int right_count = right - mid;
+            ll right_dist = (presum[right + 1] - presum[mid + 1]) - right_count * idxes[mid];
+            
+            ll total_dist = left_dist + right_dist;
+
+            if (ans == -1 || total_dist < ans) {
+                ans = total_dist;
+            }
         }
-        return ans;
+
+        // 4. 减去连续排列所需的固定相对偏移量常数
+        // 这个常数只与 k 有关
+        ll offset = (ll)(k / 2) * (k - k / 2);
+        
+        return ans - offset;
     }
 };
