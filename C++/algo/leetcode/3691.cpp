@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-// https://oi-wiki.org/ds/sparse-table/
 
 struct ST {
     vector<vector<int>> f_min;
@@ -31,3 +30,35 @@ struct ST {
         return max_val - min_val;
     }
 };  
+
+struct Item {
+    int left;
+    int right;
+};
+struct Compare {
+    ST& st;
+    Compare(ST& st): st(st) {};
+    bool operator () (Item& a, Item& b) {
+        return st.query(a.left, a.right) < st.query(b.left, b.right);
+    };
+};
+class Solution {
+public:
+    long long maxTotalValue(vector<int>& nums, int k) {
+        int n = nums.size();
+        auto st = ST(nums);
+        Compare comp(st);
+        priority_queue<Item, vector<Item>, Compare> pq(comp);
+        for(int left = 0; left < n; left ++) pq.emplace(left, n - 1);
+        long long ans = 0;
+        int cnt = 0;
+        while(cnt < k) {
+            auto cur = pq.top();
+            pq.pop();
+            ans += st.query(cur.left, cur.right);
+            if(cur.right > cur.left) pq.emplace(cur.left, cur.right - 1);
+            cnt += 1;
+        }
+        return ans;
+    }
+};
