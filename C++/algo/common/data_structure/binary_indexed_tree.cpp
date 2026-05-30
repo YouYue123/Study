@@ -40,10 +40,14 @@ struct MAX_BIT {
     void update(int idx, vector<int>& a) {
         while(idx < tree.size()) {
             tree[idx] = a[idx];
-            for(int i = 1; i < (idx & -idx); i *= 2) {
-                tree[idx] = max(tree[idx], tree[idx - i]);
+            // 总共管辖的长度
+            int managed_len = idx & -idx; 
+            // i 代表当前派出的“侦察兵”的跨度，从 1 开始，每次翻倍
+            for(int len = 1; len < managed_len; len <<= 1) {
+                // 侦察兵从右往左跳跃，去拿左边下属 tree[idx - i] 的账本
+                tree[idx] = max(tree[idx], tree[idx - len]); 
             }
-            idx += idx & (-idx);
+            idx += managed_len;
         }
     }
 
