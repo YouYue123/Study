@@ -8,6 +8,11 @@ struct BIT {
         tree.assign(N + 1, 0);
     }
     int lowbit(int i) {
+        // x 的二进制中，最低位的 1 以及后面所有 0 组成的数．
+        // lowbit(0b01011000) == 0b00001000
+        //          ~~~~^~~~
+        // lowbit(0b01110010) == 0b00000010
+        //          ~~~~~~^~
         return i & (-i);
     }
     void update(int idx, int delta) {
