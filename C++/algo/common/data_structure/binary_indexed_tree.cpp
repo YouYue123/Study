@@ -2,36 +2,25 @@
 using namespace std;
 // https://oi-wiki.org/ds/fenwick/
 // Binary Indexed Tree (also known as Fenwick Tree) data structure
-struct BIT
-{
+struct BIT {
     vector<int> tree;
-    BIT(int N)
-    {
-        // (element count + 1, since indexing starts from 1)
+    BIT(int N){
         tree.assign(N + 1, 0);
     }
-
-    int lowbit(int i)
-    {
+    int lowbit(int i) {
         return i & (-i);
     }
-
-    void add(int index, int delta)
-    {
-        while (index < (int)tree.size())
-        {
-            tree[index] += delta;
-            index += lowbit(index); // Move to parent node
+    void add(int idx, int delta) {
+        while (idx < tree.size()) {
+            tree[idx] += delta;
+            idx += lowbit(idx);
         }
     }
-
-    int query(int index)
-    {
+    int query(int idx) {
         int ans = 0;
-        while (index > 0)
-        {
-            ans += tree[index];
-            index -= lowbit(index); // Move to the previous node
+        while (index > 0) {
+            ans += tree[idx];
+            idx -= lowbit(idx); 
         }
         return ans;
     }
