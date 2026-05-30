@@ -30,3 +30,29 @@ struct BIT {
         return ans;
     }
 };
+
+struct MAX_BIT {
+    vector<int> tree;
+    MAX_BIT(int N) {
+        tree.resize(N + 1, 0);
+    }
+
+    void update(int idx, vector<int>& a) {
+        while(idx < tree.size()) {
+            tree[idx] = a[idx];
+            for(int i = 1; i < (idx & -idx); i <<=1) {
+                tree[idx] = max(tree[idx], tree[idx - i]);
+            }
+            idx += idx & (-idx);
+        }
+    }
+
+    int query (int idx) {
+        int ans = 0;
+        while(idx > 0) {
+            ans = max(ans, tree[idx]);
+            idx -= idx & (-idx);
+        }
+        return ans;
+    }
+};
