@@ -40,7 +40,7 @@ struct MAX_BIT {
     void update(int idx, vector<int>& a) {
         while(idx < tree.size()) {
             tree[idx] = a[idx];
-            for(int i = 1; i < (idx & -idx); i <<=1) {
+            for(int i = 1; i < (idx & -idx); i *= 2) {
                 tree[idx] = max(tree[idx], tree[idx - i]);
             }
             idx += idx & (-idx);
