@@ -10,7 +10,7 @@ struct BIT {
     int lowbit(int i) {
         return i & (-i);
     }
-    void add(int idx, int delta) {
+    void update(int idx, int delta) {
         while (idx < tree.size()) {
             tree[idx] += delta;
             idx += lowbit(idx);
