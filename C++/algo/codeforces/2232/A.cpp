@@ -17,10 +17,14 @@ void solve()
     ll ans = 0;
     while(left < right) {
         if(a[left] != t || a[right] != t) {
+            left += 1;
+            right -= 1;
             ans += 1;
+        } else if(a[left] == t) {
+            left += 1;
+        } else if(a[right] == t) {
+            right -= 1;
         }
-        left += 1;
-        right -= 1;
     }
     cout << ans << endl;
 }

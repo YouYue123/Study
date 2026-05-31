@@ -7,46 +7,48 @@ ll constexpr INF = 0x3f3f3f3f3f3f3f3f;
 
 void solve()
 {
+    // Introverts (I) who have to sit at an empty table
+    // Extroverts (E) who have to sit at a non-empty table
+    // Ambiverts (A) who can sit at any table.
     ll n, x, s;
     cin >> n >> x >> s;
     string u;
     cin >> u;
+    assert((ll)u.size() == n);
     
-    ll empty_tables = x;
-    ll partial_seats = 0;
-    ll upgradable_A = 0;
-    ll ans = 0;
-    
-    for (char c : u) {
-        if (c == 'I') {
-            if (empty_tables > 0) {
-                empty_tables--;
-                partial_seats += (s - 1);
-                ans++;
+    ll empty_table = x;
+    ll available_seats = 0;
+    ll upgradable_a = 0;
+    ll ans = 0 ;
+    for(char c : u) {
+        if(c == 'I') {
+            if(empty_table > 0) {
+                empty_table -= 1;
+                available_seats += s - 1;
+                ans += 1;
             }
-        } else if (c == 'E') {
-            if (partial_seats > 0) {
-                partial_seats--;
-                ans++;
-            } else if (upgradable_A > 0 && empty_tables > 0) {
-                upgradable_A--;
-                empty_tables--;
-                partial_seats += (s - 1);
-                ans++;
+        } else if(c == 'E') {
+            if(available_seats > 0) {
+                available_seats -= 1;
+                ans += 1;
+            } else if(upgradable_a > 0 && empty_table > 0) {
+                upgradable_a -= 1;
+                empty_table -= 1;
+                available_seats += s - 1;
+                ans += 1;
             }
-        } else if (c == 'A') {
-            if (partial_seats > 0) {
-                partial_seats--;
-                upgradable_A++;
-                ans++;
-            } else if (empty_tables > 0) {
-                empty_tables--;
-                partial_seats += (s - 1);
-                ans++;
+        } else if(c == 'A') {
+            if(available_seats > 0) {
+                available_seats -= 1;
+                upgradable_a += 1;
+                ans += 1;
+            } else if(empty_table > 0) {
+                empty_table -= 1;
+                available_seats += s - 1;
+                ans += 1;
             }
         }
     }
-    
     cout << ans << endl;
 }
 

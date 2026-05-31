@@ -9,19 +9,14 @@ void solve()
 {
     int n;
     cin >> n;
-    vector<ll> a(n);
-    for(int i = 0; i < n; i ++) cin >> a[i];
-    vector presum(n + 1, 0LL);
-    for(int i = 0; i < n; i ++) presum[i + 1] = presum[i] + a[i];
-    vector<ll> ans;
-    ll cur_max = INF;
+    vector a(n, 0LL);
+    for(int i = 0; i< n; i++) cin >> a[i];
+    ll ans = INF, sum = 0;
     for(int i = 0; i < n; i ++) {
-        ll avg = presum[i + 1] / (i + 1);
-        cur_max = min(cur_max, avg);
-        ans.push_back(cur_max);
-    }
-    for(int i = 0; i < n; i ++) {
-        cout << ans[i] << " ";
+        sum += a[i];
+        ll avg = sum / (i + 1);
+        ans = min(ans, avg);
+        cout << ans << " ";
     }
     cout << endl;
 }
