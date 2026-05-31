@@ -14,7 +14,7 @@ ll constexpr INF = 0x3f3f3f3f3f3f3f3f;
 vector<Op> ops;
 auto dfs = [&] (this auto&& dfs, int cur_layer, int from, int to) {
     if(cur_layer <= 0) return;
-    int spare = 6 - from - to; // 利用数学技巧求出辅助柱: 1+2+3=6, spare = 6 - from - to
+    int spare = 6 - from - to; // 利用数学技巧求出辅助柱: 1+2+3=6
     // prev_layer 是当前盘子上面的盘子编号 (对应下标)
     // 代表当前目标盘子上方实际压着的盘子总数
     int prev_layer = cur_layer - 1;
