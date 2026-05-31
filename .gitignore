@@ -23,3 +23,6 @@ data/*
 .terraform/
 node_modules/
 sample.txt
+
+*.in
+*.out
