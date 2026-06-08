@@ -1,0 +1,50 @@
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+using ull = unsigned long long;
+using u128 = unsigned __int128;
+ll constexpr INF = 0x3f3f3f3f3f3f3f3f;
+
+struct safe_hash {
+    static uint64_t splitmix64(uint64_t x) {
+        // MurmurHash3 mixed-in，guarantee even distribution
+        x += 0x9e3779b97f4a7c15;
+        x = (x ^ (x >> 30)) * 0xbf58476d1ce4e5b9;
+        x = (x ^ (x >> 27)) * 0x94d049bb133111eb;
+        return x ^ (x >> 31);
+    }
+
+    size_t operator()(uint64_t x) const {
+        // Add Salt with system timestamp
+        static const uint64_t FIXED_RANDOM = std::chrono::steady_clock::now().time_since_epoch().count();
+        return splitmix64(x + FIXED_RANDOM);
+    }
+};
+
+void solve()
+{
+    int n;
+    cin >> n;
+    ll gap = 1, head = 1;
+    while(n > 0) {
+        ll cur = head + gap;
+        for(int i = 0; i < n / 2; i ++) {
+            cout << cur << " ";
+            cur += 2 * gap;
+        }
+        if(n % 2 == 1) {
+            cout << head << " ";
+            head += 2 * gap;
+        }
+        gap = gap * 2;
+        n /= 2;
+    }
+    cout << endl;
+}
+
+int main()
+{
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    solve();
+}
