@@ -23,7 +23,7 @@ struct BIT {
     }
     int query(int idx) {
         int ans = 0;
-        while (index > 0) {
+        while (idx > 0) {
             ans += tree[idx];
             idx -= lowbit(idx); 
         }

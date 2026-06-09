@@ -5,39 +5,40 @@ using namespace std;
 // LeetCode count-of-smaller-numbers-after-self
 
 struct BIT {
-    vector<long long> tree;
+    vector<int> tree;
     BIT(int n) {
-        tree.assign(n, 0);
+        tree.resize(n + 1);
     }
-    int lowbit(int i) {
-        return i & (-i);
+    int lowbit (int x) {
+        return x & -x;
     }
-    void add(long index , int x) {
-        index += 1;
-        while(index < tree.size()) {
-            tree[index] += x;
-            index += lowbit(index);
+    void update(int idx, int val) {
+        while(idx < tree.size()) {
+            tree[idx] += val;
+            idx += lowbit(idx);
         }
     }
-    int query(long index) {
-        index += 1;
-        long ans = 0;
-        while(index > 0) {
-            ans += tree[index];
-            index -= lowbit(index);
+
+    int query (int idx) {
+        int ans = 0;
+        while(idx > 0) {
+            ans += tree[idx];
+            idx -= lowbit(idx);
         }
         return ans;
     }
 };
+int constexpr DELTA = 1e4 + 1;
 class Solution {
 public:
     vector<int> countSmaller(vector<int>& nums) {
-        vector<int> ans(nums.size(), 0);
-        auto bit = BIT(2 * 1e4 + 2);
-        for(int i = nums.size() - 1; i >= 0; --i) {
-            int num = nums[i] + 1e4;
-            ans[i] = bit.query(num - 1);
-            bit.add(num, 1);
+        int n = nums.size();
+        int max_val = *max_element(nums.begin(), nums.end());
+        auto bit = BIT(max_val + DELTA + 1);
+        vector<int> ans(n);
+        for(int i = n - 1; i >= 0; i --) {
+            ans[i] = bit.query(nums[i] + DELTA - 1);
+            bit.update(nums[i] + DELTA, 1);
         }
         return ans;
     }

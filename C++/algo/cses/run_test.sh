@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# ANSI color codes (\033 == ESC)
+readonly C_GREEN='\033[32m'
+readonly C_RED='\033[31m'
+readonly C_RESET='\033[0m'
+
 # Compile your program if necessary
 # g++ xxx.cpp -o test.o
 
@@ -14,10 +19,10 @@ for input_file in test_cases/*.in; do
 
     # Compare with expected output
     if diff -w <(echo "$actual_output") "$expected_output" > /dev/null; then
-        echo "Test $base_name: PASSED"
+        echo -e "${C_GREEN}Test $base_name: PASSED${C_RESET}"
     else
-        echo "Test $base_name: FAILED"
-        echo "Expected vs Actual:"
-        diff -w "$expected_output" <(echo "$actual_output")
+        echo -e "${C_RED}Test $base_name: FAILED${C_RESET}"
+        # echo "Expected vs Actual:"
+        # diff -w "$expected_output" <(echo "$actual_output")
     fi
 done
