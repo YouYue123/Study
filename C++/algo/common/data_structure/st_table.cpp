@@ -24,10 +24,12 @@ struct ST {
         }
     }
 
-    int query(int left, int right) {
+    int query_min(int left, int right) {
         int k = bit_width((uint32_t)right - left + 1) - 1;
-        int min_val = min(f_min[left][k], f_min[right - (1 << k) + 1][k]);
-        int max_val = max(f_max[left][k], f_max[right - (1 << k) + 1][k]);
-        return max_val - min_val;
+        return min(f_min[left][k], f_min[right - (1 << k) + 1][k]);
+    }
+    int query_max(int left, int right) {
+        int k = bit_width((uint32_t)right - left + 1) - 1;
+        return max(f_max[left][k], f_max[right - (1 << k) + 1][k]);
     }
 };  
