@@ -31,25 +31,25 @@ public:
         int n = nums.size();
         vector<long long> presum(n + 1);
         for(int i = 0; i < n; i ++) presum[i + 1] = presum[i] + nums[i];
-        // memo[i][j] 表示在[0, j - 1] 中选出恰好 i 个子数组，所选元素之和的最大值
+        // memo[cnt][end]：前缀 nums[0..end-1] 中恰好 cnt 个子数组的最大和
         vector memo(m + 1, vector(n + 1, -INF));
         long long ans = -INF;
         ranges::fill(memo[0], 0);
-    
-        for(int i = 1; i <= m; i ++) {
-            auto q = MonoQueue(memo[i - 1], presum);
-            for(int j = i * l; j <= n; j ++) {
+
+        for (int cnt = 1; cnt <= m; ++cnt) {
+            auto q = MonoQueue(memo[cnt - 1], presum);
+            for (int end = cnt * l; end <= n; ++end) {
                 // 1. 入
-                q.push(j - l);
-                 // 2.更新
-                memo[i][j] = max(
-                    memo[i][j - 1], 
-                    q.get_max() + presum[j]
+                q.push(end - l);
+                // 2. 更新
+                memo[cnt][end] = max(
+                    memo[cnt][end - 1],
+                    q.get_max() + presum[end]
                 );
-                // 3.出
-                q.slide(j - r);
+                // 3. 出
+                q.slide(end - r);
             }
-            ans = max(ans, memo[i][n]);
+            ans = max(ans, memo[cnt][n]);
         }
         return ans;
 
