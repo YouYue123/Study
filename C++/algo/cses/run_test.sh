@@ -8,7 +8,10 @@ readonly C_RESET='\033[0m'
 # Compile your program if necessary
 # g++ xxx.cpp -o test.o
 
-for input_file in test_cases/*.in; do
+# Numeric-friendly order (1, 2, ..., 10) instead of lexicographic (1, 10, 2, ...)
+shopt -s nullglob
+while IFS= read -r input_file; do
+    [[ -n $input_file ]] || continue
     # Get the base filename without the extension
     base_name=$(basename "$input_file" .in)
     expected_output="test_cases/$base_name.out"
@@ -25,4 +28,4 @@ for input_file in test_cases/*.in; do
         # echo "Expected vs Actual:"
         # diff -w "$expected_output" <(echo "$actual_output")
     fi
-done
+done < <(printf '%s\n' test_cases/*.in | sort -V)
