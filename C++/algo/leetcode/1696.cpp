@@ -4,44 +4,26 @@ using namespace std;
 // 1696. Jump Game VI [M]
 // LeetCode jump-game-vi
 
-class MonoQueue {
-    deque<int> maxQ;
-    deque<int> q;
-public:
-    void push(int i) {
-        q.push_back(i);
-        while(!maxQ.empty() && maxQ.back() < i) maxQ.pop_back();
-        maxQ.push_back(i);
-    }
-    int max() {
-        return maxQ.front();
-    }
-    void pop() {
-        if(q.front() == maxQ.front()) maxQ.pop_front();
-        q.pop_front();
-    }
-    int size() {
-        return q.size();
-    }
-};
-
+int constexpr INF = 0x3f3f3f3f;
 class Solution {
 public:
     int maxResult(vector<int>& nums, int k) {
-        MonoQueue mq;
-        vector<int> dp(nums.size());
+        int n = nums.size();
+        vector dp(n, -INF);
         dp[0] = nums[0];
-        mq.push(dp[0]);
-        for(int i = 1; i < nums.size(); i ++) {
-            dp[i] = mq.max() + nums[i];
-            // cout << mq.size() << endl;
-            if(mq.size() == k) mq.pop();
-            mq.push(dp[i]);
+        deque<int> q;
+        for(int i = 0; i < n; i ++) {
+            dp[i] = (q.empty() ? 0 : dp[q.front()]) + nums[i];
+            while(!q.empty() && dp[q.back()] <= dp[i]) q.pop_back();
+            q.push_back(i);
+            if(i - q.front() == k) q.pop_front();
+            // for(int j = max(0, i - k); j < i; j ++) {
+            //     dp[i] = max(
+            //         dp[i],
+            //         dp[j] + nums[i]
+            //     );
+            // }
         }
-        // for(int i : dp) {
-        //     cout << i << " ";
-        // }
-        // cout << endl;
-        return dp[nums.size() - 1];
+        return dp[n - 1];
     }
 };
