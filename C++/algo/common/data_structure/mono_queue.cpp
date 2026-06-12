@@ -1,46 +1,30 @@
 #include <deque>
 using namespace std;
 // https://oi-wiki.org/ds/monotonous-queue/
-struct MonoQueue
-{
+template<typename F>
+concept Predicate = requires(F f, int a, int b) {
+    { f(a, b) } -> convertible_to<bool>;
+};
+template<Predicate PushComp, Predicate PopComp>
+struct MonoQueue {
     deque<int> q;
-    deque<int> minQ;
-    deque<int> maxQ;
-    void push(int x)
-    {
-        q.push_back(x);
-        while (!minQ.empty() && minQ.back() > x)
-        {
-            minQ.pop_back();
-        }
-        minQ.push_back(x);
-        while (!maxQ.empty() && maxQ.back() < x)
-        {
-            maxQ.pop_back();
-        }
-        maxQ.push_back(x);
+    PushComp push_cmp;
+    PopComp pop_cmp;
+    
+    MonoQueue(PushComp push_comp, PopComp pop_comp)
+        : push_cmp(push_comp),pop_cmp(pop_comp) {}
+
+    void push(int idx) {
+        while(!q.empty() && push_cmp(q.back(), idx)) q.pop_back();
+        q.push_back(idx);
     }
-    void pop()
-    {
-        if (q.empty())
-            return;
-        int x = q.front();
-        q.pop_front();
-        if (x == minQ.front())
-        {
-            minQ.pop_front();
-        }
-        if (x == maxQ.front())
-        {
-            maxQ.pop_front();
+
+    void pop_if_needed(int idx) {
+        if(!q.empty() && pop_cmp(q.front(), idx)) {
+            q.pop_front();
         }
     }
-    int min() const
-    {
-        return minQ.empty() ? -1 : minQ.front();
-    }
-    int max() const
-    {
-        return maxQ.empty() ? -1 : maxQ.front();
+    int front() {
+        return q.front();
     }
 };
