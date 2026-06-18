@@ -39,14 +39,11 @@ void solve() {
     int n, m;
     cin >> n >> m;
     auto uf = UF(n);
-    vector g(n, vector<int>());
     for(int i = 0; i < m; i ++) {
         int a, b;
         cin >> a >> b;
         a -= 1;
         b -= 1;
-        g[a].push_back(b);
-        g[b].push_back(a);
         uf.unite(a, b);
     }
     vector<pair<int, int>> ans;
