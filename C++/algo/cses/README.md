@@ -67,6 +67,7 @@
 | 1669 | Round Trip | DFS 找环，回溯输出简单环 | [1669.cpp](1669.cpp) |
 | 1671 | Shortest Routes I | Dijkstra（非负权），输出 1 到各点距离 | [1671.cpp](1671.cpp) |
 | 1672 | Shortest Routes II | Floyd–Warshall 全源最短路；无向边取最小权；多组查询输出距离或 −1 | [1672.cpp](1672.cpp) |
+| 1673 | High Score | 正权有向图最长路：从 1/n 双向 BFS 筛「在 1→n 某路径上」的边；Bellman-Ford 松弛 n 轮，第 n 轮仍可增则正环可达输出 −1 | [1673.cpp](1673.cpp) |
 | 1743 | String Reorder | 贪心：优先用剩余 > 一半频次的字母避免相邻相同 | [1743.cpp](1743.cpp) |
 | 1744 | Rectangle Cutting | 记忆化：横/竖切分取最小刀数 | [1744.cpp](1744.cpp) |
 | 1745 | Money Sums | `set` 迭代扩展可达和，输出排序 | [1745.cpp](1745.cpp) |
