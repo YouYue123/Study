@@ -32,6 +32,7 @@
 | 1193 | Labyrinth | BFS 最短路 + 父指针回溯输出方向串 | [1193.cpp](1193.cpp) |
 | 1194 | Monsters | 怪物与玩家双源 BFS；边界格比较到达先后 | [1194.cpp](1194.cpp) |
 | 1195 | Flight Routes Discount | 状态 Dijkstra：dist[v][0/1] 表示到 v 是否已用半价边 | [1195.cpp](1195.cpp) |
+| 1196 | Flight Routes | 每个结点维护至多 k 条最短路代价（大根堆淘汰）；从 1 扩展 | [1196.cpp](1196.cpp) |
 | 1197 | Cycle Finding | Bellman-Ford：n 轮松弛后仍可缩短则沿 parent 取负环 | [1197.cpp](1197.cpp) |
 | 1617 | Bit Strings | 快速幂：2^n mod 1e9+7 | [1617.cpp](1617.cpp) |
 | 1618 | Trailing Zeros | n! 中因子 5 的个数 | [1618.cpp](1618.cpp) |
