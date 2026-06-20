@@ -31,6 +31,8 @@
 | 1192 | Counting Rooms | 网格 DFS/BFS 数连通块 | [1192.cpp](1192.cpp) |
 | 1193 | Labyrinth | BFS 最短路 + 父指针回溯输出方向串 | [1193.cpp](1193.cpp) |
 | 1194 | Monsters | 怪物与玩家双源 BFS；边界格比较到达先后 | [1194.cpp](1194.cpp) |
+| 1195 | Flight Routes Discount | 状态 Dijkstra：dist[v][0/1] 表示到 v 是否已用半价边 | [1195.cpp](1195.cpp) |
+| 1197 | Cycle Finding | Bellman-Ford：n 轮松弛后仍可缩短则沿 parent 取负环 | [1197.cpp](1197.cpp) |
 | 1617 | Bit Strings | 快速幂：2^n mod 1e9+7 | [1617.cpp](1617.cpp) |
 | 1618 | Trailing Zeros | n! 中因子 5 的个数 | [1618.cpp](1618.cpp) |
 | 1619 | Restaurant Customers | 事件扫描线，维护同时在场人数最大值 | [1619.cpp](1619.cpp) |
@@ -65,7 +67,7 @@
 | 1667 | Message Route | 无权图 BFS 1→n，输出最短路长度与顶点序列 | [1667.cpp](1667.cpp) |
 | 1668 | Building Teams | 二分图染色 DFS，冲突输出 IMPOSSIBLE | [1668.cpp](1668.cpp) |
 | 1669 | Round Trip | DFS 找环，回溯输出简单环 | [1669.cpp](1669.cpp) |
-| 1671 | Shortest Routes I | Dijkstra（非负权），输出 1 到各点距离 | [1671.cpp](1671.cpp) |
+| 1671 | Shortest Routes I | Dijkstra（非负权）；不可达输出 -1 | [1671.cpp](1671.cpp) |
 | 1672 | Shortest Routes II | Floyd–Warshall 全源最短路；无向边取最小权；多组查询输出距离或 −1 | [1672.cpp](1672.cpp) |
 | 1673 | High Score | 正权有向图最长路：从 1/n 双向 BFS 筛「在 1→n 某路径上」的边；Bellman-Ford 松弛 n 轮，第 n 轮仍可增则正环可达输出 −1 | [1673.cpp](1673.cpp) |
 | 1743 | String Reorder | 贪心：优先用剩余 > 一半频次的字母避免相邻相同 | [1743.cpp](1743.cpp) |

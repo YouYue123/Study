@@ -41,7 +41,7 @@ void solve() {
     }
 
     for(int i = 1; i <= n; i ++) {
-        cout << (dist[i] == INF ? 0 : dist[i]) << " ";
+        cout << (dist[i] == INF ? -1 : dist[i]) << " ";
     }
     cout << endl;
 }
