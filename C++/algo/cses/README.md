@@ -34,6 +34,7 @@
 | 1195 | Flight Routes Discount | 状态 Dijkstra：dist[v][0/1] 表示到 v 是否已用半价边 | [1195.cpp](1195.cpp) |
 | 1196 | Flight Routes | 每个结点维护至多 k 条最短路代价（大根堆淘汰）；从 1 扩展 | [1196.cpp](1196.cpp) |
 | 1197 | Cycle Finding | Bellman-Ford：n 轮松弛后仍可缩短则沿 parent 取负环 | [1197.cpp](1197.cpp) |
+| 1202 | Investigation | Dijkstra：维护最短路代价、最短路条数（mod）、最短路中最少/最多边数 | [1202.cpp](1202.cpp) |
 | 1617 | Bit Strings | 快速幂：2^n mod 1e9+7 | [1617.cpp](1617.cpp) |
 | 1618 | Trailing Zeros | n! 中因子 5 的个数 | [1618.cpp](1618.cpp) |
 | 1619 | Restaurant Customers | 事件扫描线，维护同时在场人数最大值 | [1619.cpp](1619.cpp) |
