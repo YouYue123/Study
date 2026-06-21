@@ -1,6 +1,6 @@
 # 🏆 CP Ability Profile
 
-<!-- Auto-generated weekly. Last updated: 2026-06-14 20:00 SGT -->
+<!-- Auto-generated weekly. Last updated: 2026-06-21 20:00 SGT -->
 
 ## 📊 Stats Overview
 
@@ -10,13 +10,13 @@
 | **Codeforces** | 150 solved · youyue · Specialist 1423 (max) |
 | **Difficulty (LC)** | 🟢 Easy 311 · 🟡 Medium 939 · 🔴 Hard 363 · ❓ Unknown 40 |
 
-### Weekly Activity (Jun 7–Jun 13, 2026)
+### Weekly Activity (Jun 14–Jun 20, 2026)
 
 | Platform | New Solutions |
 |----------|:------------:|
-| LeetCode | 6 (LC 315 · LC 406 · LC 862 · LC 1425 · LC 1696 · LC 3965) |
-| Codeforces | 6 (CF 2231A · CF 2231B · CF 431C · CF 629D · CF 976C · CF 977E) |
-| **Total** | **12** |
+| LeetCode | 0 |
+| Codeforces | 0 |
+| **Total** | **0** |
 
 ### Difficulty Breakdown
 

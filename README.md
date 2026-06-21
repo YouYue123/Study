@@ -8,7 +8,7 @@ Personal notes, exercises, and small experiments across languages and tooling. E
 
 | Area | Contents |
 |------|-----------|
-| **`C++/`** | Competitive programming and algorithms (`algo/`: LeetCode, Codeforces, Advent of Code; shared snippets under `algo/common/`). C++ language experiments (`lang/`, e.g. caches, memory pool). Small standalone projects (`projects/`). |
+| **`C++/`** | Competitive programming and algorithms (`algo/`: LeetCode, Codeforces, CSES—indexed in [`C++/algo/cses/README.md`](C++/algo/cses/README.md), Advent of Code; shared snippets under `algo/common/`). C++ language experiments (`lang/`, e.g. caches, memory pool). Small standalone projects (`projects/`). |
 | **`DataEng/`** | Data-engineering scraps: Airflow-related files, Spark configs and Kubernetes manifests. |
 | **`Go/`** | Go language practice (`lang/`). |
 | **`Infra/`** | Infrastructure-as-code (Terraform layouts under `Infra/Terraform/`, including AWS-focused modules). |

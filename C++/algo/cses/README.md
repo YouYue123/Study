@@ -71,6 +71,10 @@
 | 1671 | Shortest Routes I | Dijkstra（非负权）；不可达输出 -1 | [1671.cpp](1671.cpp) |
 | 1672 | Shortest Routes II | Floyd–Warshall 全源最短路；无向边取最小权；多组查询输出距离或 −1 | [1672.cpp](1672.cpp) |
 | 1673 | High Score | 正权有向图最长路：从 1/n 双向 BFS 筛「在 1→n 某路径上」的边；Bellman-Ford 松弛 n 轮，第 n 轮仍可增则正环可达输出 −1 | [1673.cpp](1673.cpp) |
+| 1678 | Round Trip II | 有向图 DFS 三色找环，`nxt_arr` 回溯输出简单有向环 | [1678.cpp](1678.cpp) |
+| 1679 | Course Schedule | Kahn 拓扑排序；输出不足 n 则 IMPOSSIBLE | [1679.cpp](1679.cpp) |
+| 1680 | Longest Flight Route | 拓扑序上最长路 DP（边权 1），`parent` 回溯输出 1→n 路径 | [1680.cpp](1680.cpp) |
+| 1681 | Game Routes | DAG 上拓扑序 DP：`dist[v]=(dist[v]+dist[u])%MOD` 统计 1→n 路径数 | [1681.cpp](1681.cpp) |
 | 1743 | String Reorder | 贪心：优先用剩余 > 一半频次的字母避免相邻相同 | [1743.cpp](1743.cpp) |
 | 1744 | Rectangle Cutting | 记忆化：横/竖切分取最小刀数 | [1744.cpp](1744.cpp) |
 | 1745 | Money Sums | `set` 迭代扩展可达和，输出排序 | [1745.cpp](1745.cpp) |
