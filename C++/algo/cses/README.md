@@ -2,6 +2,8 @@
 
 本目录每个文件对应一题：`{题号}.cpp`。官方题面见 [CSES Problem Set](https://cses.fi/problemset/)，单题链接形如 `https://cses.fi/problemset/task/{题号}/`。
 
+**当前收录：** 100 题（与本目录根级 `*.cpp` 一一对应；新增题目时请同步增删表格行）。
+
 下表概括**当前仓库实现**里的关键思路（以代码为准；个别题号在 CSES 上名称若变更，以官网为准）。
 
 | 题号 | 题目（CSES 常用英文名） | 关键思路 | 代码 |
@@ -99,11 +101,11 @@
 | 2431 | Digit Queries | 将 1,2,3… 串成无限串，定位第 k 位所属数字与位 | [2431.cpp](2431.cpp) |
 | 3217 | Knight Moves Grid | 棋盘马步 0-1 BFS / BFS 最短路 | [3217.cpp](3217.cpp) |
 | 3311 | Grid Coloring | 逐格填 A–D，与上/左及原格不同 | [3311.cpp](3311.cpp) |
-| 3314 | *见代码* | 值域笛卡尔树 + 后序 DP（最长合法链） | [3314.cpp](3314.cpp) |
-| 3359 | *见代码* | 分层 BFS：每层选最小字符构造字典序路径 | [3359.cpp](3359.cpp) |
+| 3314 | Mountain Range | 值域笛卡尔树 + 后序 DP（最长合法链） | [3314.cpp](3314.cpp) |
+| 3359 | Minimal Grid Path | 分层 BFS：每层选最小字符构造字典序路径 | [3359.cpp](3359.cpp) |
 | 3399 | Card Game | 构造胜负平局序列：平局前缀 + 循环移位分配 | [3399.cpp](3399.cpp) |
-| 3403 | *见代码* | LCS 记忆化 + 按 memo 回溯输出一条 LCS | [3403.cpp](3403.cpp) |
-| 3419 | *见代码* | n×n 矩阵：首行首列 0…n−1，其余贪心填不冲突最小非负 | [3419.cpp](3419.cpp) |
+| 3403 | Longest Common Subsequence | LCS 记忆化 + 按 memo 回溯输出一条 LCS | [3403.cpp](3403.cpp) |
+| 3419 | Mex Grid Construction | n×n 矩阵：首行首列 0…n−1，其余贪心填不冲突最小非负 | [3419.cpp](3419.cpp) |
 | 3420 | Distinct Values Subarrays II | 双指针 + 频次：统计元素全不重复的子数组数 | [3420.cpp](3420.cpp) |
 | 3421 | Counting Subsequences | 各值频次 (c+1) 乘积 −1（非空子序列数）mod | [3421.cpp](3421.cpp) |
 
@@ -117,4 +119,4 @@
 
 ---
 
-*表格随本目录 `.cpp` 变更可手动更新；若你希望自动生成，可在 CI 或脚本里扫描文件头注释。*
+*维护：新增/删除 `.cpp` 时更新上表与文首题数；可用 `for f in *.cpp; do grep -q "^| ${f%.cpp} |" README.md || echo "$f"; done` 自检漏项。若希望自动生成表格，可在 CI 或脚本里扫描文件头注释。*

@@ -6,6 +6,7 @@ Algorithm practice and shared building blocks.
 |-----------|---------|
 | **`leetcode/`** | Per-problem `.cpp` files named by problem id. |
 | **`codeforces/`** | Rounds by contest id; problems as `A.cpp`, `B.cpp`, … |
+| **`cses/`** | [CSES Problem Set](https://cses.fi/problemset/): one `{task_id}.cpp` per task; see [cses/README.md](cses/README.md). |
 | **`adventofcode/`** | By year and day; parts as `<day>_<part>.cpp` (e.g. `3_1.cpp`). |
 | **`common/`** | Reusable templates (graphs, math, strings, segment trees, DP). |
 
