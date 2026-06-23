@@ -1,11 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 // https://oi-wiki.org/ds/dsu/
-
 struct UF
 {
-    vector<int> parent; // parent[i] stores the parent of element i, or i itself if it's a root
-    int n;              // Total number of elements
+    vector<int> parent; 
+    int n;         
 
     UF(int size) : n(size), parent(size)
     {

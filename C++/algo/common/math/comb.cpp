@@ -1,11 +1,14 @@
 
 #include <bits/stdc++.h>
+#include "mod.cpp"
 using namespace std;
-int MOD = 1e9 + 7;
+using ll = long long;
+using ull = unsigned long long;
+using u128 = unsigned __int128;
+ll constexpr MOD = 1e9 + 7;
 struct Comb {
-    vector<long long> fac, inv_fac;  // Factorial and inverse factorial arrays
-    int mod;  // Modulo value
-    Comb(int max_n, int mod = MOD) : mod(mod)
+    vector<long long> fac, inv_fac; 
+    Comb(int max_n, int mod = MOD)
     {
         precompute(max_n);
     }
@@ -16,12 +19,12 @@ struct Comb {
         fac[0] = 1;
         for (int i = 1; i <= max_n; ++i)
         {
-            fac[i] = (fac[i - 1] * i) % mod;
+            fac[i] = (fac[i - 1] * i) % MOD;
         }
-        inv_fac[max_n] = modPow(fac[max_n], mod - 2, mod);
+        inv_fac[max_n] = modPow(fac[max_n], MOD - 2, MOD);
         for (int i = max_n - 1; i >= 0; --i)
         {
-            inv_fac[i] = (inv_fac[i + 1] * (i + 1)) % mod;
+            inv_fac[i] = (inv_fac[i + 1] * (i + 1)) % MOD;
         }
     }
 
