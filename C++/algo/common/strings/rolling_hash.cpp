@@ -6,7 +6,7 @@ template<class T>
 concept RollingHashSeq = requires(T& s, int i) {
     { s[i] } -> convertible_to<long long>;
 };
-
+// https://oi-wiki.org/string/hash/
 template<ll BASE, ll MOD, RollingHashSeq T>
 struct Rolling_Hash_Window {
     int len;
