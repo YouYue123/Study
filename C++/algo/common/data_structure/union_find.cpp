@@ -1,40 +1,35 @@
 #include <bits/stdc++.h>
 using namespace std;
 // https://oi-wiki.org/ds/dsu/
-struct UF
-{
-    vector<int> parent; 
-    int n;         
+struct UF {
+    int n;        
+    vector<int> parent;
+    vector<int> size; 
 
-    UF(int size) : n(size), parent(size)
-    {
-        for (int i = 0; i < n; ++i)
-            parent[i] = i;
+    UF(int n): n(n) {
+        parent.resize(n);
+        for(int i = 0; i < n; i ++) parent[i] = i;
+        size.assign(n, 1);
     }
-    int findRoot(int x)
-    {
-        if (parent[x] == x)
-            return x;
-        return parent[x] = findRoot(parent[x]);
+    int find_root(int x) {
+        if (parent[x] == x) return x;
+        return parent[x] = find_root(parent[x]);
     }
 
-    void unite(int x, int y)
-    {
-        int rootX = findRoot(x);
-        int rootY = findRoot(y);
-        if (rootX != rootY)
-        {
-            parent[rootY] = rootX;
+    void unite(int x, int y) {
+        int root_x = find_root(x);
+        int root_y = find_root(y);
+        if (root_x == root_y) return;
+        if(size[root_x] >= size[root_y]) {
+            size[root_x] += size[root_y];
+            parent[root_y] = root_x;
+        } else {
+            size[root_y] += size[root_x];
+            parent[root_x] = root_y;
         }
     }
 
-    bool connected(int x, int y)
-    {
-        return findRoot(x) == findRoot(y);
-    }
-
-    int size()
-    {
-        return n;
+    bool is_connect(int x, int y) {
+        return find_root(x) == find_root(y);
     }
 };
