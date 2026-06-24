@@ -1,8 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<int> kosaraju(const vector<vector<int>>& g,
-                     const vector<vector<int>>& rev_g) {
+vector<int> kosaraju(
+    const vector<vector<int>>& g,
+    const vector<vector<int>>& rev_g
+) {
     int n = (int)g.size();
     vector<bool> visit(n, false);
     stack<int> st;
