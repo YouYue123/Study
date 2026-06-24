@@ -2,7 +2,7 @@
 
 本目录每个文件对应一题：`{题号}.cpp`。官方题面见 [CSES Problem Set](https://cses.fi/problemset/)，单题链接形如 `https://cses.fi/problemset/task/{题号}/`。
 
-**当前收录：** 100 题（与本目录根级 `*.cpp` 一一对应；新增题目时请同步增删表格行）。
+**当前收录：** 107 题（与本目录根级 `*.cpp` 一一对应；新增题目时请同步增删表格行）。
 
 下表概括**当前仓库实现**里的关键思路（以代码为准；个别题号在 CSES 上名称若变更，以官网为准）。
 
@@ -28,6 +28,7 @@
 | 1141 | Playlist | 滑动窗口 + `unordered_map`（`safe_hash`）维护元素频次 | [1141.cpp](1141.cpp) |
 | 1145 | Increasing Subsequence | `lower_bound` 耐心数组，O(n log n) LIS 长度 | [1145.cpp](1145.cpp) |
 | 1158 | Book Shop | 0/1 背包：物品倒序遍历体积 | [1158.cpp](1158.cpp) |
+| 1160 | Planets Queries I | 函数图拆环 + 倍增 `up`；树上距环步数 + 环上位置，回答 k 步后继 | [1160.cpp](1160.cpp) |
 | 1163 | Traffic Lights | `set` 维护灯位置 + `multiset` 维护段长，每次输出最大段 | [1163.cpp](1163.cpp) |
 | 1164 | Room Allocation | 按开始排序；小根堆释放房间 / 分配新房间 | [1164.cpp](1164.cpp) |
 | 1192 | Counting Rooms | 网格 DFS/BFS 数连通块 | [1192.cpp](1192.cpp) |
@@ -74,15 +75,21 @@
 | 1671 | Shortest Routes I | Dijkstra（非负权）；不可达输出 -1 | [1671.cpp](1671.cpp) |
 | 1672 | Shortest Routes II | Floyd–Warshall 全源最短路；无向边取最小权；多组查询输出距离或 −1 | [1672.cpp](1672.cpp) |
 | 1673 | High Score | 正权有向图最长路：从 1/n 双向 BFS 筛「在 1→n 某路径上」的边；Bellman-Ford 松弛 n 轮，第 n 轮仍可增则正环可达输出 −1 | [1673.cpp](1673.cpp) |
+| 1675 | Minimum Spanning Tree | Kruskal：边权排序 + DSU 合并；不连通输出 IMPOSSIBLE | [1675.cpp](1675.cpp) |
+| 1676 | Road Reparation | 逐边 `unite`；输出当前连通块数与最大块大小 | [1676.cpp](1676.cpp) |
 | 1678 | Round Trip II | 有向图 DFS 三色找环，`nxt_arr` 回溯输出简单有向环 | [1678.cpp](1678.cpp) |
 | 1679 | Course Schedule | Kahn 拓扑排序；输出不足 n 则 IMPOSSIBLE | [1679.cpp](1679.cpp) |
 | 1680 | Longest Flight Route | 拓扑序上最长路 DP（边权 1），`parent` 回溯输出 1→n 路径 | [1680.cpp](1680.cpp) |
 | 1681 | Game Routes | DAG 上拓扑序 DP：`dist[v]=(dist[v]+dist[u])%MOD` 统计 1→n 路径数 | [1681.cpp](1681.cpp) |
+| 1682 | Flight Connections | Kosaraju SCC；若不全与 1 同分量则补一条边使可达 | [1682.cpp](1682.cpp) |
+| 1683 | Planets and Kingdoms | Kosaraju：输出 SCC 个数及每个顶点所属 kingdom 编号 | [1683.cpp](1683.cpp) |
 | 1743 | String Reorder | 贪心：优先用剩余 > 一半频次的字母避免相邻相同 | [1743.cpp](1743.cpp) |
 | 1744 | Rectangle Cutting | 记忆化：横/竖切分取最小刀数 | [1744.cpp](1744.cpp) |
 | 1745 | Money Sums | `set` 迭代扩展可达和，输出排序 | [1745.cpp](1745.cpp) |
 | 1746 | Array Description | 填数组使相邻差 ≤1；记忆化 / 递推 mod | [1746.cpp](1746.cpp) |
 | 1748 | Increasing Subsequences | 离散化 + 树状数组：统计递增子序列个数 mod | [1748.cpp](1748.cpp) |
+| 1750 | Planets Queries II | 函数图倍增 `up`；查询从 x 走 k 步的后继顶点 | [1750.cpp](1750.cpp) |
+| 1751 | Planets Cycles | DFS 找环；记录 `dist_to_cycle`、环编号与环长，输出各点信息 | [1751.cpp](1751.cpp) |
 | 1754 | Coin Piles | 数学判定：(a+b)%3==0 且 min(a,b)×2≥max(a,b) | [1754.cpp](1754.cpp) |
 | 1755 | Palindrome Reorder | 字符频次奇数 >1 无解；否则半边 + 中缝构造 | [1755.cpp](1755.cpp) |
 | 2162 | Josephus Problem I | 按步长 2 倍增模拟输出剔除顺序 | [2162.cpp](2162.cpp) |
