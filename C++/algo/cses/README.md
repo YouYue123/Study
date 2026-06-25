@@ -2,7 +2,7 @@
 
 本目录每个文件对应一题：`{题号}.cpp`。官方题面见 [CSES Problem Set](https://cses.fi/problemset/)，单题链接形如 `https://cses.fi/problemset/task/{题号}/`。
 
-**当前收录：** 108 题（与本目录根级 `*.cpp` 一一对应；新增题目时请同步增删表格行）。
+**当前收录：** 109 题（与本目录根级 `*.cpp` 一一对应；新增题目时请同步增删表格行）。
 
 下表概括**当前仓库实现**里的关键思路（以代码为准；个别题号在 CSES 上名称若变更，以官网为准）。
 
@@ -84,6 +84,7 @@
 | 1682 | Flight Connections | Kosaraju SCC；若不全与 1 同分量则补一条边使可达 | [1682.cpp](1682.cpp) |
 | 1683 | Planets and Kingdoms | Kosaraju：输出 SCC 个数及每个顶点所属 kingdom 编号 | [1683.cpp](1683.cpp) |
 | 1684 | Giant Pizza | 2-SAT：`(a ∨ b)` 建蕴含边；Kosaraju 判矛盾后按 SCC 编号赋值 | [1684.cpp](1684.cpp) |
+| 1686 | Coin Collector | Kosaraju 缩点、分量内点权求和；缩点 DAG 上 DP 求最大路径权 | [1686.cpp](1686.cpp) |
 | 1743 | String Reorder | 贪心：优先用剩余 > 一半频次的字母避免相邻相同 | [1743.cpp](1743.cpp) |
 | 1744 | Rectangle Cutting | 记忆化：横/竖切分取最小刀数 | [1744.cpp](1744.cpp) |
 | 1745 | Money Sums | `set` 迭代扩展可达和，输出排序 | [1745.cpp](1745.cpp) |
