@@ -8,7 +8,7 @@
 |--------|-------|
 | **LeetCode** | 1653 solved · Guardian ~2262 |
 | **Codeforces** | 150 solved · youyue · Specialist 1423 (max) |
-| **CSES** | 109 tasks with solutions in [`cses/`](cses/) · [index + notes](cses/README.md) · [problem set](https://cses.fi/problemset/) |
+| **CSES** | 110 tasks with solutions in [`cses/`](cses/) · [index + notes](cses/README.md) · [problem set](https://cses.fi/problemset/) |
 | **Difficulty (LC)** | 🟢 Easy 311 · 🟡 Medium 939 · 🔴 Hard 363 · ❓ Unknown 40 |
 
 ### Weekly Activity (Jun 14–Jun 20, 2026)
