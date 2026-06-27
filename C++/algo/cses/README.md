@@ -2,7 +2,7 @@
 
 本目录每个文件对应一题：`{题号}.cpp`。官方题面见 [CSES Problem Set](https://cses.fi/problemset/)，单题链接形如 `https://cses.fi/problemset/task/{题号}/`。
 
-**当前收录：** 111 题（与本目录根级 `*.cpp` 一一对应；新增题目时请同步增删表格行）。
+**当前收录：** 113 题（与本目录根级 `*.cpp` 一一对应；新增题目时请同步增删表格行）。
 
 下表概括**当前仓库实现**里的关键思路（以代码为准；个别题号在 CSES 上名称若变更，以官网为准）。
 
@@ -85,8 +85,10 @@
 | 1683 | Planets and Kingdoms | Kosaraju：输出 SCC 个数及每个顶点所属 kingdom 编号 | [1683.cpp](1683.cpp) |
 | 1684 | Giant Pizza | 2-SAT：`(a ∨ b)` 建蕴含边；Kosaraju 判矛盾后按 SCC 编号赋值 | [1684.cpp](1684.cpp) |
 | 1686 | Coin Collector | Kosaraju 缩点、分量内点权求和；缩点 DAG 上 DP 求最大路径权 | [1686.cpp](1686.cpp) |
+| 1690 | Hamiltonian Paths | 状压 DP / 记忆化：从 0 到 n−1 经过全部顶点的路径条数 mod | [1690.cpp](1690.cpp) |
 | 1691 | Mail Delivery | 无向图各点度为偶；Hierholzer 欧拉回路，不连通则 IMPOSSIBLE | [1691.cpp](1691.cpp) |
 | 1692 | De Bruijn Sequence | De Bruijn 图 DFS 走边标字符；末尾补前 `n-1` 位得长 `2^n` 循环序列 | [1692.cpp](1692.cpp) |
+| 1693 | Mail Delivery (Directed) | 有向图欧拉路度条件（1 出>入、n 入>出、其余平衡）；Hierholzer | [1693.cpp](1693.cpp) |
 | 1743 | String Reorder | 贪心：优先用剩余 > 一半频次的字母避免相邻相同 | [1743.cpp](1743.cpp) |
 | 1744 | Rectangle Cutting | 记忆化：横/竖切分取最小刀数 | [1744.cpp](1744.cpp) |
 | 1745 | Money Sums | `set` 迭代扩展可达和，输出排序 | [1745.cpp](1745.cpp) |
