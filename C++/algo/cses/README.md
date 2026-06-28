@@ -2,7 +2,7 @@
 
 本目录每个文件对应一题：`{题号}.cpp`。官方题面见 [CSES Problem Set](https://cses.fi/problemset/)，单题链接形如 `https://cses.fi/problemset/task/{题号}/`。
 
-**当前收录：** 114 题（与本目录根级 `*.cpp` 一一对应；新增题目时请同步增删表格行）。
+**当前收录：** 116 题（与本目录根级 `*.cpp` 一一对应；新增题目时请同步增删表格行）。
 
 下表概括**当前仓库实现**里的关键思路（以代码为准；个别题号在 CSES 上名称若变更，以官网为准）。
 
@@ -90,6 +90,8 @@
 | 1691 | Mail Delivery | 无向图各点度为偶；Hierholzer 欧拉回路，不连通则 IMPOSSIBLE | [1691.cpp](1691.cpp) |
 | 1692 | De Bruijn Sequence | De Bruijn 图 DFS 走边标字符；末尾补前 `n-1` 位得长 `2^n` 循环序列 | [1692.cpp](1692.cpp) |
 | 1693 | Mail Delivery (Directed) | 有向图欧拉路度条件（1 出>入、n 入>出、其余平衡）；Hierholzer | [1693.cpp](1693.cpp) |
+| 1694 | Download Speed | Scaling Ford–Fulkerson 最大流（0→n−1） | [1694.cpp](1694.cpp) |
+| 1695 | Police Chase | 单位容量最大流 + 残余网络 BFS；输出最小 s–t 割边 | [1695.cpp](1695.cpp) |
 | 1743 | String Reorder | 贪心：优先用剩余 > 一半频次的字母避免相邻相同 | [1743.cpp](1743.cpp) |
 | 1744 | Rectangle Cutting | 记忆化：横/竖切分取最小刀数 | [1744.cpp](1744.cpp) |
 | 1745 | Money Sums | `set` 迭代扩展可达和，输出排序 | [1745.cpp](1745.cpp) |
