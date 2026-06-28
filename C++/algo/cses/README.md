@@ -2,7 +2,7 @@
 
 本目录每个文件对应一题：`{题号}.cpp`。官方题面见 [CSES Problem Set](https://cses.fi/problemset/)，单题链接形如 `https://cses.fi/problemset/task/{题号}/`。
 
-**当前收录：** 117 题（与本目录根级 `*.cpp` 一一对应；新增题目时请同步增删表格行）。
+**当前收录：** 118 题（与本目录根级 `*.cpp` 一一对应；新增题目时请同步增删表格行）。
 
 下表概括**当前仓库实现**里的关键思路（以代码为准；个别题号在 CSES 上名称若变更，以官网为准）。
 
@@ -93,6 +93,7 @@
 | 1694 | Download Speed | Scaling Ford–Fulkerson 最大流（0→n−1） | [1694.cpp](1694.cpp) |
 | 1695 | Police Chase | 单位容量最大流 + 残余网络 BFS；输出最小 s–t 割边 | [1695.cpp](1695.cpp) |
 | 1696 | School Dance | 二分图最大匹配：源→男生→女生→汇，单位流；`cap==0` 的 boy–girl 边为配对 | [1696.cpp](1696.cpp) |
+| 1711 | Distinct Routes | 单位容量最大流 = 边不交路径数；`get_paths` 拆流输出各条路径 | [1711.cpp](1711.cpp) |
 | 1743 | String Reorder | 贪心：优先用剩余 > 一半频次的字母避免相邻相同 | [1743.cpp](1743.cpp) |
 | 1744 | Rectangle Cutting | 记忆化：横/竖切分取最小刀数 | [1744.cpp](1744.cpp) |
 | 1745 | Money Sums | `set` 迭代扩展可达和，输出排序 | [1745.cpp](1745.cpp) |
