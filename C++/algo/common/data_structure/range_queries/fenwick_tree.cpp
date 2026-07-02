@@ -1,11 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
+using ll = long long;
 // https://oi-wiki.org/ds/fenwick/
 // Binary Indexed Tree (also known as Fenwick Tree) data structure
 struct BIT {
     vector<int> tree;
-    BIT(int N){
-        tree.assign(N + 1, 0);
+    // assume a is 0 indxed 
+    BIT(vector<ll>& a){
+        tree.assign(a.size() + 1, 0);
+        for(int i = 0; i < a.size(); i ++) {
+            update(i + 1, a[i]);
+        }
     }
     int lowbit(int i) {
         return i & (-i);
