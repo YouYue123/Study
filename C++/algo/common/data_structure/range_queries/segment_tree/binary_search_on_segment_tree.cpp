@@ -1,3 +1,6 @@
+// Segment tree with range max; supports point update and leftmost binary search.
+// query(x): smallest index i with a[i] >= x, or -1 if none exists.
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
@@ -21,6 +24,7 @@ struct SegTree {
         tree[node] = max(tree[node * 2], tree[node * 2 + 1]);
     }
     
+    // Point update: set a[pos] = val and refresh ancestors.
     void update(int pos, ll val) { return _update(1, 0, n - 1, pos, val); }
     void _update(int node, int left, int right, int pos, ll val) {
         if(left == right) {
@@ -33,11 +37,13 @@ struct SegTree {
         tree[node] = max(tree[node * 2], tree[node * 2 + 1]);
     }
 
+    // Leftmost index with value >= x.
     ll query(ll x) { return _query(1, 0, n - 1, x ); }
     ll _query(int node, int left, int right, ll x) {
-        if(tree[node] < x) return -1;
+        if(tree[node] < x) return -1;          // no element in this range is large enough
         if(left == right) return left;
         int mid = left + (right - left) / 2;
+        // Prefer the left child to keep the answer leftmost.
         if(tree[node * 2] >= x) {
             return _query(node * 2, left, mid, x);
         } else {
