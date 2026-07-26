@@ -6,14 +6,21 @@ using u128 = unsigned __int128;
 ll constexpr INF = 0x3f3f3f3f3f3f3f3f;
 
 void solve() {
-    int n, c;
-    cin >> n >> c;
-    vector a(n, 0LL);
-    for(int i = 0; i < n; i ++) cin >> a[i];
-    sort(a.begin(), a.end());
-    for(int i = 0; i < n; i ++) a[i] -= c;
-    for(int i = 0; i < n / 2; i ++) a[i] = max(a[i], 0LL);
-    cout << accumulate(a.begin(), a.end(), 0LL) << endl;
+    int n, k, m;
+    cin >> n >> k >> m;
+    if(k > m) {
+        cout << "NO" << endl;
+        return;
+    }
+    cout << "YES" << endl;
+    for(int i = 0; i < n; i ++) {
+        if(i % k != 0) {
+            cout << 1 << " ";
+        } else {
+            cout << m - k + 1 << " ";
+        }
+    }
+    cout << endl;
 }
 
 int main() {
