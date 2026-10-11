@@ -1,12 +1,15 @@
 import sys
+from collections import defaultdict
+from heapq import heapify, heappop, heappush, heappushpop, heapreplace
+from itertools import pairwise
+from math import inf
 
 input = sys.stdin.readline
-INF = float('inf')
-out = []
+MOD = 10 ** 9 + 7
 
 
 def solve():
-    n = int(input())
+    n, m, _ = map(int, input().split())
     a = list(map(int, input().split()))
 
 
