@@ -4,6 +4,7 @@ from heapq import heapify, heappop, heappush, heappushpop, heapreplace
 from itertools import pairwise
 from math import inf
 
+
 input = sys.stdin.readline
 MOD = 10 ** 9 + 7
 
