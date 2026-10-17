@@ -24,6 +24,6 @@ class UF:
             return x
         self.parent[x] = self._find_parent(self.parent[x])
         return self.parent[x]
-
+    
     def is_connect(self, x: int, y: int):
         return self._find_parent(x) == self._find_parent(y)
