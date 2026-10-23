@@ -27,26 +27,15 @@ def solve():
             left = mid
     print(right)
     ans = []
-    cap = right
-    group_size, cur_cnt, cur = right, 0, 1
-    ok = True
-    while len(ans) < n:
-        while cur_cnt + group_size <= cap:
-            for _ in range(group_size):
-                ans.append(cur)
-                if len(ans) == n:
-                    ok = False
-                    break
-            if not ok:
-                break
-            cur_cnt += group_size
+    cur = 1
+    for f in range(right, 0, -1):
+        for _ in range(right // f):
+            ans.extend([cur] * f)
             cur += 1
-        if not ok:
-            break  
-        cur_cnt = 0
-        group_size = max(group_size - 1, 1)
+        if len(ans) >= n:
+            break
     # print(len(ans))
-    print(*ans)
+    print(*ans[:n])
 
 def main():
     T = int(input())
