@@ -3,10 +3,10 @@ from collections import defaultdict, Counter, deque
 from heapq import heapify, heappop, heappush, heappushpop, heapreplace
 from itertools import pairwise
 from math import inf
+from types import GeneratorType
 
 input = sys.stdin.readline
 MOD = 10 ** 9 + 7
-
 
 def solve():
     n, m, _ = map(int, input().split())

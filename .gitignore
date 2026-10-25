@@ -18,6 +18,7 @@ cmake_install.cmake
 .cmake/
 input.txt
 output.txt
+test.txt
 .env
 data/*
 **/docs/*
