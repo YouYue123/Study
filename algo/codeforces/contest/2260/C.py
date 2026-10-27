@@ -28,7 +28,7 @@ def solve():
     def get_target():
         # print(b_max_ele)
         cur = max_ele.bit_length() - 1
-        candidate, now = -1, 0
+        candidate, now = 0, 0
         while cur >= 0:
             if (max_ele >> cur) & 1 == 1:
                 if (y >> cur) & 1 == 1:
