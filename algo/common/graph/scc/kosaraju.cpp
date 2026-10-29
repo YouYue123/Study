@@ -32,7 +32,7 @@ vector<int> kosaraju(
         int u = st.top();
         st.pop();
         if (scc[u] == 0) {
-            ++scc_id;
+            scc_id += 1;
             dfs2(u);
         }
     }
