@@ -9,8 +9,16 @@ input = sys.stdin.readline
 MOD = 10 ** 9 + 7
 
 def solve():
-    n, m, _ = map(int, input().split())
-    a = list(map(int, input().split()))
+    n = int(input())
+    s = input().rstrip()
+    assert(len(s) == n)
+    # 0101010101
+    # 6
+    # 101101
+    # 1 + 2 + 3 + 4
+    # 7
+    # 1111111
+    # 
 
 
 def main():
